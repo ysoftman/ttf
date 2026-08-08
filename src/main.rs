@@ -6,6 +6,10 @@ use std::process::ExitCode;
 
 const DEFAULT_LIMIT: usize = 20;
 
+const C_RESET: &str = "\x1b[0m";
+const C_NAME: &str = "\x1b[32m";
+const C_TAG: &str = "\x1b[36m";
+
 #[derive(Debug, Clone, Deserialize)]
 struct Tool {
     name: String,
@@ -41,13 +45,14 @@ fn print_usage() {
          \n\
          Usage:\n  \
          \x20 ttf [OPTIONS] <query>    fuzzy search tools\n  \
-         \x20 ttf [OPTIONS] --list     list all tools\n\
          \n\
          Options:\n  \
          \x20 -d, --data <path>   path to tools.json (default: exe dir or ./tools.json)\n  \
          \x20 -n, --limit <n>     max results (default: {DEFAULT_LIMIT})\n  \
          \x20 -l, --list          list all tools\n  \
          \x20 -v, --version       show version\n  \
+         \x20 --color             enable colors (default)\n  \
+         \x20 --nocolor           disable colors\n  \
          \x20 -h, --help          show this help"
     );
 }
@@ -110,26 +115,39 @@ fn fuzzy_score(query: &str, target: &str) -> Option<i64> {
     (qi == q.len()).then_some(score)
 }
 
-fn print_list(tools: &[Tool], limit: Option<usize>) {
+fn print_list(tools: &[Tool], limit: Option<usize>, color: bool) {
     let shown = limit.map(|l| tools.len().min(l)).unwrap_or(tools.len());
     let width = tools.iter().map(|t| t.name.len()).max().unwrap_or(0);
     for t in &tools[..shown] {
-        print_tool(t, width, None);
+        print_tool(t, width, None, color);
     }
     if tools.len() > shown {
-        println!("... and {} more (--limit to change)", tools.len() - shown);
+        println!("... and {} more", tools.len() - shown);
     }
 }
 
-fn print_tool(t: &Tool, width: usize, score: Option<i64>) {
+fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
+    let name_padded = format!("{:<width$}", t.name);
+    let name = if color {
+        format!("{C_NAME}{name_padded}{C_RESET}")
+    } else {
+        name_padded
+    };
     let tagline = if t.tags.is_empty() {
         String::new()
+    } else if color {
+        let tags: Vec<String> = t
+            .tags
+            .iter()
+            .map(|tag| format!("{C_TAG}{tag}{C_RESET}"))
+            .collect();
+        format!("  [{}]", tags.join(", "))
     } else {
         format!("  [{}]", t.tags.join(", "))
     };
     match score {
-        Some(s) => println!("{:>3}  {:<width$}  {}{}", s, t.name, t.description, tagline),
-        None => println!("{:<width$}  {}{}", t.name, t.description, tagline),
+        Some(s) => println!("{:>3}  {}  {}{}", s, name, t.description, tagline),
+        None => println!("{}  {}{}", name, t.description, tagline),
     }
 }
 
@@ -142,6 +160,7 @@ struct Config {
     query_parts: Vec<String>,
     help: bool,
     version: bool,
+    color: bool,
 }
 
 impl Default for Config {
@@ -154,6 +173,7 @@ impl Default for Config {
             query_parts: Vec::new(),
             help: false,
             version: false,
+            color: true,
         }
     }
 }
@@ -189,6 +209,8 @@ fn parse_args(args: &[String]) -> Result<Config, String> {
             }
             "-l" | "--list" => cfg.list_all = true,
             "-v" | "--version" => cfg.version = true,
+            "--color" => cfg.color = true,
+            "--nocolor" => cfg.color = false,
             s if s.starts_with('-') && s.len() > 1 => {
                 return Err(format!("unknown option: {s}"));
             }
@@ -230,7 +252,7 @@ fn main() -> ExitCode {
     };
 
     if cfg.list_all {
-        print_list(&tools, cfg.limit_explicit.then_some(cfg.limit));
+        print_list(&tools, cfg.limit_explicit.then_some(cfg.limit), cfg.color);
         return ExitCode::SUCCESS;
     }
 
@@ -265,7 +287,7 @@ fn main() -> ExitCode {
         .max()
         .unwrap_or(0);
     for m in &matches[..shown] {
-        print_tool(&m.tool, width, Some(m.score));
+        print_tool(&m.tool, width, Some(m.score), cfg.color);
     }
     if matches.len() > shown {
         println!("... and {} more (--limit to change)", matches.len() - shown);
@@ -362,6 +384,24 @@ mod tests {
     fn parse_args_version() {
         let cfg = parse_args(&[arg("--version")]).unwrap();
         assert!(cfg.version);
+    }
+
+    #[test]
+    fn parse_args_color_default_on() {
+        let cfg = parse_args(&[arg("ls")]).unwrap();
+        assert!(cfg.color);
+    }
+
+    #[test]
+    fn parse_args_nocolor() {
+        let cfg = parse_args(&[arg("--nocolor")]).unwrap();
+        assert!(!cfg.color);
+    }
+
+    #[test]
+    fn parse_args_color_re_enable() {
+        let cfg = parse_args(&[arg("--nocolor"), arg("--color")]).unwrap();
+        assert!(cfg.color);
     }
 
     #[test]
