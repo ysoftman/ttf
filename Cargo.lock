@@ -87,7 +87,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "ttf"
+name = "terminal-tool-finder"
 version = "0.1.0"
 dependencies = [
  "serde",

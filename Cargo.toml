@@ -1,9 +1,13 @@
 [package]
-name = "ttf"
+name = "terminal-tool-finder"
 version = "0.1.0"
 edition = "2024"
 description = "Terminal Tool Finder — fuzzy search terminal commands from tools.json"
 license = "MIT"
+
+[[bin]]
+name = "ttf"
+path = "src/main.rs"
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
