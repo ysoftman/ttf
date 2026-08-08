@@ -5,7 +5,10 @@ Terminal Tool Finder — 터미널 명령어를 `tools.json`에서 퍼지(fuzzy)
 ## install and usage
 
 ```bash
-# install
+# install (crates.io)
+cargo uninstall ttf; cargo install terminal-tool-finder
+
+# install (로컬 소스에서 빌드)
 cargo build --release
 # 바이너리: target/release/ttf
 
