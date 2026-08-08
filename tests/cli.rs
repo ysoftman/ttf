@@ -11,6 +11,18 @@ fn run(args: &[&str]) -> (String, i32) {
     )
 }
 
+fn run_in_dir(dir: &std::path::Path, args: &[&str]) -> (String, i32) {
+    let out = Command::new(env!("CARGO_BIN_EXE_ttf"))
+        .args(args)
+        .current_dir(dir)
+        .output()
+        .unwrap();
+    (
+        String::from_utf8_lossy(&out.stdout).to_string(),
+        out.status.code().unwrap_or(-1),
+    )
+}
+
 #[test]
 fn list_respects_limit() {
     let (out, code) = run(&["--nocolor", "-d", "tools.json", "-l", "-n", "3"]);
@@ -42,6 +54,16 @@ fn version_prints_version() {
     let (out, code) = run(&["--version"]);
     assert_eq!(code, 0);
     assert!(out.trim().starts_with("ttf "));
+}
+
+#[test]
+fn uses_embedded_data_without_local_file() {
+    let dir = std::env::temp_dir().join(format!("ttf-cli-embedded-{}", std::process::id()));
+    std::fs::create_dir_all(&dir).unwrap();
+    let (out, code) = run_in_dir(&dir, &["--nocolor", "ls"]);
+    std::fs::remove_dir_all(&dir).unwrap();
+    assert_eq!(code, 0);
+    assert!(out.contains("list directory contents"));
 }
 
 #[test]

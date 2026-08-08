@@ -7,7 +7,6 @@ Terminal Tool Finder — 터미널 명령어를 `tools.json`에서 퍼지(fuzzy)
 ```sh
 cargo test
 
-
 # 빌드 없이 실행
 cargo run -- <query>
 ```

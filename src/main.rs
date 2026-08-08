@@ -6,6 +6,8 @@ use std::process::ExitCode;
 
 const DEFAULT_LIMIT: usize = 20;
 
+const EMBEDDED_TOOLS: &str = include_str!("../tools.json");
+
 const C_RESET: &str = "\x1b[0m";
 const C_NAME: &str = "\x1b[32m";
 const C_TAG: &str = "\x1b[36m";
@@ -47,7 +49,7 @@ fn print_usage() {
          \x20 ttf [OPTIONS] <query>    fuzzy search tools\n  \
          \n\
          Options:\n  \
-         \x20 -d, --data <path>   path to tools.json (default: exe dir or ./tools.json)\n  \
+         \x20 -d, --data <path>   path to external tools.json (default: embedded data)\n  \
          \x20 -n, --limit <n>     max results (default: {DEFAULT_LIMIT})\n  \
          \x20 -l, --list          list all tools\n  \
          \x20 -v, --version       show version\n  \
@@ -57,26 +59,16 @@ fn print_usage() {
     );
 }
 
-fn load_tools(path: &Path) -> Result<Vec<Tool>, String> {
-    let text =
-        fs::read_to_string(path).map_err(|e| format!("cannot read {}: {e}", path.display()))?;
-    serde_json::from_str(&text).map_err(|e| format!("invalid JSON in {}: {e}", path.display()))
-}
-
-fn find_data_path(explicit: Option<&str>) -> Option<PathBuf> {
-    if let Some(p) = explicit {
-        return Some(PathBuf::from(p));
-    }
-    if let Ok(exe) = env::current_exe()
-        && let Some(dir) = exe.parent()
-    {
-        let cand = dir.join("tools.json");
-        if cand.is_file() {
-            return Some(cand);
+fn load_tools(path: Option<&Path>) -> Result<Vec<Tool>, String> {
+    match path {
+        Some(p) => {
+            let text =
+                fs::read_to_string(p).map_err(|e| format!("cannot read {}: {e}", p.display()))?;
+            serde_json::from_str(&text).map_err(|e| format!("invalid JSON in {}: {e}", p.display()))
         }
+        None => serde_json::from_str(EMBEDDED_TOOLS)
+            .map_err(|e| format!("invalid embedded tools.json: {e}")),
     }
-    let cand = PathBuf::from("tools.json");
-    cand.is_file().then_some(cand)
 }
 
 fn fuzzy_score(query: &str, target: &str) -> Option<i64> {
@@ -239,11 +231,7 @@ fn main() -> ExitCode {
         return ExitCode::SUCCESS;
     }
 
-    let Some(data_path) = find_data_path(cfg.data.as_deref()) else {
-        eprintln!("error: tools.json not found (use -d <path>)");
-        return ExitCode::from(2);
-    };
-    let tools = match load_tools(&data_path) {
+    let tools = match load_tools(cfg.data.as_deref().map(Path::new)) {
         Ok(t) => t,
         Err(e) => {
             eprintln!("error: {e}");
@@ -453,7 +441,7 @@ mod tests {
         )
         .unwrap();
 
-        let tools = load_tools(&path).unwrap();
+        let tools = load_tools(Some(&path)).unwrap();
         assert_eq!(tools.len(), 1);
         assert_eq!(tools[0].name, "ls");
         assert_eq!(tools[0].description, "list");
@@ -465,7 +453,7 @@ mod tests {
     #[test]
     fn load_tools_missing_file() {
         let path = std::env::temp_dir().join("ttf-does-not-exist.json");
-        assert!(load_tools(&path).is_err());
+        assert!(load_tools(Some(&path)).is_err());
     }
 
     #[test]
@@ -474,9 +462,16 @@ mod tests {
         let path = dir.join("tools.json");
         std::fs::write(&path, "{not json}").unwrap();
 
-        assert!(load_tools(&path).is_err());
+        assert!(load_tools(Some(&path)).is_err());
 
         std::fs::remove_dir_all(&dir).unwrap();
+    }
+
+    #[test]
+    fn load_tools_embedded() {
+        let tools = load_tools(None).unwrap();
+        assert!(tools.len() > 100);
+        assert!(tools.iter().any(|t| t.name == "ttf"));
     }
 
     #[test]
@@ -485,22 +480,10 @@ mod tests {
         let path = dir.join("tools.json");
         std::fs::write(&path, r#"[{"name":"ls"}]"#).unwrap();
 
-        let tools = load_tools(&path).unwrap();
+        let tools = load_tools(Some(&path)).unwrap();
         assert_eq!(tools[0].description, "");
         assert!(tools[0].tags.is_empty());
 
         std::fs::remove_dir_all(&dir).unwrap();
-    }
-
-    #[test]
-    fn find_data_path_explicit() {
-        let p = find_data_path(Some("any/path.json"));
-        assert_eq!(p, Some(PathBuf::from("any/path.json")));
-    }
-
-    #[test]
-    fn find_data_path_default_cwd() {
-        let p = find_data_path(None);
-        assert_eq!(p, Some(PathBuf::from("tools.json")));
     }
 }
