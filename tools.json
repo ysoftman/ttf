@@ -1,0 +1,768 @@
+[
+  {
+    "name": "ls",
+    "description": "list directory contents",
+    "tags": ["directory", "파일목록", "디렉토리"]
+  },
+  {
+    "name": "cd",
+    "description": "change the working directory",
+    "tags": ["이동", "디렉토리 변경"]
+  },
+  {
+    "name": "pwd",
+    "description": "print name of current working directory",
+    "tags": ["경로", "현재디렉토리"]
+  },
+  {
+    "name": "mkdir",
+    "description": "make directories",
+    "tags": ["생성", "디렉토리"]
+  },
+  {
+    "name": "rm",
+    "description": "remove files or directories",
+    "tags": ["삭제", "파일"]
+  },
+  {
+    "name": "cp",
+    "description": "copy files or directories",
+    "tags": ["복사", "copy"]
+  },
+  {
+    "name": "mv",
+    "description": "move or rename files",
+    "tags": ["이동", "rename", "이름변경"]
+  },
+  {
+    "name": "ln",
+    "description": "create hard or symbolic links",
+    "tags": ["링크", "symbolic", "심볼릭"]
+  },
+  {
+    "name": "chmod",
+    "description": "change file mode bits (permissions)",
+    "tags": ["권한", "permission"]
+  },
+  {
+    "name": "chown",
+    "description": "change file owner and group",
+    "tags": ["소유자", "권한"]
+  },
+  {
+    "name": "touch",
+    "description": "create empty file or update timestamp",
+    "tags": ["생성", "빈파일", "시간"]
+  },
+  {
+    "name": "tree",
+    "description": "display directory structure as a tree",
+    "tags": ["구조", "트리"]
+  },
+  {
+    "name": "find",
+    "description": "search for files in a directory hierarchy",
+    "tags": ["검색", "파일"]
+  },
+  {
+    "name": "fd",
+    "description": "fast and simple alternative to find",
+    "tags": ["검색", "빠른", "파일"]
+  },
+  {
+    "name": "grep",
+    "description": "search for patterns in text",
+    "tags": ["검색", "패턴", "regex", "정규식"]
+  },
+  {
+    "name": "rg",
+    "description": "ripgrep, fast recursive grep",
+    "tags": ["검색", "패턴", "빠른"]
+  },
+  {
+    "name": "sed",
+    "description": "stream editor for filtering and transforming text",
+    "tags": ["치환", "편집", "replace"]
+  },
+  {
+    "name": "awk",
+    "description": "pattern scanning and text processing language",
+    "tags": ["텍스트", "열", "column"]
+  },
+  {
+    "name": "cut",
+    "description": "extract selected columns from lines",
+    "tags": ["열", "컬럼", "추출"]
+  },
+  {
+    "name": "sort",
+    "description": "sort lines of text",
+    "tags": ["정렬", "sort"]
+  },
+  {
+    "name": "uniq",
+    "description": "report or omit repeated lines",
+    "tags": ["중복", "제거"]
+  },
+  {
+    "name": "wc",
+    "description": "count lines, words, and bytes",
+    "tags": ["개수", "줄", "라인"]
+  },
+  {
+    "name": "head",
+    "description": "output the first part of files",
+    "tags": ["앞부분", "첫줄"]
+  },
+  {
+    "name": "tail",
+    "description": "output the last part of files, follow logs with -f",
+    "tags": ["뒷부분", "로그", "log"]
+  },
+  {
+    "name": "less",
+    "description": "view file contents with paging",
+    "tags": ["뷰어", "페이지", "스크롤"]
+  },
+  {
+    "name": "more",
+    "description": "simple pager for text files",
+    "tags": ["뷰어", "페이지"]
+  },
+  {
+    "name": "tee",
+    "description": "read from stdin and write to stdout and files",
+    "tags": ["출력", "리다이렉트"]
+  },
+  {
+    "name": "echo",
+    "description": "print text to stdout",
+    "tags": ["출력", "print"]
+  },
+  {
+    "name": "printf",
+    "description": "format and print data",
+    "tags": ["출력", "포맷"]
+  },
+  {
+    "name": "diff",
+    "description": "compare files line by line",
+    "tags": ["비교", "차이"]
+  },
+  {
+    "name": "patch",
+    "description": "apply diff files to originals",
+    "tags": ["패치", "적용"]
+  },
+  {
+    "name": "tar",
+    "description": "archive files in a tarball",
+    "tags": ["압축", "아카이브"]
+  },
+  {
+    "name": "gzip",
+    "description": "compress files with gzip",
+    "tags": ["압축", "compress"]
+  },
+  {
+    "name": "gunzip",
+    "description": "decompress gzip files",
+    "tags": ["해제", "압축해제"]
+  },
+  {
+    "name": "zip",
+    "description": "package and compress files into zip",
+    "tags": ["압축", "zip"]
+  },
+  {
+    "name": "unzip",
+    "description": "extract zip archives",
+    "tags": ["압축해제", "unzip"]
+  },
+  {
+    "name": "jq",
+    "description": "lightweight JSON processor",
+    "tags": ["json", "파싱"]
+  },
+  {
+    "name": "curl",
+    "description": "transfer data with URLs",
+    "tags": ["http", "api", "다운로드", "request"]
+  },
+  {
+    "name": "wget",
+    "description": "download files from the web",
+    "tags": ["다운로드", "download"]
+  },
+  {
+    "name": "ping",
+    "description": "test network connectivity",
+    "tags": ["네트워크", "연결", "확인"]
+  },
+  {
+    "name": "nc",
+    "description": "netcat, read/write TCP or UDP",
+    "tags": ["포트", "소켓", "socket"]
+  },
+  {
+    "name": "dig",
+    "description": "query DNS servers",
+    "tags": ["dns", "도메인", "네임서버"]
+  },
+  {
+    "name": "nslookup",
+    "description": "query DNS records",
+    "tags": ["dns", "도메인"]
+  },
+  {
+    "name": "traceroute",
+    "description": "trace network route to host",
+    "tags": ["경로", "네트워크"]
+  },
+  {
+    "name": "netstat",
+    "description": "show network connections and ports",
+    "tags": ["포트", "상태", "연결"]
+  },
+  {
+    "name": "ss",
+    "description": "show socket statistics",
+    "tags": ["포트", "소켓"]
+  },
+  {
+    "name": "ip",
+    "description": "show and manage network interfaces",
+    "tags": ["ip", "네트워크", "인터페이스"]
+  },
+  {
+    "name": "ifconfig",
+    "description": "configure network interfaces",
+    "tags": ["ip", "네트워크"]
+  },
+  {
+    "name": "ps",
+    "description": "show running processes",
+    "tags": ["프로세스", "process"]
+  },
+  {
+    "name": "top",
+    "description": "show real-time processes and CPU usage",
+    "tags": ["프로세스", "cpu", "모니터링"]
+  },
+  {
+    "name": "htop",
+    "description": "interactive process viewer",
+    "tags": ["프로세스", "cpu", "메모리"]
+  },
+  {
+    "name": "kill",
+    "description": "send signal to a process by pid",
+    "tags": ["프로세스", "종료", "signal"]
+  },
+  {
+    "name": "pkill",
+    "description": "kill processes by name",
+    "tags": ["프로세스", "종료"]
+  },
+  {
+    "name": "free",
+    "description": "show memory usage",
+    "tags": ["메모리", "memory"]
+  },
+  {
+    "name": "df",
+    "description": "show disk filesystem usage",
+    "tags": ["디스크", "사용량"]
+  },
+  {
+    "name": "du",
+    "description": "estimate file and directory disk usage",
+    "tags": ["디스크", "사용량", "크기"]
+  },
+  {
+    "name": "mount",
+    "description": "mount filesystems",
+    "tags": ["마운트", "파일시스템"]
+  },
+  {
+    "name": "umount",
+    "description": "unmount filesystems",
+    "tags": ["마운트", "해제"]
+  },
+  {
+    "name": "uname",
+    "description": "print system information",
+    "tags": ["시스템", "os", "커널"]
+  },
+  {
+    "name": "uptime",
+    "description": "show system load and uptime",
+    "tags": ["로드", "가동시간"]
+  },
+  {
+    "name": "whoami",
+    "description": "print current user name",
+    "tags": ["사용자", "user"]
+  },
+  {
+    "name": "history",
+    "description": "show shell command history",
+    "tags": ["이력", "명령어"]
+  },
+  {
+    "name": "man",
+    "description": "display manual pages",
+    "tags": ["도움말", "매뉴얼"]
+  },
+  {
+    "name": "watch",
+    "description": "run a command repeatedly",
+    "tags": ["반복", "모니터링"]
+  },
+  {
+    "name": "timeout",
+    "description": "run a command with a time limit",
+    "tags": ["시간", "제한"]
+  },
+  {
+    "name": "date",
+    "description": "print or set system date/time",
+    "tags": ["날짜", "시간"]
+  },
+  {
+    "name": "bc",
+    "description": "arbitrary precision calculator",
+    "tags": ["계산", "calculator"]
+  },
+  {
+    "name": "base64",
+    "description": "encode or decode base64",
+    "tags": ["인코딩", "encode"]
+  },
+  {
+    "name": "sha256sum",
+    "description": "compute SHA-256 checksums",
+    "tags": ["해시", "체크섬", "checksum"]
+  },
+  {
+    "name": "md5sum",
+    "description": "compute MD5 checksums",
+    "tags": ["해시", "체크섬"]
+  },
+  {
+    "name": "openssl",
+    "description": "cryptography toolkit with certificates and TLS",
+    "tags": ["암호화", "인증서", "tls"]
+  },
+  {
+    "name": "lsof",
+    "description": "list open files",
+    "tags": ["파일", "프로세스", "포트"]
+  },
+  {
+    "name": "strace",
+    "description": "trace system calls of a process",
+    "tags": ["추적", "시스템콜", "디버깅"]
+  },
+  {
+    "name": "systemctl",
+    "description": "control systemd services",
+    "tags": ["서비스", "시작", "정지"]
+  },
+  {
+    "name": "journalctl",
+    "description": "query systemd journal logs",
+    "tags": ["로그", "journal"]
+  },
+  {
+    "name": "crontab",
+    "description": "schedule periodic commands",
+    "tags": ["스케줄", "주기"]
+  },
+  {
+    "name": "docker",
+    "description": "manage containers and images",
+    "tags": ["컨테이너", "container", "이미지"]
+  },
+  {
+    "name": "git",
+    "description": "distributed version control",
+    "tags": ["버전관리", "vcs", "커밋"]
+  },
+  {
+    "name": "brew",
+    "description": "Homebrew package manager for macOS",
+    "tags": ["패키지", "설치", "homebrew"]
+  },
+  {
+    "name": "cargo",
+    "description": "Rust package manager and build tool",
+    "tags": ["rust", "빌드", "패키지"]
+  },
+  {
+    "name": "rustc",
+    "description": "Rust compiler",
+    "tags": ["rust", "컴파일"]
+  },
+  {
+    "name": "go",
+    "description": "Go language build and toolchain",
+    "tags": ["go", "빌드"]
+  },
+  {
+    "name": "bun",
+    "description": "JavaScript runtime and package manager",
+    "tags": ["js", "런타임", "패키지"]
+  },
+  {
+    "name": "node",
+    "description": "JavaScript runtime",
+    "tags": ["js", "런타임"]
+  },
+  {
+    "name": "python",
+    "description": "Python interpreter",
+    "tags": ["python", "스크립트"]
+  },
+  {
+    "name": "make",
+    "description": "build targets from Makefile",
+    "tags": ["빌드", "makefile"]
+  },
+  {
+    "name": "cmake",
+    "description": "cross-platform build system",
+    "tags": ["빌드", "c++"]
+  },
+  {
+    "name": "gcc",
+    "description": "GNU C/C++ compiler",
+    "tags": ["컴파일", "c", "c++"]
+  },
+  {
+    "name": "clang",
+    "description": "LLVM C/C++ compiler",
+    "tags": ["컴파일", "c", "c++", "llvm"]
+  },
+  {
+    "name": "vim",
+    "description": "modal text editor",
+    "tags": ["에디터", "편집"]
+  },
+  {
+    "name": "nvim",
+    "description": "Neovim, modern vim fork",
+    "tags": ["에디터", "편집", "neovim"]
+  },
+  {
+    "name": "nano",
+    "description": "simple terminal text editor",
+    "tags": ["에디터", "편집"]
+  },
+  {
+    "name": "code",
+    "description": "Visual Studio Code CLI",
+    "tags": ["에디터", "vscode"]
+  },
+  {
+    "name": "tmux",
+    "description": "terminal multiplexer",
+    "tags": ["터미널", "멀티플렉서", "세션"]
+  },
+  {
+    "name": "screen",
+    "description": "terminal multiplexer",
+    "tags": ["터미널", "세션"]
+  },
+  {
+    "name": "alacritty",
+    "description": "GPU-accelerated terminal emulator",
+    "tags": ["터미널", "에뮬레이터", "emulator"]
+  },
+  {
+    "name": "eza",
+    "description": "modern replacement for ls",
+    "tags": ["ls", "대체", "파일목록"]
+  },
+  {
+    "name": "lsd",
+    "description": "ls with icons and colors",
+    "tags": ["ls", "대체", "파일목록", "아이콘"]
+  },
+  {
+    "name": "bat",
+    "description": "cat replacement with syntax highlighting",
+    "tags": ["cat", "대체", "뷰어", "문법강조"]
+  },
+  {
+    "name": "mdcat",
+    "description": "cat for markdown",
+    "tags": ["cat", "markdown", "뷰어"]
+  },
+  {
+    "name": "delta",
+    "description": "git diff with syntax highlighting",
+    "tags": ["git", "diff", "하이라이트"]
+  },
+  {
+    "name": "difft",
+    "description": "difftastic, structural diff",
+    "tags": ["diff", "비교", "구조"]
+  },
+  {
+    "name": "gitui",
+    "description": "terminal git UI, tig/lazygit alternative",
+    "tags": ["git", "ui", "대체"]
+  },
+  {
+    "name": "onefetch",
+    "description": "git repository info like neofetch",
+    "tags": ["git", "정보", "neofetch"]
+  },
+  {
+    "name": "dog",
+    "description": "dig replacement, DNS lookup",
+    "tags": ["dns", "dig", "도메인"]
+  },
+  {
+    "name": "nbping",
+    "description": "ping with network bandwidth info",
+    "tags": ["ping", "네트워크", "속도"]
+  },
+  {
+    "name": "gping",
+    "description": "ping with interactive graphs",
+    "tags": ["ping", "네트워크", "그래프"]
+  },
+  {
+    "name": "bandwhich",
+    "description": "network bandwidth usage by process",
+    "tags": ["네트워크", "대역폭", "모니터링"]
+  },
+  {
+    "name": "netwatch",
+    "description": "network traffic monitor, iftop/bandwhich alternative",
+    "tags": ["네트워크", "트래픽", "모니터링"]
+  },
+  {
+    "name": "trip",
+    "description": "trippy, network diagnostic tool combining ping and traceroute",
+    "tags": ["네트워크", "ping", "traceroute", "진단"]
+  },
+  {
+    "name": "btm",
+    "description": "bottom, top/htop replacement",
+    "tags": ["프로세스", "cpu", "대체", "모니터링"]
+  },
+  {
+    "name": "procs",
+    "description": "ps replacement with colors",
+    "tags": ["프로세스", "ps", "대체"]
+  },
+  {
+    "name": "ytop",
+    "description": "top/htop replacement",
+    "tags": ["프로세스", "cpu", "대체"]
+  },
+  {
+    "name": "zenith",
+    "description": "top/htop replacement with metrics",
+    "tags": ["프로세스", "cpu", "대체"]
+  },
+  {
+    "name": "diskus",
+    "description": "du replacement, disk usage",
+    "tags": ["디스크", "사용량", "대체"]
+  },
+  {
+    "name": "dust",
+    "description": "du replacement, view disk usage",
+    "tags": ["디스크", "사용량", "대체"]
+  },
+  {
+    "name": "diskonaut",
+    "description": "interactive disk usage explorer",
+    "tags": ["디스크", "사용량", "ui"]
+  },
+  {
+    "name": "hexyl",
+    "description": "hexdump replacement, hex viewer",
+    "tags": ["hex", "hexdump", "바이너리"]
+  },
+  {
+    "name": "hyperfine",
+    "description": "benchmark commands",
+    "tags": ["벤치마크", "시간", "측정"]
+  },
+  {
+    "name": "hwatch",
+    "description": "watch replacement with colors",
+    "tags": ["watch", "반복", "모니터링"]
+  },
+  {
+    "name": "jless",
+    "description": "JSON pager and explorer",
+    "tags": ["json", "뷰어", "파싱"]
+  },
+  {
+    "name": "sd",
+    "description": "sed replacement for find and replace",
+    "tags": ["sed", "치환", "대체"]
+  },
+  {
+    "name": "grex",
+    "description": "generate regex from examples",
+    "tags": ["정규식", "regex", "생성"]
+  },
+  {
+    "name": "sk",
+    "description": "skim, fuzzy finder like fzf",
+    "tags": ["fuzzy", "검색", "fzf"]
+  },
+  {
+    "name": "scooter",
+    "description": "interactive find and replace UI",
+    "tags": ["검색", "치환", "ui"]
+  },
+  {
+    "name": "zoxide",
+    "description": "smarter cd command",
+    "tags": ["cd", "이동", "대체"]
+  },
+  {
+    "name": "zellij",
+    "description": "terminal multiplexer, tmux alternative",
+    "tags": ["터미널", "멀티플렉서", "tmux", "대체"]
+  },
+  {
+    "name": "nu",
+    "description": "nushell, modern shell alternative to bash",
+    "tags": ["shell", "bash", "대체"]
+  },
+  {
+    "name": "herdr",
+    "description": "agent multiplexer in terminal",
+    "tags": ["멀티플렉서", "에이전트"]
+  },
+  {
+    "name": "cfonts",
+    "description": "figlet/toilet replacement, banner text",
+    "tags": ["배너", "figlet", "대체"]
+  },
+  {
+    "name": "ttysvr",
+    "description": "terminal screen saver",
+    "tags": ["화면보호기", "screensaver"]
+  },
+  {
+    "name": "termusic",
+    "description": "terminal music player",
+    "tags": ["음악", "플레이어", "music"]
+  },
+  {
+    "name": "termusic-server",
+    "description": "terminal music server",
+    "tags": ["음악", "서버", "music"]
+  },
+  {
+    "name": "weathr",
+    "description": "terminal weather app with ascii animation",
+    "tags": ["날씨", "weather"]
+  },
+  {
+    "name": "tokei",
+    "description": "count lines of code",
+    "tags": ["코드", "통계", "라인"]
+  },
+  {
+    "name": "feroxbuster",
+    "description": "web content discovery for hidden directories",
+    "tags": ["웹", "취약점", "보안", "스캔"]
+  },
+  {
+    "name": "lychee",
+    "description": "check broken hyperlinks",
+    "tags": ["링크", "검사", "markdown"]
+  },
+  {
+    "name": "oha",
+    "description": "HTTP load testing tool",
+    "tags": ["부하", "http", "테스트"]
+  },
+  {
+    "name": "qsv",
+    "description": "CSV/Excel/SQL toolkit",
+    "tags": ["csv", "excel", "sql", "데이터"]
+  },
+  {
+    "name": "xan",
+    "description": "CSV file tool",
+    "tags": ["csv", "데이터", "분석"]
+  },
+  {
+    "name": "cargo-watch",
+    "description": "auto rebuild on source change",
+    "tags": ["rust", "빌드", "watch", "감시"]
+  },
+  {
+    "name": "mise",
+    "description": "version manager for node/python/go",
+    "tags": ["버전관리", "node", "python", "go"]
+  },
+  {
+    "name": "uv",
+    "description": "python package and version manager",
+    "tags": ["python", "패키지", "버전관리"]
+  },
+  {
+    "name": "ruff",
+    "description": "python linter and formatter",
+    "tags": ["python", "린트", "포맷"]
+  },
+  {
+    "name": "rumdl",
+    "description": "markdown linter and formatter",
+    "tags": ["markdown", "린트", "포맷"]
+  },
+  {
+    "name": "typos",
+    "description": "typo checker",
+    "tags": ["오타", "철자", "검사"]
+  },
+  {
+    "name": "llmfit",
+    "description": "find LLM that fits your machine",
+    "tags": ["llm", "ai", "모델"]
+  },
+  {
+    "name": "ohmystock",
+    "description": "personal stock price checker",
+    "tags": ["주식", "stock", "시세"]
+  },
+  {
+    "name": "presenterm",
+    "description": "markdown terminal slideshow",
+    "tags": ["발표", "슬라이드", "markdown"]
+  },
+  {
+    "name": "binsider",
+    "description": "analyze ELF binaries",
+    "tags": ["바이너리", "elf", "분석"]
+  },
+  {
+    "name": "whome",
+    "description": "whoami replacement",
+    "tags": ["whoami", "사용자", "대체"]
+  },
+  {
+    "name": "termscp",
+    "description": "scp/ftp/sftp over terminal UI",
+    "tags": ["scp", "ftp", "전송", "sftp"]
+  },
+  {
+    "name": "ttf",
+    "description": "terminal tool finder, fuzzy search this tools.json",
+    "tags": ["터미널", "파인더", "fuzzy", "검색"]
+  }
+]
+
