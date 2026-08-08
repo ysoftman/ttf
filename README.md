@@ -1,6 +1,6 @@
 # ttf
 
-Terminal Tool Finder — 터미널 명령어를 `tools.json`에서 퍼지(fuzzy) 검색하는 Rust CLI 도구.
+Terminal Tool Finder — 터미널 명령어를 `tools.json`에서 퍼지(fuzzy) 검색하는 CLI 도구.
 
 ## local test
 

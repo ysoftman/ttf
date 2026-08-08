@@ -1,7 +1,7 @@
 use serde::Deserialize;
 use std::env;
 use std::fs;
-use std::path::{Path, PathBuf};
+use std::path::Path;
 use std::process::ExitCode;
 
 const DEFAULT_LIMIT: usize = 20;
@@ -11,6 +11,8 @@ const EMBEDDED_TOOLS: &str = include_str!("../tools.json");
 const C_RESET: &str = "\x1b[0m";
 const C_NAME: &str = "\x1b[32m";
 const C_TAG: &str = "\x1b[36m";
+const C_INSTALLED: &str = "\x1b[32m";
+const C_NOT_INSTALLED: &str = "\x1b[31m";
 
 #[derive(Debug, Clone, Deserialize)]
 struct Tool {
@@ -33,6 +35,10 @@ impl Tool {
             s.push_str(&self.tags.join(" "));
         }
         s
+    }
+
+    fn is_builtin(&self) -> bool {
+        self.tags.iter().any(|t| t == "built-in")
     }
 }
 
@@ -69,6 +75,31 @@ fn load_tools(path: Option<&Path>) -> Result<Vec<Tool>, String> {
         None => serde_json::from_str(EMBEDDED_TOOLS)
             .map_err(|e| format!("invalid embedded tools.json: {e}")),
     }
+}
+
+fn is_executable(path: &Path) -> bool {
+    #[cfg(unix)]
+    {
+        use std::os::unix::fs::PermissionsExt;
+        path.is_file()
+            && path
+                .metadata()
+                .map(|m| m.permissions().mode() & 0o111 != 0)
+                .unwrap_or(false)
+    }
+    #[cfg(not(unix))]
+    {
+        path.is_file()
+    }
+}
+
+fn is_installed(name: &str) -> bool {
+    if name.contains('/') {
+        return is_executable(Path::new(name));
+    }
+    std::env::var_os("PATH").is_some_and(|paths| {
+        std::env::split_paths(&paths).any(|dir| is_executable(&dir.join(name)))
+    })
 }
 
 fn fuzzy_score(query: &str, target: &str) -> Option<i64> {
@@ -125,6 +156,17 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
     } else {
         name_padded
     };
+    let mark = if t.is_builtin() || is_installed(&t.name) {
+        if color {
+            format!("{C_INSTALLED}✓{C_RESET}")
+        } else {
+            "✓".to_string()
+        }
+    } else if color {
+        format!("{C_NOT_INSTALLED}✗{C_RESET}")
+    } else {
+        "✗".to_string()
+    };
     let tagline = if t.tags.is_empty() {
         String::new()
     } else if color {
@@ -138,8 +180,8 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
         format!("  [{}]", t.tags.join(", "))
     };
     match score {
-        Some(s) => println!("{:>3}  {}  {}{}", s, name, t.description, tagline),
-        None => println!("{}  {}{}", name, t.description, tagline),
+        Some(s) => println!("{:>3}  {}  {}  {}{}", s, mark, name, t.description, tagline),
+        None => println!("{}  {}  {}{}", mark, name, t.description, tagline),
     }
 }
 
@@ -485,5 +527,37 @@ mod tests {
         assert!(tools[0].tags.is_empty());
 
         std::fs::remove_dir_all(&dir).unwrap();
+    }
+
+    #[test]
+    fn is_installed_finds_common_command() {
+        assert!(is_installed("ls"));
+    }
+
+    #[test]
+    fn is_installed_missing_command() {
+        assert!(!is_installed("definitely-not-a-real-command-xyz"));
+    }
+
+    #[test]
+    fn is_installed_handles_slash_path() {
+        assert!(is_installed("/bin/ls"));
+        assert!(!is_installed("/bin/definitely-not-real"));
+    }
+
+    #[test]
+    fn builtin_tag_marked_installed() {
+        let t = Tool {
+            name: "history".to_string(),
+            description: String::new(),
+            tags: vec!["built-in".to_string()],
+        };
+        assert!(t.is_builtin());
+        let plain = Tool {
+            name: "history".to_string(),
+            description: String::new(),
+            tags: Vec::new(),
+        };
+        assert!(!plain.is_builtin());
     }
 }

@@ -7,12 +7,12 @@
   {
     "name": "cd",
     "description": "change the working directory",
-    "tags": ["이동", "디렉토리 변경"]
+    "tags": ["이동", "디렉토리 변경", "built-in"]
   },
   {
     "name": "pwd",
     "description": "print name of current working directory",
-    "tags": ["경로", "현재디렉토리"]
+    "tags": ["경로", "현재디렉토리", "built-in"]
   },
   {
     "name": "mkdir",
@@ -137,12 +137,12 @@
   {
     "name": "echo",
     "description": "print text to stdout",
-    "tags": ["출력", "print"]
+    "tags": ["출력", "print", "built-in"]
   },
   {
     "name": "printf",
     "description": "format and print data",
-    "tags": ["출력", "포맷"]
+    "tags": ["출력", "포맷", "built-in"]
   },
   {
     "name": "diff",
@@ -257,7 +257,7 @@
   {
     "name": "kill",
     "description": "send signal to a process by pid",
-    "tags": ["프로세스", "종료", "signal"]
+    "tags": ["프로세스", "종료", "signal", "built-in"]
   },
   {
     "name": "pkill",
@@ -307,7 +307,7 @@
   {
     "name": "history",
     "description": "show shell command history",
-    "tags": ["이력", "명령어"]
+    "tags": ["이력", "명령어", "built-in"]
   },
   {
     "name": "man",

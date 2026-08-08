@@ -37,7 +37,10 @@ fn list_shows_all_without_limit() {
     let (out, code) = run(&["--nocolor", "-d", "tools.json", "-l"]);
     assert_eq!(code, 0);
     assert!(out.lines().count() > 100);
-    assert!(out.lines().any(|l| l.starts_with("ttf")));
+    assert!(
+        out.lines()
+            .any(|l| l.split_whitespace().any(|w| w == "ttf"))
+    );
 }
 
 #[test]
@@ -63,6 +66,14 @@ fn uses_embedded_data_without_local_file() {
     let (out, code) = run_in_dir(&dir, &["--nocolor", "ls"]);
     std::fs::remove_dir_all(&dir).unwrap();
     assert_eq!(code, 0);
+    assert!(out.contains("list directory contents"));
+}
+
+#[test]
+fn search_shows_installed_marker() {
+    let (out, code) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "list"]);
+    assert_eq!(code, 0);
+    assert!(out.contains('✓'));
     assert!(out.contains("list directory contents"));
 }
 
