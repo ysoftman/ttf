@@ -8,6 +8,13 @@ const DEFAULT_LIMIT: usize = 20;
 
 const EMBEDDED_TOOLS: &str = include_str!("../tools.json");
 
+macro_rules! print_line {
+    ($($arg:tt)*) => {{
+        use std::io::Write;
+        let _ = writeln!(std::io::stdout(), $($arg)*);
+    }};
+}
+
 const C_RESET: &str = "\x1b[0m";
 const C_NAME: &str = "\x1b[32m";
 const C_TAG: &str = "\x1b[36m";
@@ -48,7 +55,7 @@ struct Match {
 }
 
 fn print_usage() {
-    println!(
+    print_line!(
         "ttf - terminal tool finder: fuzzy search tools.json\n\
          \n\
          Usage:\n  \
@@ -145,7 +152,7 @@ fn print_list(tools: &[Tool], limit: Option<usize>, color: bool) {
         print_tool(t, width, None, color);
     }
     if tools.len() > shown {
-        println!("... and {} more", tools.len() - shown);
+        print_line!("... and {} more", tools.len() - shown);
     }
 }
 
@@ -180,8 +187,8 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
         format!("  [{}]", t.tags.join(", "))
     };
     match score {
-        Some(s) => println!("{:>3}  {}  {}  {}{}", s, mark, name, t.description, tagline),
-        None => println!("{}  {}  {}{}", mark, name, t.description, tagline),
+        Some(s) => print_line!("{:>3}  {}  {}  {}{}", s, mark, name, t.description, tagline),
+        None => print_line!("{}  {}  {}{}", mark, name, t.description, tagline),
     }
 }
 
@@ -269,7 +276,7 @@ fn main() -> ExitCode {
         return ExitCode::SUCCESS;
     }
     if cfg.version {
-        println!("ttf {}", env!("CARGO_PKG_VERSION"));
+        print_line!("ttf {}", env!("CARGO_PKG_VERSION"));
         return ExitCode::SUCCESS;
     }
 
@@ -306,7 +313,7 @@ fn main() -> ExitCode {
     });
 
     if matches.is_empty() {
-        println!("no match for '{query}'");
+        print_line!("no match for '{query}'");
         return ExitCode::from(1);
     }
 
@@ -320,7 +327,7 @@ fn main() -> ExitCode {
         print_tool(&m.tool, width, Some(m.score), cfg.color);
     }
     if matches.len() > shown {
-        println!("... and {} more (--limit to change)", matches.len() - shown);
+        print_line!("... and {} more (--limit to change)", matches.len() - shown);
     }
     ExitCode::SUCCESS
 }
