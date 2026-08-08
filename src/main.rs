@@ -110,10 +110,14 @@ fn fuzzy_score(query: &str, target: &str) -> Option<i64> {
     (qi == q.len()).then_some(score)
 }
 
-fn print_list(tools: &[Tool]) {
+fn print_list(tools: &[Tool], limit: Option<usize>) {
+    let shown = limit.map(|l| tools.len().min(l)).unwrap_or(tools.len());
     let width = tools.iter().map(|t| t.name.len()).max().unwrap_or(0);
-    for t in tools {
+    for t in &tools[..shown] {
         print_tool(t, width, None);
+    }
+    if tools.len() > shown {
+        println!("... and {} more (--limit to change)", tools.len() - shown);
     }
 }
 
@@ -133,6 +137,7 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>) {
 struct Config {
     data: Option<String>,
     limit: usize,
+    limit_explicit: bool,
     list_all: bool,
     query_parts: Vec<String>,
     help: bool,
@@ -144,6 +149,7 @@ impl Default for Config {
         Config {
             data: None,
             limit: DEFAULT_LIMIT,
+            limit_explicit: false,
             list_all: false,
             query_parts: Vec::new(),
             help: false,
@@ -174,7 +180,10 @@ fn parse_args(args: &[String]) -> Result<Config, String> {
             "-n" | "--limit" => {
                 i += 1;
                 match args.get(i).and_then(|s| s.parse().ok()) {
-                    Some(n) if n > 0 => cfg.limit = n,
+                    Some(n) if n > 0 => {
+                        cfg.limit = n;
+                        cfg.limit_explicit = true;
+                    }
                     _ => return Err("--limit requires a positive number".to_string()),
                 }
             }
@@ -221,7 +230,7 @@ fn main() -> ExitCode {
     };
 
     if cfg.list_all {
-        print_list(&tools);
+        print_list(&tools, cfg.limit_explicit.then_some(cfg.limit));
         return ExitCode::SUCCESS;
     }
 
