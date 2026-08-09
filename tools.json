@@ -3983,5 +3983,599 @@
     ],
     "url": "https://github.com/paul-gauthier/aider",
     "lang": "Python"
+  },
+  {
+    "name": "harlequin",
+    "description": "SQL IDE for your terminal",
+    "tags": [
+      "sql",
+      "데이터베이스",
+      "tui",
+      "ide"
+    ],
+    "url": "https://github.com/tconbeer/harlequin",
+    "lang": "Python"
+  },
+  {
+    "name": "chdig",
+    "description": "dig into ClickHouse with TUI interface",
+    "tags": [
+      "clickhouse",
+      "데이터베이스",
+      "모니터링",
+      "tui"
+    ],
+    "url": "https://github.com/azat/chdig",
+    "lang": "Rust"
+  },
+  {
+    "name": "dolphie",
+    "description": "realtime MySQL health monitoring in the terminal",
+    "tags": [
+      "mysql",
+      "데이터베이스",
+      "모니터링",
+      "tui"
+    ],
+    "url": "https://github.com/charles-001/dolphie",
+    "lang": "Python"
+  },
+  {
+    "name": "vi-mongo",
+    "description": "a TUI for managing MongoDB databases",
+    "tags": [
+      "mongodb",
+      "데이터베이스",
+      "tui"
+    ],
+    "url": "https://github.com/kopecmaciej/vi-mongo",
+    "lang": "Go"
+  },
+  {
+    "name": "ddv",
+    "description": "a TUI to view Amazon DynamoDB in the terminal",
+    "tags": [
+      "dynamodb",
+      "aws",
+      "데이터베이스",
+      "tui"
+    ],
+    "url": "https://github.com/lusingander/ddv",
+    "lang": "Rust"
+  },
+  {
+    "name": "oterm",
+    "description": "text-based terminal client for ollama",
+    "tags": [
+      "ollama",
+      "ai",
+      "llm",
+      "tui"
+    ],
+    "url": "https://github.com/ggozad/oterm",
+    "lang": "Python"
+  },
+  {
+    "name": "parllama",
+    "description": "TUI for ollama and other LLM providers",
+    "tags": [
+      "ollama",
+      "ai",
+      "llm",
+      "tui"
+    ],
+    "url": "https://github.com/paulrobello/parllama",
+    "lang": "Python"
+  },
+  {
+    "name": "tenere",
+    "description": "TUI interface for LLMs",
+    "tags": [
+      "llm",
+      "ai",
+      "tui"
+    ],
+    "url": "https://github.com/pythops/tenere",
+    "lang": "Rust"
+  },
+  {
+    "name": "intelli-shell",
+    "description": "like IntelliSense, but for shells",
+    "tags": [
+      "셸",
+      "자동완성",
+      "명령어",
+      "tui"
+    ],
+    "url": "https://github.com/lasantosr/intelli-shell",
+    "lang": "Rust"
+  },
+  {
+    "name": "glab-tui",
+    "description": "a TUI to manage GitLab and GitHub projects",
+    "tags": [
+      "gitlab",
+      "github",
+      "git",
+      "tui"
+    ],
+    "url": "https://github.com/rcieri/glab-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "gama",
+    "description": "manage GitHub Actions from the terminal",
+    "tags": [
+      "github actions",
+      "ci",
+      "tui"
+    ],
+    "url": "https://github.com/termkit/gama",
+    "lang": "Go"
+  },
+  {
+    "name": "mani",
+    "description": "a CLI tool to help manage multiple repositories",
+    "tags": [
+      "여러 저장소",
+      "git",
+      "tui"
+    ],
+    "url": "https://github.com/alajmo/mani",
+    "lang": "Go"
+  },
+  {
+    "name": "ghgrab",
+    "description": "a TUI to download files/folders from repositories without cloning",
+    "tags": [
+      "github",
+      "다운로드",
+      "저장소",
+      "tui"
+    ],
+    "url": "https://github.com/abhixdd/ghgrab",
+    "lang": "Rust"
+  },
+  {
+    "name": "gittop",
+    "description": "a TUI for visualizing Git repository statistics",
+    "tags": [
+      "git",
+      "통계",
+      "시각화",
+      "tui"
+    ],
+    "url": "https://github.com/hjr265/gittop",
+    "lang": "Go"
+  },
+  {
+    "name": "crates-tui",
+    "description": "a TUI for exploring crates.io",
+    "tags": [
+      "rust",
+      "crates",
+      "tui"
+    ],
+    "url": "https://github.com/ratatui-org/crates-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "mcp-probe",
+    "description": "advanced MCP protocol debugger and interactive TUI",
+    "tags": [
+      "mcp",
+      "디버깅",
+      "tui"
+    ],
+    "url": "https://github.com/conikeec/mcp-probe",
+    "lang": "Rust"
+  },
+  {
+    "name": "openapi-tui",
+    "description": "browse and run APIs defined with OpenAPI v3.0",
+    "tags": [
+      "api",
+      "openapi",
+      "tui"
+    ],
+    "url": "https://github.com/zaghaghi/openapi-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "wireman",
+    "description": "a TUI gRPC client for the terminal",
+    "tags": [
+      "grpc",
+      "api",
+      "tui"
+    ],
+    "url": "https://github.com/preiter93/wireman",
+    "lang": "Rust"
+  },
+  {
+    "name": "fnug",
+    "description": "run all your lints, tests and commands at once",
+    "tags": [
+      "테스트",
+      "lint",
+      "병렬",
+      "tui"
+    ],
+    "url": "https://github.com/nickolaj-jepsen/fnug",
+    "lang": "Python"
+  },
+  {
+    "name": "lfk",
+    "description": "a lightning fast Kubernetes navigator",
+    "tags": [
+      "kubernetes",
+      "k8s",
+      "tui"
+    ],
+    "url": "https://github.com/janosmiko/lfk",
+    "lang": "Go"
+  },
+  {
+    "name": "kl",
+    "description": "an interactive Kubernetes log viewer",
+    "tags": [
+      "kubernetes",
+      "로그",
+      "tui"
+    ],
+    "url": "https://github.com/robinovitch61/kl",
+    "lang": "Go"
+  },
+  {
+    "name": "e1s",
+    "description": "a TUI for managing AWS ECS resources",
+    "tags": [
+      "aws",
+      "ecs",
+      "tui"
+    ],
+    "url": "https://github.com/keidarcy/e1s",
+    "lang": "Go"
+  },
+  {
+    "name": "isd",
+    "description": "a keyboard-focused systemd units TUI",
+    "tags": [
+      "systemd",
+      "서비스",
+      "tui"
+    ],
+    "url": "https://github.com/isd-project/isd",
+    "lang": "Python"
+  },
+  {
+    "name": "cronboard",
+    "description": "manage cron jobs locally and on servers",
+    "tags": [
+      "cron",
+      "스케줄",
+      "tui"
+    ],
+    "url": "https://github.com/antoniorodr/cronboard",
+    "lang": "Python"
+  },
+  {
+    "name": "kaskade",
+    "description": "a TUI for Apache Kafka",
+    "tags": [
+      "kafka",
+      "메시지",
+      "tui"
+    ],
+    "url": "https://github.com/sauljabin/kaskade",
+    "lang": "Python"
+  },
+  {
+    "name": "dcv",
+    "description": "a TUI viewer for docker-compose",
+    "tags": [
+      "docker",
+      "docker-compose",
+      "tui"
+    ],
+    "url": "https://github.com/tokuhirom/dcv",
+    "lang": "Go"
+  },
+  {
+    "name": "dirsearch",
+    "description": "a web path scanner for finding hidden files and directories",
+    "tags": [
+      "웹",
+      "스캔",
+      "보안"
+    ],
+    "url": "https://github.com/maurosoria/dirsearch",
+    "lang": "Python"
+  },
+  {
+    "name": "cariddi",
+    "description": "crawl urls, scan endpoints, secrets, api keys and tokens",
+    "tags": [
+      "보안",
+      "크롤링",
+      "스캔"
+    ],
+    "url": "https://github.com/edoardottt/cariddi",
+    "lang": "Go"
+  },
+  {
+    "name": "snitch",
+    "description": "a TUI for inspecting network connections",
+    "tags": [
+      "네트워크",
+      "연결",
+      "tui"
+    ],
+    "url": "https://github.com/karol-broda/snitch",
+    "lang": "Go"
+  },
+  {
+    "name": "quien",
+    "description": "a better whois and domain intelligence toolkit",
+    "tags": [
+      "whois",
+      "도메인",
+      "dns"
+    ],
+    "url": "https://github.com/retlehs/quien",
+    "lang": "Go"
+  },
+  {
+    "name": "wtfis",
+    "description": "passive hostname, domain and IP lookup tool",
+    "tags": [
+      "도메인",
+      "ip",
+      "조회"
+    ],
+    "url": "https://github.com/pirxthepilot/wtfis",
+    "lang": "Python"
+  },
+  {
+    "name": "dnsglobe",
+    "description": "a global DNS propagation checker for your terminal",
+    "tags": [
+      "dns",
+      "전파",
+      "확인"
+    ],
+    "url": "https://github.com/514-labs/dnsglobe",
+    "lang": "Rust"
+  },
+  {
+    "name": "whosthere",
+    "description": "a LAN discovery tool with a modern TUI interface",
+    "tags": [
+      "lan",
+      "네트워크",
+      "스캔",
+      "tui"
+    ],
+    "url": "https://github.com/ramonvermeulen/whosthere",
+    "lang": "Go"
+  },
+  {
+    "name": "ddgr",
+    "description": "DuckDuckGo from the terminal",
+    "tags": [
+      "검색",
+      "duckduckgo"
+    ],
+    "url": "https://github.com/jarun/ddgr",
+    "lang": "Python"
+  },
+  {
+    "name": "wiki-tui",
+    "description": "a fast Wikipedia CLI/TUI client",
+    "tags": [
+      "위키백과",
+      "검색",
+      "tui"
+    ],
+    "url": "https://github.com/Builditluc/wiki-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "jocalsend",
+    "description": "a TUI file-sharing tool based on the LocalSend protocol",
+    "tags": [
+      "파일전송",
+      "공유",
+      "tui"
+    ],
+    "url": "https://git.kittencollective.com/nebkor/joecalsend",
+    "lang": "Rust"
+  },
+  {
+    "name": "gobackup",
+    "description": "backup databases and files to cloud storage",
+    "tags": [
+      "백업",
+      "클라우드"
+    ],
+    "url": "https://github.com/gobackup/gobackup",
+    "lang": "Go"
+  },
+  {
+    "name": "wiper",
+    "description": "a TUI disk analyser and cleanup tool",
+    "tags": [
+      "디스크",
+      "정리",
+      "분석",
+      "tui"
+    ],
+    "url": "https://github.com/ikebastuz/wiper",
+    "lang": "Rust"
+  },
+  {
+    "name": "mcat",
+    "description": "parse, convert and preview images, videos and markdown",
+    "tags": [
+      "미리보기",
+      "이미지",
+      "비디오"
+    ],
+    "url": "https://github.com/Skardyy/mcat",
+    "lang": "Rust"
+  },
+  {
+    "name": "dotstate",
+    "description": "a modern, secure and user-friendly dotfile manager",
+    "tags": [
+      "dotfiles",
+      "설정",
+      "tui"
+    ],
+    "url": "https://github.com/serkanyersen/dotstate",
+    "lang": "Rust"
+  },
+  {
+    "name": "sshclick",
+    "description": "terminal based assisted management of SSH config files",
+    "tags": [
+      "ssh",
+      "설정",
+      "tui"
+    ],
+    "url": "https://github.com/karlot/sshclick",
+    "lang": "Python"
+  },
+  {
+    "name": "kew",
+    "description": "a fast, privacy friendly terminal music player",
+    "tags": [
+      "음악",
+      "플레이어",
+      "tui"
+    ],
+    "url": "https://codeberg.org/ravachol/kew",
+    "lang": "C"
+  },
+  {
+    "name": "herald",
+    "description": "a powerful TUI email client and calendar tool",
+    "tags": [
+      "이메일",
+      "메일",
+      "tui"
+    ],
+    "url": "https://github.com/herald-email/herald-mail-app",
+    "lang": "Go"
+  },
+  {
+    "name": "euporie",
+    "description": "Jupyter notebooks in the terminal",
+    "tags": [
+      "jupyter",
+      "노트북",
+      "tui"
+    ],
+    "url": "https://github.com/joouha/euporie",
+    "lang": "Python"
+  },
+  {
+    "name": "podliner",
+    "description": "podcasts in any terminal",
+    "tags": [
+      "팟캐스트",
+      "tui"
+    ],
+    "url": "https://github.com/timkicker/podliner",
+    "lang": "C#"
+  },
+  {
+    "name": "lue",
+    "description": "a TUI ebook reader with text-to-speech",
+    "tags": [
+      "ebook",
+      "전자책",
+      "tts"
+    ],
+    "url": "https://github.com/superstarryeyes/lue",
+    "lang": "Python"
+  },
+  {
+    "name": "msgvault",
+    "description": "archive a lifetime of email with analytics, entirely offline",
+    "tags": [
+      "이메일",
+      "아카이브",
+      "tui"
+    ],
+    "url": "https://github.com/wesm/msgvault",
+    "lang": "Go"
+  },
+  {
+    "name": "nless",
+    "description": "excel for your logs, pipe in anything into columns",
+    "tags": [
+      "로그",
+      "파싱",
+      "tui"
+    ],
+    "url": "https://github.com/mpryor/nothing-less",
+    "lang": "Python"
+  },
+  {
+    "name": "ticker",
+    "description": "a terminal stock ticker with live updates",
+    "tags": [
+      "주식",
+      "주가",
+      "tui"
+    ],
+    "url": "https://github.com/achannarasappa/ticker",
+    "lang": "Go"
+  },
+  {
+    "name": "sampler",
+    "description": "visualization for any shell command",
+    "tags": [
+      "대시보드",
+      "시각화",
+      "tui"
+    ],
+    "url": "https://github.com/sqshq/sampler",
+    "lang": "Go"
+  },
+  {
+    "name": "cy",
+    "description": "a time traveling terminal multiplexer",
+    "tags": [
+      "멀티플렉서",
+      "터미널",
+      "tmux"
+    ],
+    "url": "https://github.com/cfoust/cy",
+    "lang": "Go"
+  },
+  {
+    "name": "sunbeam",
+    "description": "a general purpose command-line launcher",
+    "tags": [
+      "런처",
+      "실행기",
+      "tui"
+    ],
+    "url": "https://github.com/pomdtr/sunbeam",
+    "lang": "Go"
+  },
+  {
+    "name": "pik",
+    "description": "a TUI for interactively stopping processes",
+    "tags": [
+      "프로세스",
+      "종료",
+      "kill",
+      "tui"
+    ],
+    "url": "https://github.com/jacek-kurlit/pik",
+    "lang": "Rust"
   }
 ]
