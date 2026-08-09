@@ -760,6 +760,966 @@
     "tags": ["scp", "ftp", "전송", "sftp"]
   },
   {
+    "name": "argo",
+    "description": "Argo Workflows CLI",
+    "tags": ["kubernetes", "워크플로우", "배포"]
+  },
+  {
+    "name": "ansible",
+    "description": "IT automation and configuration management",
+    "tags": ["자동화", "인프라", "설정관리"]
+  },
+  {
+    "name": "ansible-lint",
+    "description": "lint ansible playbooks",
+    "tags": ["ansible", "린트"]
+  },
+  {
+    "name": "argocd",
+    "description": "Argo CD CLI for GitOps deployment",
+    "tags": ["gitops", "배포", "kubernetes"]
+  },
+  {
+    "name": "ascii",
+    "description": "show ascii table and chars",
+    "tags": ["ascii", "문자"]
+  },
+  {
+    "name": "asciiquarium",
+    "description": "ascii aquarium screensaver",
+    "tags": ["ascii", "화면보호기"]
+  },
+  {
+    "name": "astroterm",
+    "description": "star wars ascii animation in terminal",
+    "tags": ["ascii", "애니메이션"]
+  },
+  {
+    "name": "bash",
+    "description": "Bourne again shell",
+    "tags": ["shell", "bash"]
+  },
+  {
+    "name": "bazel",
+    "description": "fast build tool",
+    "tags": ["빌드", "bazel"]
+  },
+  {
+    "name": "biome",
+    "description": "js/ts linter and formatter",
+    "tags": ["js", "린트", "포맷"]
+  },
+  {
+    "name": "bison",
+    "description": "parser generator",
+    "tags": ["파서", "컴파일러"]
+  },
+  {
+    "name": "blueutil",
+    "description": "control bluetooth from CLI",
+    "tags": ["블루투스", "bluetooth"]
+  },
+  {
+    "name": "bmon",
+    "description": "bandwidth monitor",
+    "tags": ["네트워크", "대역폭", "모니터링"]
+  },
+  {
+    "name": "btop",
+    "description": "resource monitor with graphs",
+    "tags": ["프로세스", "cpu", "메모리", "모니터링"]
+  },
+  {
+    "name": "caddy",
+    "description": "web server with automatic https",
+    "tags": ["웹서버", "https", "proxy"]
+  },
+  {
+    "name": "calc",
+    "description": "arbitrary precision calculator",
+    "tags": ["계산", "calculator"]
+  },
+  {
+    "name": "catimg",
+    "description": "print images in terminal",
+    "tags": ["이미지", "터미널"]
+  },
+  {
+    "name": "cava",
+    "description": "audio visualizer for terminal",
+    "tags": ["음악", "시각화", "audio"]
+  },
+  {
+    "name": "ccat",
+    "description": "cat with syntax highlighting",
+    "tags": ["cat", "문법강조", "뷰어"]
+  },
+  {
+    "name": "clang-format",
+    "description": "format c/c++ code",
+    "tags": ["포맷", "c", "c++"]
+  },
+  {
+    "name": "cliamp",
+    "description": "amp editor for terminal",
+    "tags": ["에디터", "amp"]
+  },
+  {
+    "name": "cmatrix",
+    "description": "matrix rain animation",
+    "tags": ["애니메이션", "ascii"]
+  },
+  {
+    "name": "cmus",
+    "description": "terminal music player",
+    "tags": ["음악", "플레이어", "music"]
+  },
+  {
+    "name": "cmux",
+    "description": "multiplex cd to navigate directories",
+    "tags": ["이동", "디렉토리"]
+  },
+  {
+    "name": "colima",
+    "description": "container runtime on mac",
+    "tags": ["컨테이너", "docker", "대체"]
+  },
+  {
+    "name": "consul-backinator",
+    "description": "backup/restore consul kv",
+    "tags": ["consul", "백업", "kv"]
+  },
+  {
+    "name": "cowsay",
+    "description": "display cow with a message",
+    "tags": ["말풍선", "ascii"]
+  },
+  {
+    "name": "crush",
+    "description": "http load test tool",
+    "tags": ["http", "부하", "테스트"]
+  },
+  {
+    "name": "ctags",
+    "description": "generate tag files for code navigation",
+    "tags": ["태그", "코드", "네비게이션"]
+  },
+  {
+    "name": "ctop",
+    "description": "container metrics monitor",
+    "tags": ["컨테이너", "모니터링", "docker"]
+  },
+  {
+    "name": "dblab",
+    "description": "interactive database client",
+    "tags": ["데이터베이스", "db", "클라이언트"]
+  },
+  {
+    "name": "deno",
+    "description": "modern javascript/typescript runtime",
+    "tags": ["js", "ts", "런타임"]
+  },
+  {
+    "name": "digdag",
+    "description": "workflow engine",
+    "tags": ["워크플로우", "스케줄"]
+  },
+  {
+    "name": "dive",
+    "description": "explore docker image layers",
+    "tags": ["docker", "이미지", "분석"]
+  },
+  {
+    "name": "docker-compose",
+    "description": "define and run multi-container apps",
+    "tags": ["docker", "컨테이너", "compose"]
+  },
+  {
+    "name": "duf",
+    "description": "df replacement, disk usage",
+    "tags": ["디스크", "사용량", "대체"]
+  },
+  {
+    "name": "dyff",
+    "description": "yaml diff tool",
+    "tags": ["yaml", "diff", "비교"]
+  },
+  {
+    "name": "emojify",
+    "description": "convert ascii emoticons to emoji",
+    "tags": ["이모지", "emoji"]
+  },
+  {
+    "name": "entr",
+    "description": "run command when files change",
+    "tags": ["감시", "watch", "자동실행"]
+  },
+  {
+    "name": "eslint",
+    "description": "js/ts linter",
+    "tags": ["js", "린트"]
+  },
+  {
+    "name": "etcd",
+    "description": "distributed key-value store",
+    "tags": ["kv", "저장소", "분산"]
+  },
+  {
+    "name": "fastfetch",
+    "description": "system info display like neofetch",
+    "tags": ["시스템", "정보", "neofetch"]
+  },
+  {
+    "name": "ffmpeg",
+    "description": "media converter and processor",
+    "tags": ["미디어", "변환", "video", "audio"]
+  },
+  {
+    "name": "figlet",
+    "description": "make banner text",
+    "tags": ["배너", "ascii"]
+  },
+  {
+    "name": "fish",
+    "description": "friendly interactive shell",
+    "tags": ["shell", "fish"]
+  },
+  {
+    "name": "flex",
+    "description": "lexical analyzer generator",
+    "tags": ["컴파일러", "lex", "스캐너"]
+  },
+  {
+    "name": "forgit",
+    "description": "fzf-powered git commands",
+    "tags": ["git", "fzf", "대체"]
+  },
+  {
+    "name": "fortune",
+    "description": "print random quotes",
+    "tags": ["명언", "랜덤"]
+  },
+  {
+    "name": "fzf",
+    "description": "fuzzy finder for files and history",
+    "tags": ["fuzzy", "검색", "대화형"]
+  },
+  {
+    "name": "gcloud",
+    "description": "google cloud cli",
+    "tags": ["gcp", "클라우드", "google"]
+  },
+  {
+    "name": "gemini-cli",
+    "description": "gemini ai cli",
+    "tags": ["ai", "gemini", "llm"]
+  },
+  {
+    "name": "gh",
+    "description": "github cli",
+    "tags": ["github", "pr", "issue"]
+  },
+  {
+    "name": "ghostty",
+    "description": "fast terminal emulator",
+    "tags": ["터미널", "에뮬레이터"]
+  },
+  {
+    "name": "gifsicle",
+    "description": "manipulate gif images",
+    "tags": ["gif", "이미지"]
+  },
+  {
+    "name": "git-cliff",
+    "description": "generate changelog from git history",
+    "tags": ["git", "changelog", "릴리즈"]
+  },
+  {
+    "name": "git-extras",
+    "description": "extra git commands",
+    "tags": ["git", "확장"]
+  },
+  {
+    "name": "gitlogue",
+    "description": "git log viewer",
+    "tags": ["git", "로그", "로그뷰어"]
+  },
+  {
+    "name": "gitmoji",
+    "description": "git commit with emoji",
+    "tags": ["git", "이모지", "커밋"]
+  },
+  {
+    "name": "glow",
+    "description": "markdown renderer for terminal",
+    "tags": ["markdown", "뷰어"]
+  },
+  {
+    "name": "golangci-lint",
+    "description": "go linters runner",
+    "tags": ["go", "린트"]
+  },
+  {
+    "name": "grc",
+    "description": "colorize command output",
+    "tags": ["컬러", "색상", "하이라이트"]
+  },
+  {
+    "name": "gs",
+    "description": "ghostscript, pdf/postscript interpreter",
+    "tags": ["pdf", "postscript", "변환"]
+  },
+  {
+    "name": "guetzli",
+    "description": "jpeg compression tool",
+    "tags": ["jpeg", "이미지", "압축"]
+  },
+  {
+    "name": "helix",
+    "description": "modal text editor",
+    "tags": ["에디터", "편집"]
+  },
+  {
+    "name": "helm",
+    "description": "kubernetes package manager",
+    "tags": ["kubernetes", "패키지", "배포"]
+  },
+  {
+    "name": "hey",
+    "description": "http load generator",
+    "tags": ["http", "부하", "테스트"]
+  },
+  {
+    "name": "hg",
+    "description": "mercurial, distributed vcs",
+    "tags": ["버전관리", "vcs", "hg"]
+  },
+  {
+    "name": "hop",
+    "description": "quick navigation shortcut tool",
+    "tags": ["이동", "단축키"]
+  },
+  {
+    "name": "iftop",
+    "description": "network bandwidth monitor",
+    "tags": ["네트워크", "대역폭", "모니터링"]
+  },
+  {
+    "name": "jnv",
+    "description": "interactive jq with editor",
+    "tags": ["json", "jq", "인터랙티브"]
+  },
+  {
+    "name": "k9s",
+    "description": "kubernetes terminal ui",
+    "tags": ["kubernetes", "k8s", "ui"]
+  },
+  {
+    "name": "kafka",
+    "description": "distributed streaming platform",
+    "tags": ["kafka", "스트리밍", "메시지"]
+  },
+  {
+    "name": "kcat",
+    "description": "kafka producer/consumer cli",
+    "tags": ["kafka", "메시지"]
+  },
+  {
+    "name": "kitty",
+    "description": "gpu-accelerated terminal emulator",
+    "tags": ["터미널", "에뮬레이터"]
+  },
+  {
+    "name": "ktop",
+    "description": "kubernetes resource monitor",
+    "tags": ["kubernetes", "모니터링"]
+  },
+  {
+    "name": "kubecolor",
+    "description": "kubectl with colors",
+    "tags": ["kubernetes", "kubectl", "컬러"]
+  },
+  {
+    "name": "kubectx",
+    "description": "switch kubernetes context",
+    "tags": ["kubernetes", "context", "전환"]
+  },
+  {
+    "name": "kubectl",
+    "description": "kubernetes cli",
+    "tags": ["kubernetes", "k8s", "컨테이너"]
+  },
+  {
+    "name": "kubeseal",
+    "description": "encrypt kubernetes secrets",
+    "tags": ["kubernetes", "secret", "암호화"]
+  },
+  {
+    "name": "kustomize",
+    "description": "customize kubernetes yaml",
+    "tags": ["kubernetes", "yaml", "템플릿"]
+  },
+  {
+    "name": "lazydocker",
+    "description": "docker terminal ui",
+    "tags": ["docker", "ui"]
+  },
+  {
+    "name": "lazygit",
+    "description": "git terminal ui",
+    "tags": ["git", "ui"]
+  },
+  {
+    "name": "lazyssh",
+    "description": "ssh connection manager",
+    "tags": ["ssh", "연결", "관리"]
+  },
+  {
+    "name": "lima",
+    "description": "linux virtual machines on mac",
+    "tags": ["vm", "linux", "가상머신"]
+  },
+  {
+    "name": "localai",
+    "description": "local ai inference server",
+    "tags": ["ai", "llm", "서버"]
+  },
+  {
+    "name": "lolcat",
+    "description": "rainbow color text",
+    "tags": ["색상", "rainbow"]
+  },
+  {
+    "name": "lsix",
+    "description": "show images in terminal",
+    "tags": ["이미지", "터미널"]
+  },
+  {
+    "name": "luarocks",
+    "description": "lua package manager",
+    "tags": ["lua", "패키지"]
+  },
+  {
+    "name": "macmon",
+    "description": "mac network monitor",
+    "tags": ["네트워크", "모니터링", "mac"]
+  },
+  {
+    "name": "mactop",
+    "description": "mac resource monitor",
+    "tags": ["시스템", "모니터링", "mac"]
+  },
+  {
+    "name": "magick",
+    "description": "imagemagick, image manipulation",
+    "tags": ["이미지", "변환", "리사이즈"]
+  },
+  {
+    "name": "markdownlint-cli2",
+    "description": "markdown linter",
+    "tags": ["markdown", "린트"]
+  },
+  {
+    "name": "maven",
+    "description": "java build tool",
+    "tags": ["java", "빌드", "maven"]
+  },
+  {
+    "name": "mc",
+    "description": "midnight commander, file manager",
+    "tags": ["파일", "관리자", "ui"]
+  },
+  {
+    "name": "minikube",
+    "description": "local kubernetes cluster",
+    "tags": ["kubernetes", "로컬", "k8s"]
+  },
+  {
+    "name": "mkcert",
+    "description": "create locally trusted certificates",
+    "tags": ["인증서", "https", "tls"]
+  },
+  {
+    "name": "mpg123",
+    "description": "mp3 player",
+    "tags": ["음악", "mp3", "플레이어"]
+  },
+  {
+    "name": "mprocs",
+    "description": "run multiple processes in terminal",
+    "tags": ["프로세스", "멀티", "tmux"]
+  },
+  {
+    "name": "mpv",
+    "description": "media player",
+    "tags": ["미디어", "플레이어", "video"]
+  },
+  {
+    "name": "musikcube",
+    "description": "terminal music player",
+    "tags": ["음악", "플레이어"]
+  },
+  {
+    "name": "mycli",
+    "description": "mysql client with autocomplete",
+    "tags": ["mysql", "db", "클라이언트"]
+  },
+  {
+    "name": "ncmpcpp",
+    "description": "mpd client with ui",
+    "tags": ["음악", "mpd", "클라이언트"]
+  },
+  {
+    "name": "neofetch",
+    "description": "system info with logo",
+    "tags": ["시스템", "정보"]
+  },
+  {
+    "name": "neovide",
+    "description": "gui for neovim",
+    "tags": ["neovim", "gui", "에디터"]
+  },
+  {
+    "name": "ngrok",
+    "description": "expose local server to internet",
+    "tags": ["터널링", "http", "로컬"]
+  },
+  {
+    "name": "ninja",
+    "description": "fast build system",
+    "tags": ["빌드", "ninja"]
+  },
+  {
+    "name": "oh-my-posh",
+    "description": "custom prompt engine",
+    "tags": ["프롬프트", "shell", "테마"]
+  },
+  {
+    "name": "ollama",
+    "description": "run llms locally",
+    "tags": ["llm", "ai", "로컬"]
+  },
+  {
+    "name": "osx-cpu-temp",
+    "description": "show mac cpu temperature",
+    "tags": ["cpu", "온도", "mac"]
+  },
+  {
+    "name": "oxker",
+    "description": "docker container inspector",
+    "tags": ["docker", "컨테이너", "모니터링"]
+  },
+  {
+    "name": "pandoc",
+    "description": "document format converter",
+    "tags": ["문서", "변환", "markdown"]
+  },
+  {
+    "name": "peco",
+    "description": "interactive filtering tool",
+    "tags": ["fuzzy", "필터", "인터랙티브"]
+  },
+  {
+    "name": "pls",
+    "description": "pretty ls replacement",
+    "tags": ["ls", "대체", "파일목록"]
+  },
+  {
+    "name": "podman",
+    "description": "daemonless container engine",
+    "tags": ["컨테이너", "docker", "대체"]
+  },
+  {
+    "name": "poetry",
+    "description": "python dependency manager",
+    "tags": ["python", "패키지", "의존성"]
+  },
+  {
+    "name": "popeye",
+    "description": "kubernetes cluster health",
+    "tags": ["kubernetes", "헬스체크", "진단"]
+  },
+  {
+    "name": "prettier",
+    "description": "code formatter",
+    "tags": ["포맷", "js", "프리티어"]
+  },
+  {
+    "name": "pyenv",
+    "description": "python version manager",
+    "tags": ["python", "버전관리"]
+  },
+  {
+    "name": "rename",
+    "description": "rename files with perl expressions",
+    "tags": ["이름변경", "파일", "rename"]
+  },
+  {
+    "name": "rio",
+    "description": "terminal emulator",
+    "tags": ["터미널", "에뮬레이터"]
+  },
+  {
+    "name": "rqlite",
+    "description": "distributed sqlite",
+    "tags": ["sqlite", "db", "분산"]
+  },
+  {
+    "name": "serie",
+    "description": "watch series in terminal",
+    "tags": ["시리즈", "동영상"]
+  },
+  {
+    "name": "shellcheck",
+    "description": "shell script linter",
+    "tags": ["shell", "린트"]
+  },
+  {
+    "name": "slides",
+    "description": "terminal presentation tool",
+    "tags": ["발표", "슬라이드"]
+  },
+  {
+    "name": "starship",
+    "description": "cross-shell prompt",
+    "tags": ["프롬프트", "shell"]
+  },
+  {
+    "name": "stats",
+    "description": "mac system monitor in menu bar",
+    "tags": ["시스템", "모니터링", "mac"]
+  },
+  {
+    "name": "stern",
+    "description": "kubernetes multi-pod log viewer",
+    "tags": ["kubernetes", "로그", "모니터링"]
+  },
+  {
+    "name": "supabase",
+    "description": "supabase cli",
+    "tags": ["supabase", "db", "backend"]
+  },
+  {
+    "name": "supervisor",
+    "description": "process control system",
+    "tags": ["프로세스", "관리", "daemon"]
+  },
+  {
+    "name": "tabby",
+    "description": "terminal emulator",
+    "tags": ["터미널", "에뮬레이터"]
+  },
+  {
+    "name": "tabiew",
+    "description": "sqlite table viewer",
+    "tags": ["sqlite", "뷰어", "db"]
+  },
+  {
+    "name": "taproom",
+    "description": "brew tap/keg manager",
+    "tags": ["brew", "tap"]
+  },
+  {
+    "name": "television",
+    "description": "fast fuzzy finder",
+    "tags": ["fuzzy", "검색", "파일"]
+  },
+  {
+    "name": "telnet",
+    "description": "connect to remote hosts",
+    "tags": ["포트", "원격", "연결"]
+  },
+  {
+    "name": "tesseract",
+    "description": "ocr engine",
+    "tags": ["ocr", "이미지", "텍스트추출"]
+  },
+  {
+    "name": "tig",
+    "description": "text-mode git browser",
+    "tags": ["git", "ui", "로그"]
+  },
+  {
+    "name": "tldr",
+    "description": "tealdeer, simplified man pages",
+    "tags": ["도움말", "매뉴얼", "요약"]
+  },
+  {
+    "name": "usage",
+    "description": "usage statistics for cli",
+    "tags": ["사용량", "통계"]
+  },
+  {
+    "name": "vagrant",
+    "description": "vm environment manager",
+    "tags": ["vm", "가상머신", "개발환경"]
+  },
+  {
+    "name": "vale",
+    "description": "prose linter",
+    "tags": ["린트", "문서", "prose"]
+  },
+  {
+    "name": "vector",
+    "description": "log/metrics pipeline",
+    "tags": ["로그", "파이프라인", "메트릭"]
+  },
+  {
+    "name": "wasmer",
+    "description": "webassembly runtime",
+    "tags": ["wasm", "런타임", "webassembly"]
+  },
+  {
+    "name": "wasmtime",
+    "description": "webassembly runtime",
+    "tags": ["wasm", "런타임"]
+  },
+  {
+    "name": "webpack",
+    "description": "js module bundler",
+    "tags": ["js", "번들러", "빌드"]
+  },
+  {
+    "name": "wezterm",
+    "description": "terminal emulator with lua config",
+    "tags": ["터미널", "에뮬레이터"]
+  },
+  {
+    "name": "xdotool",
+    "description": "automate x11 interactions",
+    "tags": ["x11", "자동화"]
+  },
+  {
+    "name": "yarn",
+    "description": "javascript package manager",
+    "tags": ["js", "패키지", "yarn"]
+  },
+  {
+    "name": "yazi",
+    "description": "terminal file manager",
+    "tags": ["파일", "관리자", "ui"]
+  },
+  {
+    "name": "yq",
+    "description": "yaml processor like jq",
+    "tags": ["yaml", "파싱"]
+  },
+  {
+    "name": "yt-dlp",
+    "description": "download videos from websites",
+    "tags": ["다운로드", "동영상", "youtube"]
+  },
+  {
+    "name": "zig",
+    "description": "zig language toolchain",
+    "tags": ["zig", "컴파일", "빌드"]
+  },
+  {
+    "name": "zsh",
+    "description": "z shell",
+    "tags": ["shell", "zsh"]
+  },
+  {
+    "name": "air",
+    "description": "go hot reload dev server",
+    "tags": ["go", "리로드", "핫리로드", "개발"]
+  },
+  {
+    "name": "confetty",
+    "description": "terminal confetti animation",
+    "tags": ["축하", "애니메이션", "ascii"]
+  },
+  {
+    "name": "countryfetch",
+    "description": "country info by name/code",
+    "tags": ["국가", "정보", "정보조회"]
+  },
+  {
+    "name": "dlv",
+    "description": "delve, go debugger",
+    "tags": ["go", "디버거", "debug"]
+  },
+  {
+    "name": "errcheck",
+    "description": "check unchecked go errors",
+    "tags": ["go", "에러", "린트"]
+  },
+  {
+    "name": "ginkgo",
+    "description": "BDD test framework for go",
+    "tags": ["go", "테스트", "bdd"]
+  },
+  {
+    "name": "go-enum",
+    "description": "generate go enum code",
+    "tags": ["go", "enum", "코드생성"]
+  },
+  {
+    "name": "go-licenses",
+    "description": "report go dependency licenses",
+    "tags": ["go", "라이선스", "license"]
+  },
+  {
+    "name": "gofumpt",
+    "description": "stricter gofmt formatter",
+    "tags": ["go", "포맷", "gofmt"]
+  },
+  {
+    "name": "goimports",
+    "description": "format go imports",
+    "tags": ["go", "포맷", "import"]
+  },
+  {
+    "name": "gomodifytags",
+    "description": "modify go struct tags",
+    "tags": ["go", "struct", "태그"]
+  },
+  {
+    "name": "gopls",
+    "description": "go language server",
+    "tags": ["go", "lsp", "편집기"]
+  },
+  {
+    "name": "gotestsum",
+    "description": "go test runner with rich output",
+    "tags": ["go", "테스트", "테스트러너"]
+  },
+  {
+    "name": "govulncheck",
+    "description": "go vulnerability scanner",
+    "tags": ["go", "보안", "취약점"]
+  },
+  {
+    "name": "gup",
+    "description": "update go-installed binaries",
+    "tags": ["go", "업데이트", "버전관리"]
+  },
+  {
+    "name": "image2ascii",
+    "description": "convert image to ascii art",
+    "tags": ["이미지", "ascii", "변환"]
+  },
+  {
+    "name": "imgcat",
+    "description": "display images in terminal",
+    "tags": ["이미지", "터미널", "뷰어"]
+  },
+  {
+    "name": "impl",
+    "description": "generate go interface method stubs",
+    "tags": ["go", "interface", "코드생성"]
+  },
+  {
+    "name": "json-to-struct",
+    "description": "convert json to go struct",
+    "tags": ["json", "go", "struct", "변환"]
+  },
+  {
+    "name": "gojsonstruct",
+    "description": "generate go struct from json",
+    "tags": ["json", "go", "struct"]
+  },
+  {
+    "name": "kaf",
+    "description": "kafka cli with tui",
+    "tags": ["kafka", "메시지", "tui"]
+  },
+  {
+    "name": "lefthook",
+    "description": "git hooks manager",
+    "tags": ["git", "훅", "hooks"]
+  },
+  {
+    "name": "lensm",
+    "description": "assembly source viewer for go",
+    "tags": ["go", "어셈블리", "분석"]
+  },
+  {
+    "name": "mockgen",
+    "description": "go mock code generator",
+    "tags": ["go", "mock", "테스트"]
+  },
+  {
+    "name": "mockery",
+    "description": "go mock generator from interfaces",
+    "tags": ["go", "mock", "테스트"]
+  },
+  {
+    "name": "revive",
+    "description": "go linter",
+    "tags": ["go", "린트"]
+  },
+  {
+    "name": "shfmt",
+    "description": "shell script formatter",
+    "tags": ["shell", "포맷", "bash"]
+  },
+  {
+    "name": "staticcheck",
+    "description": "go static analysis",
+    "tags": ["go", "정적분석", "린트"]
+  },
+  {
+    "name": "stringer",
+    "description": "generate go constant String methods",
+    "tags": ["go", "코드생성", "stringer"]
+  },
+  {
+    "name": "swag",
+    "description": "generate swagger docs from go comments",
+    "tags": ["go", "swagger", "문서"]
+  },
+  {
+    "name": "termshark",
+    "description": "terminal wireshark/tshark ui",
+    "tags": ["네트워크", "패킷", "wireshark", "분석"]
+  },
+  {
+    "name": "tparse",
+    "description": "go test output parser",
+    "tags": ["go", "테스트", "파싱"]
+  },
+  {
+    "name": "vegeta",
+    "description": "http load testing tool",
+    "tags": ["http", "부하", "테스트"]
+  },
+  {
+    "name": "xcaddy",
+    "description": "build caddy with plugins",
+    "tags": ["caddy", "빌드", "플러그인"]
+  },
+  {
+    "name": "golines",
+    "description": "go formatter for long lines",
+    "tags": ["go", "포맷", "라인"]
+  },
+  {
+    "name": "goplay",
+    "description": "run go code in playground",
+    "tags": ["go", "플레이그라운드", "실행"]
+  },
+  {
+    "name": "godoc",
+    "description": "go documentation tool",
+    "tags": ["go", "문서", "godoc"]
+  },
+  {
+    "name": "gotests",
+    "description": "generate go table-driven tests",
+    "tags": ["go", "테스트", "코드생성"]
+  },
+  {
+    "name": "leaf",
+    "description": "terminal markdown previewer",
+    "tags": ["markdown", "뷰어", "미리보기"]
+  },
+  {
+    "name": "scope-tui",
+    "description": "terminal audio visualizer",
+    "tags": ["음악", "시각화", "audio"]
+  },
+  {
     "name": "ttf",
     "description": "terminal tool finder, fuzzy search this tools.json",
     "tags": ["터미널", "파인더", "fuzzy", "검색"]
