@@ -27,7 +27,10 @@ fn run_in_dir(dir: &std::path::Path, args: &[&str]) -> (String, i32) {
 fn list_respects_limit() {
     let (out, code) = run(&["--nocolor", "-d", "tools.json", "-l", "-n", "3"]);
     assert_eq!(code, 0);
-    let lines: Vec<&str> = out.lines().collect();
+    let lines: Vec<&str> = out
+        .lines()
+        .filter(|l| !l.trim_start().starts_with("https://"))
+        .collect();
     assert_eq!(lines.len(), 4);
     assert!(lines[3].starts_with("... and"));
 }
@@ -47,7 +50,10 @@ fn list_shows_all_without_limit() {
 fn search_respects_limit() {
     let (out, code) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "디스크"]);
     assert_eq!(code, 0);
-    let lines: Vec<&str> = out.lines().collect();
+    let lines: Vec<&str> = out
+        .lines()
+        .filter(|l| !l.trim_start().starts_with("https://"))
+        .collect();
     assert_eq!(lines.len(), 2);
     assert!(lines[1].starts_with("... and"));
 }
@@ -71,10 +77,17 @@ fn uses_embedded_data_without_local_file() {
 
 #[test]
 fn search_shows_installed_marker() {
-    let (out, code) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "list"]);
+    let (out, code) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "ls directory"]);
     assert_eq!(code, 0);
     assert!(out.contains('✓'));
     assert!(out.contains("list directory contents"));
+}
+
+#[test]
+fn search_shows_url() {
+    let (out, code) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "ls directory"]);
+    assert_eq!(code, 0);
+    assert!(out.contains("https://github.com/coreutils/coreutils"));
 }
 
 #[test]
@@ -87,7 +100,7 @@ fn color_enabled_by_default() {
 
 #[test]
 fn nocolor_omits_ansi() {
-    let (out, _) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "list"]);
+    let (out, _) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "ls directory"]);
     assert!(!out.contains('\x1b'));
     assert!(out.contains("list directory contents"));
 }

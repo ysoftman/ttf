@@ -18,6 +18,7 @@ macro_rules! print_line {
 const C_RESET: &str = "\x1b[0m";
 const C_NAME: &str = "\x1b[32m";
 const C_TAG: &str = "\x1b[36m";
+const C_URL: &str = "\x1b[34m";
 const C_INSTALLED: &str = "\x1b[32m";
 const C_NOT_INSTALLED: &str = "\x1b[31m";
 
@@ -28,6 +29,8 @@ struct Tool {
     description: String,
     #[serde(default)]
     tags: Vec<String>,
+    #[serde(default)]
+    url: String,
 }
 
 impl Tool {
@@ -186,9 +189,35 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
     } else {
         format!("  [{}]", t.tags.join(", "))
     };
+    let url_line = if t.url.is_empty() {
+        String::new()
+    } else {
+        let url = if color {
+            format!("{C_URL}{}{C_RESET}", t.url)
+        } else {
+            t.url.clone()
+        };
+        let desc_col = if score.is_some() { 8 } else { 3 } + width + 2;
+        format!("\n{}{url}", " ".repeat(desc_col))
+    };
     match score {
-        Some(s) => print_line!("{:>3}  {}  {}  {}{}", s, mark, name, t.description, tagline),
-        None => print_line!("{}  {}  {}{}", mark, name, t.description, tagline),
+        Some(s) => print_line!(
+            "{:>3}  {}  {}  {}{}{}",
+            s,
+            mark,
+            name,
+            t.description,
+            tagline,
+            url_line
+        ),
+        None => print_line!(
+            "{}  {}  {}{}{}",
+            mark,
+            name,
+            t.description,
+            tagline,
+            url_line
+        ),
     }
 }
 
@@ -558,12 +587,14 @@ mod tests {
             name: "history".to_string(),
             description: String::new(),
             tags: vec!["built-in".to_string()],
+            url: String::new(),
         };
         assert!(t.is_builtin());
         let plain = Tool {
             name: "history".to_string(),
             description: String::new(),
             tags: Vec::new(),
+            url: String::new(),
         };
         assert!(!plain.is_builtin());
     }

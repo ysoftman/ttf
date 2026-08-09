@@ -2,1727 +2,3363 @@
   {
     "name": "ls",
     "description": "list directory contents",
-    "tags": ["directory", "파일목록", "디렉토리"]
+    "tags": [
+      "directory",
+      "파일목록",
+      "디렉토리"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "cd",
     "description": "change the working directory",
-    "tags": ["이동", "디렉토리 변경", "built-in"]
+    "tags": [
+      "이동",
+      "디렉토리 변경",
+      "built-in"
+    ],
+    "url": ""
   },
   {
     "name": "pwd",
     "description": "print name of current working directory",
-    "tags": ["경로", "현재디렉토리", "built-in"]
+    "tags": [
+      "경로",
+      "현재디렉토리",
+      "built-in"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "mkdir",
     "description": "make directories",
-    "tags": ["생성", "디렉토리"]
+    "tags": [
+      "생성",
+      "디렉토리"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "rm",
     "description": "remove files or directories",
-    "tags": ["삭제", "파일"]
+    "tags": [
+      "삭제",
+      "파일"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "cp",
     "description": "copy files or directories",
-    "tags": ["복사", "copy"]
+    "tags": [
+      "복사",
+      "copy"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "mv",
     "description": "move or rename files",
-    "tags": ["이동", "rename", "이름변경"]
+    "tags": [
+      "이동",
+      "rename",
+      "이름변경"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "ln",
     "description": "create hard or symbolic links",
-    "tags": ["링크", "symbolic", "심볼릭"]
+    "tags": [
+      "링크",
+      "symbolic",
+      "심볼릭"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "chmod",
     "description": "change file mode bits (permissions)",
-    "tags": ["권한", "permission"]
+    "tags": [
+      "권한",
+      "permission"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "chown",
     "description": "change file owner and group",
-    "tags": ["소유자", "권한"]
+    "tags": [
+      "소유자",
+      "권한"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "touch",
     "description": "create empty file or update timestamp",
-    "tags": ["생성", "빈파일", "시간"]
+    "tags": [
+      "생성",
+      "빈파일",
+      "시간"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "tree",
     "description": "display directory structure as a tree",
-    "tags": ["구조", "트리"]
+    "tags": [
+      "구조",
+      "트리"
+    ],
+    "url": ""
   },
   {
     "name": "find",
     "description": "search for files in a directory hierarchy",
-    "tags": ["검색", "파일"]
+    "tags": [
+      "검색",
+      "파일"
+    ],
+    "url": ""
   },
   {
     "name": "fd",
     "description": "fast and simple alternative to find",
-    "tags": ["검색", "빠른", "파일"]
+    "tags": [
+      "검색",
+      "빠른",
+      "파일"
+    ],
+    "url": "https://github.com/sharkdp/fd"
   },
   {
     "name": "grep",
     "description": "search for patterns in text",
-    "tags": ["검색", "패턴", "regex", "정규식"]
+    "tags": [
+      "검색",
+      "패턴",
+      "regex",
+      "정규식"
+    ],
+    "url": ""
   },
   {
     "name": "rg",
     "description": "ripgrep, fast recursive grep",
-    "tags": ["검색", "패턴", "빠른"]
+    "tags": [
+      "검색",
+      "패턴",
+      "빠른"
+    ],
+    "url": "https://github.com/BurntSushi/ripgrep"
   },
   {
     "name": "sed",
     "description": "stream editor for filtering and transforming text",
-    "tags": ["치환", "편집", "replace"]
+    "tags": [
+      "치환",
+      "편집",
+      "replace"
+    ],
+    "url": ""
   },
   {
     "name": "awk",
     "description": "pattern scanning and text processing language",
-    "tags": ["텍스트", "열", "column"]
+    "tags": [
+      "텍스트",
+      "열",
+      "column"
+    ],
+    "url": ""
   },
   {
     "name": "cut",
     "description": "extract selected columns from lines",
-    "tags": ["열", "컬럼", "추출"]
+    "tags": [
+      "열",
+      "컬럼",
+      "추출"
+    ],
+    "url": ""
   },
   {
     "name": "sort",
     "description": "sort lines of text",
-    "tags": ["정렬", "sort"]
+    "tags": [
+      "정렬",
+      "sort"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "uniq",
     "description": "report or omit repeated lines",
-    "tags": ["중복", "제거"]
+    "tags": [
+      "중복",
+      "제거"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "wc",
     "description": "count lines, words, and bytes",
-    "tags": ["개수", "줄", "라인"]
+    "tags": [
+      "개수",
+      "줄",
+      "라인"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "head",
     "description": "output the first part of files",
-    "tags": ["앞부분", "첫줄"]
+    "tags": [
+      "앞부분",
+      "첫줄"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "tail",
     "description": "output the last part of files, follow logs with -f",
-    "tags": ["뒷부분", "로그", "log"]
+    "tags": [
+      "뒷부분",
+      "로그",
+      "log"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "less",
     "description": "view file contents with paging",
-    "tags": ["뷰어", "페이지", "스크롤"]
+    "tags": [
+      "뷰어",
+      "페이지",
+      "스크롤"
+    ],
+    "url": ""
   },
   {
     "name": "more",
     "description": "simple pager for text files",
-    "tags": ["뷰어", "페이지"]
+    "tags": [
+      "뷰어",
+      "페이지"
+    ],
+    "url": ""
   },
   {
     "name": "tee",
     "description": "read from stdin and write to stdout and files",
-    "tags": ["출력", "리다이렉트"]
+    "tags": [
+      "출력",
+      "리다이렉트"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "echo",
     "description": "print text to stdout",
-    "tags": ["출력", "print", "built-in"]
+    "tags": [
+      "출력",
+      "print",
+      "built-in"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "printf",
     "description": "format and print data",
-    "tags": ["출력", "포맷", "built-in"]
+    "tags": [
+      "출력",
+      "포맷",
+      "built-in"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "diff",
     "description": "compare files line by line",
-    "tags": ["비교", "차이"]
+    "tags": [
+      "비교",
+      "차이"
+    ],
+    "url": ""
   },
   {
     "name": "patch",
     "description": "apply diff files to originals",
-    "tags": ["패치", "적용"]
+    "tags": [
+      "패치",
+      "적용"
+    ],
+    "url": ""
   },
   {
     "name": "tar",
     "description": "archive files in a tarball",
-    "tags": ["압축", "아카이브"]
+    "tags": [
+      "압축",
+      "아카이브"
+    ],
+    "url": ""
   },
   {
     "name": "gzip",
     "description": "compress files with gzip",
-    "tags": ["압축", "compress"]
+    "tags": [
+      "압축",
+      "compress"
+    ],
+    "url": ""
   },
   {
     "name": "gunzip",
     "description": "decompress gzip files",
-    "tags": ["해제", "압축해제"]
+    "tags": [
+      "해제",
+      "압축해제"
+    ],
+    "url": ""
   },
   {
     "name": "zip",
     "description": "package and compress files into zip",
-    "tags": ["압축", "zip"]
+    "tags": [
+      "압축",
+      "zip"
+    ],
+    "url": ""
   },
   {
     "name": "unzip",
     "description": "extract zip archives",
-    "tags": ["압축해제", "unzip"]
+    "tags": [
+      "압축해제",
+      "unzip"
+    ],
+    "url": ""
   },
   {
     "name": "jq",
     "description": "lightweight JSON processor",
-    "tags": ["json", "파싱"]
+    "tags": [
+      "json",
+      "파싱"
+    ],
+    "url": "https://github.com/jqlang/jq"
   },
   {
     "name": "curl",
     "description": "transfer data with URLs",
-    "tags": ["http", "api", "다운로드", "request"]
+    "tags": [
+      "http",
+      "api",
+      "다운로드",
+      "request"
+    ],
+    "url": "https://github.com/curl/curl"
   },
   {
     "name": "wget",
     "description": "download files from the web",
-    "tags": ["다운로드", "download"]
+    "tags": [
+      "다운로드",
+      "download"
+    ],
+    "url": ""
   },
   {
     "name": "ping",
     "description": "test network connectivity",
-    "tags": ["네트워크", "연결", "확인"]
+    "tags": [
+      "네트워크",
+      "연결",
+      "확인"
+    ],
+    "url": ""
   },
   {
     "name": "nc",
     "description": "netcat, read/write TCP or UDP",
-    "tags": ["포트", "소켓", "socket"]
+    "tags": [
+      "포트",
+      "소켓",
+      "socket"
+    ],
+    "url": ""
   },
   {
     "name": "dig",
     "description": "query DNS servers",
-    "tags": ["dns", "도메인", "네임서버"]
+    "tags": [
+      "dns",
+      "도메인",
+      "네임서버"
+    ],
+    "url": ""
   },
   {
     "name": "nslookup",
     "description": "query DNS records",
-    "tags": ["dns", "도메인"]
+    "tags": [
+      "dns",
+      "도메인"
+    ],
+    "url": ""
   },
   {
     "name": "traceroute",
     "description": "trace network route to host",
-    "tags": ["경로", "네트워크"]
+    "tags": [
+      "경로",
+      "네트워크"
+    ],
+    "url": ""
   },
   {
     "name": "netstat",
     "description": "show network connections and ports",
-    "tags": ["포트", "상태", "연결"]
+    "tags": [
+      "포트",
+      "상태",
+      "연결"
+    ],
+    "url": ""
   },
   {
     "name": "ss",
     "description": "show socket statistics",
-    "tags": ["포트", "소켓"]
+    "tags": [
+      "포트",
+      "소켓"
+    ],
+    "url": ""
   },
   {
     "name": "ip",
     "description": "show and manage network interfaces",
-    "tags": ["ip", "네트워크", "인터페이스"]
+    "tags": [
+      "ip",
+      "네트워크",
+      "인터페이스"
+    ],
+    "url": ""
   },
   {
     "name": "ifconfig",
     "description": "configure network interfaces",
-    "tags": ["ip", "네트워크"]
+    "tags": [
+      "ip",
+      "네트워크"
+    ],
+    "url": ""
   },
   {
     "name": "ps",
     "description": "show running processes",
-    "tags": ["프로세스", "process"]
+    "tags": [
+      "프로세스",
+      "process"
+    ],
+    "url": ""
   },
   {
     "name": "top",
     "description": "show real-time processes and CPU usage",
-    "tags": ["프로세스", "cpu", "모니터링"]
+    "tags": [
+      "프로세스",
+      "cpu",
+      "모니터링"
+    ],
+    "url": ""
   },
   {
     "name": "htop",
     "description": "interactive process viewer",
-    "tags": ["프로세스", "cpu", "메모리"]
+    "tags": [
+      "프로세스",
+      "cpu",
+      "메모리"
+    ],
+    "url": ""
   },
   {
     "name": "kill",
     "description": "send signal to a process by pid",
-    "tags": ["프로세스", "종료", "signal", "built-in"]
+    "tags": [
+      "프로세스",
+      "종료",
+      "signal",
+      "built-in"
+    ],
+    "url": ""
   },
   {
     "name": "pkill",
     "description": "kill processes by name",
-    "tags": ["프로세스", "종료"]
+    "tags": [
+      "프로세스",
+      "종료"
+    ],
+    "url": ""
   },
   {
     "name": "free",
     "description": "show memory usage",
-    "tags": ["메모리", "memory"]
+    "tags": [
+      "메모리",
+      "memory"
+    ],
+    "url": ""
   },
   {
     "name": "df",
     "description": "show disk filesystem usage",
-    "tags": ["디스크", "사용량"]
+    "tags": [
+      "디스크",
+      "사용량"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "du",
     "description": "estimate file and directory disk usage",
-    "tags": ["디스크", "사용량", "크기"]
+    "tags": [
+      "디스크",
+      "사용량",
+      "크기"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "mount",
     "description": "mount filesystems",
-    "tags": ["마운트", "파일시스템"]
+    "tags": [
+      "마운트",
+      "파일시스템"
+    ],
+    "url": ""
   },
   {
     "name": "umount",
     "description": "unmount filesystems",
-    "tags": ["마운트", "해제"]
+    "tags": [
+      "마운트",
+      "해제"
+    ],
+    "url": ""
   },
   {
     "name": "uname",
     "description": "print system information",
-    "tags": ["시스템", "os", "커널"]
+    "tags": [
+      "시스템",
+      "os",
+      "커널"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "uptime",
     "description": "show system load and uptime",
-    "tags": ["로드", "가동시간"]
+    "tags": [
+      "로드",
+      "가동시간"
+    ],
+    "url": ""
   },
   {
     "name": "whoami",
     "description": "print current user name",
-    "tags": ["사용자", "user"]
+    "tags": [
+      "사용자",
+      "user"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "history",
     "description": "show shell command history",
-    "tags": ["이력", "명령어", "built-in"]
+    "tags": [
+      "이력",
+      "명령어",
+      "built-in"
+    ],
+    "url": ""
   },
   {
     "name": "man",
     "description": "display manual pages",
-    "tags": ["도움말", "매뉴얼"]
+    "tags": [
+      "도움말",
+      "매뉴얼"
+    ],
+    "url": ""
   },
   {
     "name": "watch",
     "description": "run a command repeatedly",
-    "tags": ["반복", "모니터링"]
+    "tags": [
+      "반복",
+      "모니터링"
+    ],
+    "url": ""
   },
   {
     "name": "timeout",
     "description": "run a command with a time limit",
-    "tags": ["시간", "제한"]
+    "tags": [
+      "시간",
+      "제한"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "date",
     "description": "print or set system date/time",
-    "tags": ["날짜", "시간"]
+    "tags": [
+      "날짜",
+      "시간"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "bc",
     "description": "arbitrary precision calculator",
-    "tags": ["계산", "calculator"]
+    "tags": [
+      "계산",
+      "calculator"
+    ],
+    "url": ""
   },
   {
     "name": "base64",
     "description": "encode or decode base64",
-    "tags": ["인코딩", "encode"]
+    "tags": [
+      "인코딩",
+      "encode"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "sha256sum",
     "description": "compute SHA-256 checksums",
-    "tags": ["해시", "체크섬", "checksum"]
+    "tags": [
+      "해시",
+      "체크섬",
+      "checksum"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "md5sum",
     "description": "compute MD5 checksums",
-    "tags": ["해시", "체크섬"]
+    "tags": [
+      "해시",
+      "체크섬"
+    ],
+    "url": "https://github.com/coreutils/coreutils"
   },
   {
     "name": "openssl",
     "description": "cryptography toolkit with certificates and TLS",
-    "tags": ["암호화", "인증서", "tls"]
+    "tags": [
+      "암호화",
+      "인증서",
+      "tls"
+    ],
+    "url": "https://github.com/openssl/openssl"
   },
   {
     "name": "lsof",
     "description": "list open files",
-    "tags": ["파일", "프로세스", "포트"]
+    "tags": [
+      "파일",
+      "프로세스",
+      "포트"
+    ],
+    "url": "https://github.com/lsof-org/lsof"
   },
   {
     "name": "strace",
     "description": "trace system calls of a process",
-    "tags": ["추적", "시스템콜", "디버깅"]
+    "tags": [
+      "추적",
+      "시스템콜",
+      "디버깅"
+    ],
+    "url": "https://github.com/strace/strace"
   },
   {
     "name": "systemctl",
     "description": "control systemd services",
-    "tags": ["서비스", "시작", "정지"]
+    "tags": [
+      "서비스",
+      "시작",
+      "정지"
+    ],
+    "url": ""
   },
   {
     "name": "journalctl",
     "description": "query systemd journal logs",
-    "tags": ["로그", "journal"]
+    "tags": [
+      "로그",
+      "journal"
+    ],
+    "url": ""
   },
   {
     "name": "crontab",
     "description": "schedule periodic commands",
-    "tags": ["스케줄", "주기"]
+    "tags": [
+      "스케줄",
+      "주기"
+    ],
+    "url": ""
   },
   {
     "name": "docker",
     "description": "manage containers and images",
-    "tags": ["컨테이너", "container", "이미지"]
+    "tags": [
+      "컨테이너",
+      "container",
+      "이미지"
+    ],
+    "url": "https://github.com/moby/moby"
   },
   {
     "name": "git",
     "description": "distributed version control",
-    "tags": ["버전관리", "vcs", "커밋"]
+    "tags": [
+      "버전관리",
+      "vcs",
+      "커밋"
+    ],
+    "url": "https://github.com/git/git"
   },
   {
     "name": "brew",
     "description": "Homebrew package manager for macOS",
-    "tags": ["패키지", "설치", "homebrew"]
+    "tags": [
+      "패키지",
+      "설치",
+      "homebrew"
+    ],
+    "url": "https://github.com/Homebrew/brew"
   },
   {
     "name": "cargo",
     "description": "Rust package manager and build tool",
-    "tags": ["rust", "빌드", "패키지"]
+    "tags": [
+      "rust",
+      "빌드",
+      "패키지"
+    ],
+    "url": "https://github.com/rust-lang/cargo"
   },
   {
     "name": "rustc",
     "description": "Rust compiler",
-    "tags": ["rust", "컴파일"]
+    "tags": [
+      "rust",
+      "컴파일"
+    ],
+    "url": "https://github.com/rust-lang/rust"
   },
   {
     "name": "go",
     "description": "Go language build and toolchain",
-    "tags": ["go", "빌드"]
+    "tags": [
+      "go",
+      "빌드"
+    ],
+    "url": "https://github.com/golang/go"
   },
   {
     "name": "bun",
     "description": "JavaScript runtime and package manager",
-    "tags": ["js", "런타임", "패키지"]
+    "tags": [
+      "js",
+      "런타임",
+      "패키지"
+    ],
+    "url": "https://github.com/oven-sh/bun"
   },
   {
     "name": "node",
     "description": "JavaScript runtime",
-    "tags": ["js", "런타임"]
+    "tags": [
+      "js",
+      "런타임"
+    ],
+    "url": "https://github.com/nodejs/node"
   },
   {
     "name": "python",
     "description": "Python interpreter",
-    "tags": ["python", "스크립트"]
+    "tags": [
+      "python",
+      "스크립트"
+    ],
+    "url": "https://github.com/python/cpython"
   },
   {
     "name": "make",
     "description": "build targets from Makefile",
-    "tags": ["빌드", "makefile"]
+    "tags": [
+      "빌드",
+      "makefile"
+    ],
+    "url": ""
   },
   {
     "name": "cmake",
     "description": "cross-platform build system",
-    "tags": ["빌드", "c++"]
+    "tags": [
+      "빌드",
+      "c++"
+    ],
+    "url": "https://github.com/Kitware/CMake"
   },
   {
     "name": "gcc",
     "description": "GNU C/C++ compiler",
-    "tags": ["컴파일", "c", "c++"]
+    "tags": [
+      "컴파일",
+      "c",
+      "c++"
+    ],
+    "url": ""
   },
   {
     "name": "clang",
     "description": "LLVM C/C++ compiler",
-    "tags": ["컴파일", "c", "c++", "llvm"]
+    "tags": [
+      "컴파일",
+      "c",
+      "c++",
+      "llvm"
+    ],
+    "url": "https://github.com/llvm/llvm-project"
   },
   {
     "name": "vim",
     "description": "modal text editor",
-    "tags": ["에디터", "편집"]
+    "tags": [
+      "에디터",
+      "편집"
+    ],
+    "url": "https://github.com/vim/vim"
   },
   {
     "name": "nvim",
     "description": "Neovim, modern vim fork",
-    "tags": ["에디터", "편집", "neovim"]
+    "tags": [
+      "에디터",
+      "편집",
+      "neovim"
+    ],
+    "url": "https://github.com/neovim/neovim"
   },
   {
     "name": "nano",
     "description": "simple terminal text editor",
-    "tags": ["에디터", "편집"]
+    "tags": [
+      "에디터",
+      "편집"
+    ],
+    "url": ""
   },
   {
     "name": "code",
     "description": "Visual Studio Code CLI",
-    "tags": ["에디터", "vscode"]
+    "tags": [
+      "에디터",
+      "vscode"
+    ],
+    "url": "https://github.com/microsoft/vscode"
   },
   {
     "name": "tmux",
     "description": "terminal multiplexer",
-    "tags": ["터미널", "멀티플렉서", "세션"]
+    "tags": [
+      "터미널",
+      "멀티플렉서",
+      "세션"
+    ],
+    "url": "https://github.com/tmux/tmux"
   },
   {
     "name": "screen",
     "description": "terminal multiplexer",
-    "tags": ["터미널", "세션"]
+    "tags": [
+      "터미널",
+      "세션"
+    ],
+    "url": ""
   },
   {
     "name": "alacritty",
     "description": "GPU-accelerated terminal emulator",
-    "tags": ["터미널", "에뮬레이터", "emulator"]
+    "tags": [
+      "터미널",
+      "에뮬레이터",
+      "emulator"
+    ],
+    "url": "https://github.com/alacritty/alacritty"
   },
   {
     "name": "eza",
     "description": "modern replacement for ls",
-    "tags": ["ls", "대체", "파일목록"]
+    "tags": [
+      "ls",
+      "대체",
+      "파일목록"
+    ],
+    "url": "https://github.com/eza-community/eza"
   },
   {
     "name": "lsd",
     "description": "ls with icons and colors",
-    "tags": ["ls", "대체", "파일목록", "아이콘"]
+    "tags": [
+      "ls",
+      "대체",
+      "파일목록",
+      "아이콘"
+    ],
+    "url": "https://github.com/Peltoche/lsd"
   },
   {
     "name": "bat",
     "description": "cat replacement with syntax highlighting",
-    "tags": ["cat", "대체", "뷰어", "문법강조"]
+    "tags": [
+      "cat",
+      "대체",
+      "뷰어",
+      "문법강조"
+    ],
+    "url": "https://github.com/sharkdp/bat"
   },
   {
     "name": "mdcat",
     "description": "cat for markdown",
-    "tags": ["cat", "markdown", "뷰어"]
+    "tags": [
+      "cat",
+      "markdown",
+      "뷰어"
+    ],
+    "url": "https://github.com/swsnr/mdcat"
   },
   {
     "name": "delta",
     "description": "git diff with syntax highlighting",
-    "tags": ["git", "diff", "하이라이트"]
+    "tags": [
+      "git",
+      "diff",
+      "하이라이트"
+    ],
+    "url": "https://github.com/dandavison/delta"
   },
   {
     "name": "difft",
     "description": "difftastic, structural diff",
-    "tags": ["diff", "비교", "구조"]
+    "tags": [
+      "diff",
+      "비교",
+      "구조"
+    ],
+    "url": "https://github.com/wilfred/difftastic"
   },
   {
     "name": "gitui",
     "description": "terminal git UI, tig/lazygit alternative",
-    "tags": ["git", "ui", "대체"]
+    "tags": [
+      "git",
+      "ui",
+      "대체"
+    ],
+    "url": "https://github.com/extrawurst/gitui"
   },
   {
     "name": "onefetch",
     "description": "git repository info like neofetch",
-    "tags": ["git", "정보", "neofetch"]
+    "tags": [
+      "git",
+      "정보",
+      "neofetch"
+    ],
+    "url": "https://github.com/o2sh/onefetch"
   },
   {
     "name": "dog",
     "description": "dig replacement, DNS lookup",
-    "tags": ["dns", "dig", "도메인"]
+    "tags": [
+      "dns",
+      "dig",
+      "도메인"
+    ],
+    "url": "https://github.com/ogham/dog"
   },
   {
     "name": "nbping",
     "description": "ping with network bandwidth info",
-    "tags": ["ping", "네트워크", "속도"]
+    "tags": [
+      "ping",
+      "네트워크",
+      "속도"
+    ],
+    "url": "https://github.com/hanshuaikang/NBping"
   },
   {
     "name": "gping",
     "description": "ping with interactive graphs",
-    "tags": ["ping", "네트워크", "그래프"]
+    "tags": [
+      "ping",
+      "네트워크",
+      "그래프"
+    ],
+    "url": "https://github.com/orf/gping"
   },
   {
     "name": "bandwhich",
     "description": "network bandwidth usage by process",
-    "tags": ["네트워크", "대역폭", "모니터링"]
+    "tags": [
+      "네트워크",
+      "대역폭",
+      "모니터링"
+    ],
+    "url": "https://github.com/imsnif/bandwhich"
   },
   {
     "name": "netwatch",
     "description": "network traffic monitor, iftop/bandwhich alternative",
-    "tags": ["네트워크", "트래픽", "모니터링"]
+    "tags": [
+      "네트워크",
+      "트래픽",
+      "모니터링"
+    ],
+    "url": "https://github.com/matthart1983/netwatch"
   },
   {
     "name": "trip",
     "description": "trippy, network diagnostic tool combining ping and traceroute",
-    "tags": ["네트워크", "ping", "traceroute", "진단"]
+    "tags": [
+      "네트워크",
+      "ping",
+      "traceroute",
+      "진단"
+    ],
+    "url": "https://github.com/fujiapple852/trippy"
   },
   {
     "name": "btm",
     "description": "bottom, top/htop replacement",
-    "tags": ["프로세스", "cpu", "대체", "모니터링"]
+    "tags": [
+      "프로세스",
+      "cpu",
+      "대체",
+      "모니터링"
+    ],
+    "url": "https://github.com/ClementTsang/bottom"
   },
   {
     "name": "procs",
     "description": "ps replacement with colors",
-    "tags": ["프로세스", "ps", "대체"]
+    "tags": [
+      "프로세스",
+      "ps",
+      "대체"
+    ],
+    "url": "https://github.com/dalance/procs"
   },
   {
     "name": "ytop",
     "description": "top/htop replacement",
-    "tags": ["프로세스", "cpu", "대체"]
+    "tags": [
+      "프로세스",
+      "cpu",
+      "대체"
+    ],
+    "url": "https://github.com/cjbassi/ytop"
   },
   {
     "name": "zenith",
     "description": "top/htop replacement with metrics",
-    "tags": ["프로세스", "cpu", "대체"]
+    "tags": [
+      "프로세스",
+      "cpu",
+      "대체"
+    ],
+    "url": "https://github.com/bvaisvil/zenith"
   },
   {
     "name": "diskus",
     "description": "du replacement, disk usage",
-    "tags": ["디스크", "사용량", "대체"]
+    "tags": [
+      "디스크",
+      "사용량",
+      "대체"
+    ],
+    "url": "https://github.com/sharkdp/diskus"
   },
   {
     "name": "dust",
     "description": "du replacement, view disk usage",
-    "tags": ["디스크", "사용량", "대체"]
+    "tags": [
+      "디스크",
+      "사용량",
+      "대체"
+    ],
+    "url": "https://github.com/bootandy/dust"
   },
   {
     "name": "diskonaut",
     "description": "interactive disk usage explorer",
-    "tags": ["디스크", "사용량", "ui"]
+    "tags": [
+      "디스크",
+      "사용량",
+      "ui"
+    ],
+    "url": "https://github.com/imsnif/diskonaut"
   },
   {
     "name": "hexyl",
     "description": "hexdump replacement, hex viewer",
-    "tags": ["hex", "hexdump", "바이너리"]
+    "tags": [
+      "hex",
+      "hexdump",
+      "바이너리"
+    ],
+    "url": "https://github.com/sharkdp/hexyl"
   },
   {
     "name": "hyperfine",
     "description": "benchmark commands",
-    "tags": ["벤치마크", "시간", "측정"]
+    "tags": [
+      "벤치마크",
+      "시간",
+      "측정"
+    ],
+    "url": "https://github.com/sharkdp/hyperfine"
   },
   {
     "name": "hwatch",
     "description": "watch replacement with colors",
-    "tags": ["watch", "반복", "모니터링"]
+    "tags": [
+      "watch",
+      "반복",
+      "모니터링"
+    ],
+    "url": "https://github.com/blacknon/hwatch"
   },
   {
     "name": "jless",
     "description": "JSON pager and explorer",
-    "tags": ["json", "뷰어", "파싱"]
+    "tags": [
+      "json",
+      "뷰어",
+      "파싱"
+    ],
+    "url": "https://github.com/PaulJuliusMartinez/jless"
   },
   {
     "name": "sd",
     "description": "sed replacement for find and replace",
-    "tags": ["sed", "치환", "대체"]
+    "tags": [
+      "sed",
+      "치환",
+      "대체"
+    ],
+    "url": "https://github.com/chmln/sd"
   },
   {
     "name": "grex",
     "description": "generate regex from examples",
-    "tags": ["정규식", "regex", "생성"]
+    "tags": [
+      "정규식",
+      "regex",
+      "생성"
+    ],
+    "url": "https://github.com/pemistahl/grex"
   },
   {
     "name": "sk",
     "description": "skim, fuzzy finder like fzf",
-    "tags": ["fuzzy", "검색", "fzf"]
+    "tags": [
+      "fuzzy",
+      "검색",
+      "fzf"
+    ],
+    "url": "https://github.com/skim-rs/skim"
   },
   {
     "name": "scooter",
     "description": "interactive find and replace UI",
-    "tags": ["검색", "치환", "ui"]
+    "tags": [
+      "검색",
+      "치환",
+      "ui"
+    ],
+    "url": "https://github.com/thomasschafer/scooter"
   },
   {
     "name": "zoxide",
     "description": "smarter cd command",
-    "tags": ["cd", "이동", "대체"]
+    "tags": [
+      "cd",
+      "이동",
+      "대체"
+    ],
+    "url": "https://github.com/ajeetdsouza/zoxide"
   },
   {
     "name": "zellij",
     "description": "terminal multiplexer, tmux alternative",
-    "tags": ["터미널", "멀티플렉서", "tmux", "대체"]
+    "tags": [
+      "터미널",
+      "멀티플렉서",
+      "tmux",
+      "대체"
+    ],
+    "url": "https://github.com/zellij-org/zellij"
   },
   {
     "name": "nu",
     "description": "nushell, modern shell alternative to bash",
-    "tags": ["shell", "bash", "대체"]
+    "tags": [
+      "shell",
+      "bash",
+      "대체"
+    ],
+    "url": "https://github.com/nushell/nushell"
   },
   {
     "name": "herdr",
     "description": "agent multiplexer in terminal",
-    "tags": ["멀티플렉서", "에이전트"]
+    "tags": [
+      "멀티플렉서",
+      "에이전트"
+    ],
+    "url": "https://github.com/ogulcancelik/herdr"
   },
   {
     "name": "cfonts",
     "description": "figlet/toilet replacement, banner text",
-    "tags": ["배너", "figlet", "대체"]
+    "tags": [
+      "배너",
+      "figlet",
+      "대체"
+    ],
+    "url": "https://github.com/dominikwilkowski/cfonts"
   },
   {
     "name": "ttysvr",
     "description": "terminal screen saver",
-    "tags": ["화면보호기", "screensaver"]
+    "tags": [
+      "화면보호기",
+      "screensaver"
+    ],
+    "url": "https://github.com/cxreiff/ttysvr"
   },
   {
     "name": "termusic",
     "description": "terminal music player",
-    "tags": ["음악", "플레이어", "music"]
+    "tags": [
+      "음악",
+      "플레이어",
+      "music"
+    ],
+    "url": "https://github.com/tramhao/termusic"
   },
   {
     "name": "termusic-server",
     "description": "terminal music server",
-    "tags": ["음악", "서버", "music"]
+    "tags": [
+      "음악",
+      "서버",
+      "music"
+    ],
+    "url": "https://github.com/tramhao/termusic"
   },
   {
     "name": "weathr",
     "description": "terminal weather app with ascii animation",
-    "tags": ["날씨", "weather"]
+    "tags": [
+      "날씨",
+      "weather"
+    ],
+    "url": "https://github.com/Veirt/weathr"
   },
   {
     "name": "tokei",
     "description": "count lines of code",
-    "tags": ["코드", "통계", "라인"]
+    "tags": [
+      "코드",
+      "통계",
+      "라인"
+    ],
+    "url": "https://github.com/XAMPPRocky/tokei"
   },
   {
     "name": "feroxbuster",
     "description": "web content discovery for hidden directories",
-    "tags": ["웹", "취약점", "보안", "스캔"]
+    "tags": [
+      "웹",
+      "취약점",
+      "보안",
+      "스캔"
+    ],
+    "url": "https://github.com/epi052/feroxbuster"
   },
   {
     "name": "lychee",
     "description": "check broken hyperlinks",
-    "tags": ["링크", "검사", "markdown"]
+    "tags": [
+      "링크",
+      "검사",
+      "markdown"
+    ],
+    "url": "https://github.com/lycheeverse/lychee"
   },
   {
     "name": "oha",
     "description": "HTTP load testing tool",
-    "tags": ["부하", "http", "테스트"]
+    "tags": [
+      "부하",
+      "http",
+      "테스트"
+    ],
+    "url": "https://github.com/hatoo/oha"
   },
   {
     "name": "qsv",
     "description": "CSV/Excel/SQL toolkit",
-    "tags": ["csv", "excel", "sql", "데이터"]
+    "tags": [
+      "csv",
+      "excel",
+      "sql",
+      "데이터"
+    ],
+    "url": "https://github.com/dathere/qsv"
   },
   {
     "name": "xan",
     "description": "CSV file tool",
-    "tags": ["csv", "데이터", "분석"]
+    "tags": [
+      "csv",
+      "데이터",
+      "분석"
+    ],
+    "url": "https://github.com/medialab/xan"
   },
   {
     "name": "cargo-watch",
     "description": "auto rebuild on source change",
-    "tags": ["rust", "빌드", "watch", "감시"]
+    "tags": [
+      "rust",
+      "빌드",
+      "watch",
+      "감시"
+    ],
+    "url": "https://github.com/watchexec/cargo-watch"
   },
   {
     "name": "mise",
     "description": "version manager for node/python/go",
-    "tags": ["버전관리", "node", "python", "go"]
+    "tags": [
+      "버전관리",
+      "node",
+      "python",
+      "go"
+    ],
+    "url": "https://github.com/jdx/mise"
   },
   {
     "name": "uv",
     "description": "python package and version manager",
-    "tags": ["python", "패키지", "버전관리"]
+    "tags": [
+      "python",
+      "패키지",
+      "버전관리"
+    ],
+    "url": "https://github.com/astral-sh/uv"
   },
   {
     "name": "ruff",
     "description": "python linter and formatter",
-    "tags": ["python", "린트", "포맷"]
+    "tags": [
+      "python",
+      "린트",
+      "포맷"
+    ],
+    "url": "https://github.com/astral-sh/ruff"
   },
   {
     "name": "rumdl",
     "description": "markdown linter and formatter",
-    "tags": ["markdown", "린트", "포맷"]
+    "tags": [
+      "markdown",
+      "린트",
+      "포맷"
+    ],
+    "url": "https://github.com/rvben/rumdl"
   },
   {
     "name": "typos",
     "description": "typo checker",
-    "tags": ["오타", "철자", "검사"]
+    "tags": [
+      "오타",
+      "철자",
+      "검사"
+    ],
+    "url": "https://github.com/crate-ci/typos"
   },
   {
     "name": "llmfit",
     "description": "find LLM that fits your machine",
-    "tags": ["llm", "ai", "모델"]
+    "tags": [
+      "llm",
+      "ai",
+      "모델"
+    ],
+    "url": "https://github.com/AlexsJones/llmfit"
   },
   {
     "name": "ohmystock",
     "description": "personal stock price checker",
-    "tags": ["주식", "stock", "시세"]
+    "tags": [
+      "주식",
+      "stock",
+      "시세"
+    ],
+    "url": "https://github.com/ysoftman/ohmystock"
   },
   {
     "name": "presenterm",
     "description": "markdown terminal slideshow",
-    "tags": ["발표", "슬라이드", "markdown"]
+    "tags": [
+      "발표",
+      "슬라이드",
+      "markdown"
+    ],
+    "url": "https://github.com/mfontanini/presenterm"
   },
   {
     "name": "binsider",
     "description": "analyze ELF binaries",
-    "tags": ["바이너리", "elf", "분석"]
+    "tags": [
+      "바이너리",
+      "elf",
+      "분석"
+    ],
+    "url": "https://github.com/orhun/binsider"
   },
   {
     "name": "whome",
     "description": "whoami replacement",
-    "tags": ["whoami", "사용자", "대체"]
+    "tags": [
+      "whoami",
+      "사용자",
+      "대체"
+    ],
+    "url": "https://github.com/ardaku/whoami"
   },
   {
     "name": "termscp",
     "description": "scp/ftp/sftp over terminal UI",
-    "tags": ["scp", "ftp", "전송", "sftp"]
+    "tags": [
+      "scp",
+      "ftp",
+      "전송",
+      "sftp"
+    ],
+    "url": "https://github.com/veeso/termscp"
   },
   {
     "name": "argo",
     "description": "Argo Workflows CLI",
-    "tags": ["kubernetes", "워크플로우", "배포"]
+    "tags": [
+      "kubernetes",
+      "워크플로우",
+      "배포"
+    ],
+    "url": "https://github.com/argoproj/argo-workflows"
   },
   {
     "name": "ansible",
     "description": "IT automation and configuration management",
-    "tags": ["자동화", "인프라", "설정관리"]
+    "tags": [
+      "자동화",
+      "인프라",
+      "설정관리"
+    ],
+    "url": "https://github.com/ansible/ansible"
   },
   {
     "name": "ansible-lint",
     "description": "lint ansible playbooks",
-    "tags": ["ansible", "린트"]
+    "tags": [
+      "ansible",
+      "린트"
+    ],
+    "url": "https://github.com/ansible/ansible-lint"
   },
   {
     "name": "argocd",
     "description": "Argo CD CLI for GitOps deployment",
-    "tags": ["gitops", "배포", "kubernetes"]
+    "tags": [
+      "gitops",
+      "배포",
+      "kubernetes"
+    ],
+    "url": "https://github.com/argoproj/argo-cd"
   },
   {
     "name": "ascii",
     "description": "show ascii table and chars",
-    "tags": ["ascii", "문자"]
+    "tags": [
+      "ascii",
+      "문자"
+    ],
+    "url": ""
   },
   {
     "name": "asciiquarium",
     "description": "ascii aquarium screensaver",
-    "tags": ["ascii", "화면보호기"]
+    "tags": [
+      "ascii",
+      "화면보호기"
+    ],
+    "url": "https://github.com/cmatsuoka/asciiquarium"
   },
   {
     "name": "astroterm",
     "description": "star wars ascii animation in terminal",
-    "tags": ["ascii", "애니메이션"]
+    "tags": [
+      "ascii",
+      "애니메이션"
+    ],
+    "url": ""
   },
   {
     "name": "bash",
     "description": "Bourne again shell",
-    "tags": ["shell", "bash"]
+    "tags": [
+      "shell",
+      "bash"
+    ],
+    "url": ""
   },
   {
     "name": "bazel",
     "description": "fast build tool",
-    "tags": ["빌드", "bazel"]
+    "tags": [
+      "빌드",
+      "bazel"
+    ],
+    "url": "https://github.com/bazelbuild/bazel"
   },
   {
     "name": "biome",
     "description": "js/ts linter and formatter",
-    "tags": ["js", "린트", "포맷"]
+    "tags": [
+      "js",
+      "린트",
+      "포맷"
+    ],
+    "url": "https://github.com/biomejs/biome"
   },
   {
     "name": "bison",
     "description": "parser generator",
-    "tags": ["파서", "컴파일러"]
+    "tags": [
+      "파서",
+      "컴파일러"
+    ],
+    "url": ""
   },
   {
     "name": "blueutil",
     "description": "control bluetooth from CLI",
-    "tags": ["블루투스", "bluetooth"]
+    "tags": [
+      "블루투스",
+      "bluetooth"
+    ],
+    "url": "https://github.com/toy/blueutil"
   },
   {
     "name": "bmon",
     "description": "bandwidth monitor",
-    "tags": ["네트워크", "대역폭", "모니터링"]
+    "tags": [
+      "네트워크",
+      "대역폭",
+      "모니터링"
+    ],
+    "url": "https://github.com/tgraf/bmon"
   },
   {
     "name": "btop",
     "description": "resource monitor with graphs",
-    "tags": ["프로세스", "cpu", "메모리", "모니터링"]
+    "tags": [
+      "프로세스",
+      "cpu",
+      "메모리",
+      "모니터링"
+    ],
+    "url": "https://github.com/aristocratos/btop"
   },
   {
     "name": "caddy",
     "description": "web server with automatic https",
-    "tags": ["웹서버", "https", "proxy"]
+    "tags": [
+      "웹서버",
+      "https",
+      "proxy"
+    ],
+    "url": "https://github.com/caddyserver/caddy"
   },
   {
     "name": "calc",
     "description": "arbitrary precision calculator",
-    "tags": ["계산", "calculator"]
+    "tags": [
+      "계산",
+      "calculator"
+    ],
+    "url": "https://github.com/lcn2/calc"
   },
   {
     "name": "catimg",
     "description": "print images in terminal",
-    "tags": ["이미지", "터미널"]
+    "tags": [
+      "이미지",
+      "터미널"
+    ],
+    "url": "https://github.com/posva/catimg"
   },
   {
     "name": "cava",
     "description": "audio visualizer for terminal",
-    "tags": ["음악", "시각화", "audio"]
+    "tags": [
+      "음악",
+      "시각화",
+      "audio"
+    ],
+    "url": "https://github.com/karlstav/cava"
   },
   {
     "name": "ccat",
     "description": "cat with syntax highlighting",
-    "tags": ["cat", "문법강조", "뷰어"]
+    "tags": [
+      "cat",
+      "문법강조",
+      "뷰어"
+    ],
+    "url": "https://github.com/owenthereal/ccat"
   },
   {
     "name": "clang-format",
     "description": "format c/c++ code",
-    "tags": ["포맷", "c", "c++"]
+    "tags": [
+      "포맷",
+      "c",
+      "c++"
+    ],
+    "url": "https://github.com/llvm/llvm-project"
   },
   {
     "name": "cliamp",
     "description": "amp editor for terminal",
-    "tags": ["에디터", "amp"]
+    "tags": [
+      "에디터",
+      "amp"
+    ],
+    "url": ""
   },
   {
     "name": "cmatrix",
     "description": "matrix rain animation",
-    "tags": ["애니메이션", "ascii"]
+    "tags": [
+      "애니메이션",
+      "ascii"
+    ],
+    "url": "https://github.com/abishekvashok/cmatrix"
   },
   {
     "name": "cmus",
     "description": "terminal music player",
-    "tags": ["음악", "플레이어", "music"]
+    "tags": [
+      "음악",
+      "플레이어",
+      "music"
+    ],
+    "url": "https://github.com/cmus/cmus"
   },
   {
     "name": "cmux",
     "description": "multiplex cd to navigate directories",
-    "tags": ["이동", "디렉토리"]
+    "tags": [
+      "이동",
+      "디렉토리"
+    ],
+    "url": ""
   },
   {
     "name": "colima",
     "description": "container runtime on mac",
-    "tags": ["컨테이너", "docker", "대체"]
+    "tags": [
+      "컨테이너",
+      "docker",
+      "대체"
+    ],
+    "url": "https://github.com/abiosoft/colima"
   },
   {
     "name": "consul-backinator",
     "description": "backup/restore consul kv",
-    "tags": ["consul", "백업", "kv"]
+    "tags": [
+      "consul",
+      "백업",
+      "kv"
+    ],
+    "url": ""
   },
   {
     "name": "cowsay",
     "description": "display cow with a message",
-    "tags": ["말풍선", "ascii"]
+    "tags": [
+      "말풍선",
+      "ascii"
+    ],
+    "url": ""
   },
   {
     "name": "crush",
-    "description": "http load test tool",
-    "tags": ["http", "부하", "테스트"]
+    "description": "agentic coding ai in the terminal",
+    "tags": [
+      "ai",
+      "llm",
+      "코딩",
+      "에이전트"
+    ],
+    "url": "https://github.com/charmbracelet/crush"
   },
   {
     "name": "ctags",
     "description": "generate tag files for code navigation",
-    "tags": ["태그", "코드", "네비게이션"]
+    "tags": [
+      "태그",
+      "코드",
+      "네비게이션"
+    ],
+    "url": "https://github.com/universal-ctags/ctags"
   },
   {
     "name": "ctop",
     "description": "container metrics monitor",
-    "tags": ["컨테이너", "모니터링", "docker"]
+    "tags": [
+      "컨테이너",
+      "모니터링",
+      "docker"
+    ],
+    "url": "https://github.com/bcicen/ctop"
   },
   {
     "name": "dblab",
     "description": "interactive database client",
-    "tags": ["데이터베이스", "db", "클라이언트"]
+    "tags": [
+      "데이터베이스",
+      "db",
+      "클라이언트"
+    ],
+    "url": "https://github.com/danvergara/dblab"
   },
   {
     "name": "deno",
     "description": "modern javascript/typescript runtime",
-    "tags": ["js", "ts", "런타임"]
+    "tags": [
+      "js",
+      "ts",
+      "런타임"
+    ],
+    "url": "https://github.com/denoland/deno"
   },
   {
     "name": "digdag",
     "description": "workflow engine",
-    "tags": ["워크플로우", "스케줄"]
+    "tags": [
+      "워크플로우",
+      "스케줄"
+    ],
+    "url": "https://github.com/treasure-data/digdag"
   },
   {
     "name": "dive",
     "description": "explore docker image layers",
-    "tags": ["docker", "이미지", "분석"]
+    "tags": [
+      "docker",
+      "이미지",
+      "분석"
+    ],
+    "url": "https://github.com/wagoodman/dive"
   },
   {
     "name": "docker-compose",
     "description": "define and run multi-container apps",
-    "tags": ["docker", "컨테이너", "compose"]
+    "tags": [
+      "docker",
+      "컨테이너",
+      "compose"
+    ],
+    "url": "https://github.com/docker/compose"
   },
   {
     "name": "duf",
     "description": "df replacement, disk usage",
-    "tags": ["디스크", "사용량", "대체"]
+    "tags": [
+      "디스크",
+      "사용량",
+      "대체"
+    ],
+    "url": "https://github.com/muesli/duf"
   },
   {
     "name": "dyff",
     "description": "yaml diff tool",
-    "tags": ["yaml", "diff", "비교"]
+    "tags": [
+      "yaml",
+      "diff",
+      "비교"
+    ],
+    "url": "https://github.com/homeport/dyff"
   },
   {
     "name": "emojify",
     "description": "convert ascii emoticons to emoji",
-    "tags": ["이모지", "emoji"]
+    "tags": [
+      "이모지",
+      "emoji"
+    ],
+    "url": "https://github.com/mrowa44/emojify"
   },
   {
     "name": "entr",
     "description": "run command when files change",
-    "tags": ["감시", "watch", "자동실행"]
+    "tags": [
+      "감시",
+      "watch",
+      "자동실행"
+    ],
+    "url": ""
   },
   {
     "name": "eslint",
     "description": "js/ts linter",
-    "tags": ["js", "린트"]
+    "tags": [
+      "js",
+      "린트"
+    ],
+    "url": "https://github.com/eslint/eslint"
   },
   {
     "name": "etcd",
     "description": "distributed key-value store",
-    "tags": ["kv", "저장소", "분산"]
+    "tags": [
+      "kv",
+      "저장소",
+      "분산"
+    ],
+    "url": "https://github.com/etcd-io/etcd"
   },
   {
     "name": "fastfetch",
     "description": "system info display like neofetch",
-    "tags": ["시스템", "정보", "neofetch"]
+    "tags": [
+      "시스템",
+      "정보",
+      "neofetch"
+    ],
+    "url": "https://github.com/fastfetch-cli/fastfetch"
   },
   {
     "name": "ffmpeg",
     "description": "media converter and processor",
-    "tags": ["미디어", "변환", "video", "audio"]
+    "tags": [
+      "미디어",
+      "변환",
+      "video",
+      "audio"
+    ],
+    "url": "https://github.com/FFmpeg/FFmpeg"
   },
   {
     "name": "figlet",
     "description": "make banner text",
-    "tags": ["배너", "ascii"]
+    "tags": [
+      "배너",
+      "ascii"
+    ],
+    "url": ""
   },
   {
     "name": "fish",
     "description": "friendly interactive shell",
-    "tags": ["shell", "fish"]
+    "tags": [
+      "shell",
+      "fish"
+    ],
+    "url": "https://github.com/fish-shell/fish-shell"
   },
   {
     "name": "flex",
     "description": "lexical analyzer generator",
-    "tags": ["컴파일러", "lex", "스캐너"]
+    "tags": [
+      "컴파일러",
+      "lex",
+      "스캐너"
+    ],
+    "url": ""
   },
   {
     "name": "forgit",
     "description": "fzf-powered git commands",
-    "tags": ["git", "fzf", "대체"]
+    "tags": [
+      "git",
+      "fzf",
+      "대체"
+    ],
+    "url": "https://github.com/wfxr/forgit"
   },
   {
     "name": "fortune",
     "description": "print random quotes",
-    "tags": ["명언", "랜덤"]
+    "tags": [
+      "명언",
+      "랜덤"
+    ],
+    "url": ""
   },
   {
     "name": "fzf",
     "description": "fuzzy finder for files and history",
-    "tags": ["fuzzy", "검색", "대화형"]
+    "tags": [
+      "fuzzy",
+      "검색",
+      "대화형"
+    ],
+    "url": "https://github.com/junegunn/fzf"
   },
   {
     "name": "gcloud",
     "description": "google cloud cli",
-    "tags": ["gcp", "클라우드", "google"]
+    "tags": [
+      "gcp",
+      "클라우드",
+      "google"
+    ],
+    "url": ""
   },
   {
     "name": "gemini-cli",
     "description": "gemini ai cli",
-    "tags": ["ai", "gemini", "llm"]
+    "tags": [
+      "ai",
+      "gemini",
+      "llm"
+    ],
+    "url": ""
   },
   {
     "name": "gh",
     "description": "github cli",
-    "tags": ["github", "pr", "issue"]
+    "tags": [
+      "github",
+      "pr",
+      "issue"
+    ],
+    "url": "https://github.com/cli/cli"
   },
   {
     "name": "ghostty",
     "description": "fast terminal emulator",
-    "tags": ["터미널", "에뮬레이터"]
+    "tags": [
+      "터미널",
+      "에뮬레이터"
+    ],
+    "url": "https://github.com/ghostty-org/ghostty"
   },
   {
     "name": "gifsicle",
     "description": "manipulate gif images",
-    "tags": ["gif", "이미지"]
+    "tags": [
+      "gif",
+      "이미지"
+    ],
+    "url": "https://github.com/kohler/gifsicle"
   },
   {
     "name": "git-cliff",
     "description": "generate changelog from git history",
-    "tags": ["git", "changelog", "릴리즈"]
+    "tags": [
+      "git",
+      "changelog",
+      "릴리즈"
+    ],
+    "url": "https://github.com/orhun/git-cliff"
   },
   {
     "name": "git-extras",
     "description": "extra git commands",
-    "tags": ["git", "확장"]
+    "tags": [
+      "git",
+      "확장"
+    ],
+    "url": "https://github.com/tj/git-extras"
   },
   {
     "name": "gitlogue",
     "description": "git log viewer",
-    "tags": ["git", "로그", "로그뷰어"]
+    "tags": [
+      "git",
+      "로그",
+      "로그뷰어"
+    ],
+    "url": "https://github.com/Shylock-HG/gitlogue"
   },
   {
     "name": "gitmoji",
     "description": "git commit with emoji",
-    "tags": ["git", "이모지", "커밋"]
+    "tags": [
+      "git",
+      "이모지",
+      "커밋"
+    ],
+    "url": "https://github.com/carloscuesta/gitmoji-cli"
   },
   {
     "name": "glow",
     "description": "markdown renderer for terminal",
-    "tags": ["markdown", "뷰어"]
+    "tags": [
+      "markdown",
+      "뷰어"
+    ],
+    "url": "https://github.com/charmbracelet/glow"
   },
   {
     "name": "golangci-lint",
     "description": "go linters runner",
-    "tags": ["go", "린트"]
+    "tags": [
+      "go",
+      "린트"
+    ],
+    "url": "https://github.com/golangci/golangci-lint"
   },
   {
     "name": "grc",
     "description": "colorize command output",
-    "tags": ["컬러", "색상", "하이라이트"]
+    "tags": [
+      "컬러",
+      "색상",
+      "하이라이트"
+    ],
+    "url": ""
   },
   {
     "name": "gs",
     "description": "ghostscript, pdf/postscript interpreter",
-    "tags": ["pdf", "postscript", "변환"]
+    "tags": [
+      "pdf",
+      "postscript",
+      "변환"
+    ],
+    "url": "https://github.com/ArtifexSoftware/ghostpdl"
   },
   {
     "name": "guetzli",
     "description": "jpeg compression tool",
-    "tags": ["jpeg", "이미지", "압축"]
+    "tags": [
+      "jpeg",
+      "이미지",
+      "압축"
+    ],
+    "url": "https://github.com/google/guetzli"
   },
   {
     "name": "helix",
     "description": "modal text editor",
-    "tags": ["에디터", "편집"]
+    "tags": [
+      "에디터",
+      "편집"
+    ],
+    "url": "https://github.com/helix-editor/helix"
   },
   {
     "name": "helm",
     "description": "kubernetes package manager",
-    "tags": ["kubernetes", "패키지", "배포"]
+    "tags": [
+      "kubernetes",
+      "패키지",
+      "배포"
+    ],
+    "url": "https://github.com/helm/helm"
   },
   {
     "name": "hey",
     "description": "http load generator",
-    "tags": ["http", "부하", "테스트"]
+    "tags": [
+      "http",
+      "부하",
+      "테스트"
+    ],
+    "url": "https://github.com/rakyll/hey"
   },
   {
     "name": "hg",
     "description": "mercurial, distributed vcs",
-    "tags": ["버전관리", "vcs", "hg"]
+    "tags": [
+      "버전관리",
+      "vcs",
+      "hg"
+    ],
+    "url": ""
   },
   {
     "name": "hop",
     "description": "quick navigation shortcut tool",
-    "tags": ["이동", "단축키"]
+    "tags": [
+      "이동",
+      "단축키"
+    ],
+    "url": ""
   },
   {
     "name": "iftop",
     "description": "network bandwidth monitor",
-    "tags": ["네트워크", "대역폭", "모니터링"]
+    "tags": [
+      "네트워크",
+      "대역폭",
+      "모니터링"
+    ],
+    "url": ""
   },
   {
     "name": "jnv",
     "description": "interactive jq with editor",
-    "tags": ["json", "jq", "인터랙티브"]
+    "tags": [
+      "json",
+      "jq",
+      "인터랙티브"
+    ],
+    "url": "https://github.com/ynqa/jnv"
   },
   {
     "name": "k9s",
     "description": "kubernetes terminal ui",
-    "tags": ["kubernetes", "k8s", "ui"]
+    "tags": [
+      "kubernetes",
+      "k8s",
+      "ui"
+    ],
+    "url": "https://github.com/derailed/k9s"
   },
   {
     "name": "kafka",
     "description": "distributed streaming platform",
-    "tags": ["kafka", "스트리밍", "메시지"]
+    "tags": [
+      "kafka",
+      "스트리밍",
+      "메시지"
+    ],
+    "url": "https://github.com/apache/kafka"
   },
   {
     "name": "kcat",
     "description": "kafka producer/consumer cli",
-    "tags": ["kafka", "메시지"]
+    "tags": [
+      "kafka",
+      "메시지"
+    ],
+    "url": "https://github.com/edenhill/kcat"
   },
   {
     "name": "kitty",
     "description": "gpu-accelerated terminal emulator",
-    "tags": ["터미널", "에뮬레이터"]
+    "tags": [
+      "터미널",
+      "에뮬레이터"
+    ],
+    "url": "https://github.com/kovidgoyal/kitty"
   },
   {
     "name": "ktop",
     "description": "kubernetes resource monitor",
-    "tags": ["kubernetes", "모니터링"]
+    "tags": [
+      "kubernetes",
+      "모니터링"
+    ],
+    "url": "https://github.com/ynqa/ktop"
   },
   {
     "name": "kubecolor",
     "description": "kubectl with colors",
-    "tags": ["kubernetes", "kubectl", "컬러"]
+    "tags": [
+      "kubernetes",
+      "kubectl",
+      "컬러"
+    ],
+    "url": "https://github.com/hidetatz/kubecolor"
   },
   {
     "name": "kubectx",
     "description": "switch kubernetes context",
-    "tags": ["kubernetes", "context", "전환"]
+    "tags": [
+      "kubernetes",
+      "context",
+      "전환"
+    ],
+    "url": "https://github.com/ahmetb/kubectx"
   },
   {
     "name": "kubectl",
     "description": "kubernetes cli",
-    "tags": ["kubernetes", "k8s", "컨테이너"]
+    "tags": [
+      "kubernetes",
+      "k8s",
+      "컨테이너"
+    ],
+    "url": "https://github.com/kubernetes/kubectl"
   },
   {
     "name": "kubeseal",
     "description": "encrypt kubernetes secrets",
-    "tags": ["kubernetes", "secret", "암호화"]
+    "tags": [
+      "kubernetes",
+      "secret",
+      "암호화"
+    ],
+    "url": "https://github.com/bitnami-labs/sealed-secrets"
   },
   {
     "name": "kustomize",
     "description": "customize kubernetes yaml",
-    "tags": ["kubernetes", "yaml", "템플릿"]
+    "tags": [
+      "kubernetes",
+      "yaml",
+      "템플릿"
+    ],
+    "url": "https://github.com/kubernetes-sigs/kustomize"
   },
   {
     "name": "lazydocker",
     "description": "docker terminal ui",
-    "tags": ["docker", "ui"]
+    "tags": [
+      "docker",
+      "ui"
+    ],
+    "url": "https://github.com/jesseduffield/lazydocker"
   },
   {
     "name": "lazygit",
     "description": "git terminal ui",
-    "tags": ["git", "ui"]
+    "tags": [
+      "git",
+      "ui"
+    ],
+    "url": "https://github.com/jesseduffield/lazygit"
   },
   {
     "name": "lazyssh",
     "description": "ssh connection manager",
-    "tags": ["ssh", "연결", "관리"]
+    "tags": [
+      "ssh",
+      "연결",
+      "관리"
+    ],
+    "url": "https://github.com/stefanmaric/lazyssh"
   },
   {
     "name": "lima",
     "description": "linux virtual machines on mac",
-    "tags": ["vm", "linux", "가상머신"]
+    "tags": [
+      "vm",
+      "linux",
+      "가상머신"
+    ],
+    "url": "https://github.com/lima-vm/lima"
   },
   {
     "name": "localai",
     "description": "local ai inference server",
-    "tags": ["ai", "llm", "서버"]
+    "tags": [
+      "ai",
+      "llm",
+      "서버"
+    ],
+    "url": "https://github.com/mudler/LocalAI"
   },
   {
     "name": "lolcat",
     "description": "rainbow color text",
-    "tags": ["색상", "rainbow"]
+    "tags": [
+      "색상",
+      "rainbow"
+    ],
+    "url": "https://github.com/jaseg/lolcat"
   },
   {
     "name": "lsix",
     "description": "show images in terminal",
-    "tags": ["이미지", "터미널"]
+    "tags": [
+      "이미지",
+      "터미널"
+    ],
+    "url": "https://github.com/hackerb9/lsix"
   },
   {
     "name": "luarocks",
     "description": "lua package manager",
-    "tags": ["lua", "패키지"]
+    "tags": [
+      "lua",
+      "패키지"
+    ],
+    "url": "https://github.com/luarocks/luarocks"
   },
   {
     "name": "macmon",
     "description": "mac network monitor",
-    "tags": ["네트워크", "모니터링", "mac"]
+    "tags": [
+      "네트워크",
+      "모니터링",
+      "mac"
+    ],
+    "url": "https://github.com/vladkens/macmon"
   },
   {
     "name": "mactop",
     "description": "mac resource monitor",
-    "tags": ["시스템", "모니터링", "mac"]
+    "tags": [
+      "시스템",
+      "모니터링",
+      "mac"
+    ],
+    "url": "https://github.com/context-labs/mactop"
   },
   {
     "name": "magick",
     "description": "imagemagick, image manipulation",
-    "tags": ["이미지", "변환", "리사이즈"]
+    "tags": [
+      "이미지",
+      "변환",
+      "리사이즈"
+    ],
+    "url": "https://github.com/ImageMagick/ImageMagick"
   },
   {
     "name": "markdownlint-cli2",
     "description": "markdown linter",
-    "tags": ["markdown", "린트"]
+    "tags": [
+      "markdown",
+      "린트"
+    ],
+    "url": "https://github.com/DavidAnson/markdownlint-cli2"
   },
   {
     "name": "maven",
     "description": "java build tool",
-    "tags": ["java", "빌드", "maven"]
+    "tags": [
+      "java",
+      "빌드",
+      "maven"
+    ],
+    "url": "https://github.com/apache/maven"
   },
   {
     "name": "mc",
     "description": "midnight commander, file manager",
-    "tags": ["파일", "관리자", "ui"]
+    "tags": [
+      "파일",
+      "관리자",
+      "ui"
+    ],
+    "url": "https://github.com/MidnightCommander/mc"
   },
   {
     "name": "minikube",
     "description": "local kubernetes cluster",
-    "tags": ["kubernetes", "로컬", "k8s"]
+    "tags": [
+      "kubernetes",
+      "로컬",
+      "k8s"
+    ],
+    "url": "https://github.com/kubernetes/minikube"
   },
   {
     "name": "mkcert",
     "description": "create locally trusted certificates",
-    "tags": ["인증서", "https", "tls"]
+    "tags": [
+      "인증서",
+      "https",
+      "tls"
+    ],
+    "url": "https://github.com/FiloSottile/mkcert"
   },
   {
     "name": "mpg123",
     "description": "mp3 player",
-    "tags": ["음악", "mp3", "플레이어"]
+    "tags": [
+      "음악",
+      "mp3",
+      "플레이어"
+    ],
+    "url": ""
   },
   {
     "name": "mprocs",
     "description": "run multiple processes in terminal",
-    "tags": ["프로세스", "멀티", "tmux"]
+    "tags": [
+      "프로세스",
+      "멀티",
+      "tmux"
+    ],
+    "url": "https://github.com/pvolok/mprocs"
   },
   {
     "name": "mpv",
     "description": "media player",
-    "tags": ["미디어", "플레이어", "video"]
+    "tags": [
+      "미디어",
+      "플레이어",
+      "video"
+    ],
+    "url": "https://github.com/mpv-player/mpv"
   },
   {
     "name": "musikcube",
     "description": "terminal music player",
-    "tags": ["음악", "플레이어"]
+    "tags": [
+      "음악",
+      "플레이어"
+    ],
+    "url": "https://github.com/clangen/musikcube"
   },
   {
     "name": "mycli",
     "description": "mysql client with autocomplete",
-    "tags": ["mysql", "db", "클라이언트"]
+    "tags": [
+      "mysql",
+      "db",
+      "클라이언트"
+    ],
+    "url": "https://github.com/dbcli/mycli"
   },
   {
     "name": "ncmpcpp",
     "description": "mpd client with ui",
-    "tags": ["음악", "mpd", "클라이언트"]
+    "tags": [
+      "음악",
+      "mpd",
+      "클라이언트"
+    ],
+    "url": ""
   },
   {
     "name": "neofetch",
     "description": "system info with logo",
-    "tags": ["시스템", "정보"]
+    "tags": [
+      "시스템",
+      "정보"
+    ],
+    "url": "https://github.com/dylanaraps/neofetch"
   },
   {
     "name": "neovide",
     "description": "gui for neovim",
-    "tags": ["neovim", "gui", "에디터"]
+    "tags": [
+      "neovim",
+      "gui",
+      "에디터"
+    ],
+    "url": "https://github.com/neovide/neovide"
   },
   {
     "name": "ngrok",
     "description": "expose local server to internet",
-    "tags": ["터널링", "http", "로컬"]
+    "tags": [
+      "터널링",
+      "http",
+      "로컬"
+    ],
+    "url": ""
   },
   {
     "name": "ninja",
     "description": "fast build system",
-    "tags": ["빌드", "ninja"]
+    "tags": [
+      "빌드",
+      "ninja"
+    ],
+    "url": ""
   },
   {
     "name": "oh-my-posh",
     "description": "custom prompt engine",
-    "tags": ["프롬프트", "shell", "테마"]
+    "tags": [
+      "프롬프트",
+      "shell",
+      "테마"
+    ],
+    "url": "https://github.com/JanDeDobbeleer/oh-my-posh"
   },
   {
     "name": "ollama",
     "description": "run llms locally",
-    "tags": ["llm", "ai", "로컬"]
+    "tags": [
+      "llm",
+      "ai",
+      "로컬"
+    ],
+    "url": "https://github.com/ollama/ollama"
   },
   {
     "name": "osx-cpu-temp",
     "description": "show mac cpu temperature",
-    "tags": ["cpu", "온도", "mac"]
+    "tags": [
+      "cpu",
+      "온도",
+      "mac"
+    ],
+    "url": "https://github.com/lavoiesl/osx-cpu-temp"
   },
   {
     "name": "oxker",
     "description": "docker container inspector",
-    "tags": ["docker", "컨테이너", "모니터링"]
+    "tags": [
+      "docker",
+      "컨테이너",
+      "모니터링"
+    ],
+    "url": "https://github.com/mrjackwills/oxker"
   },
   {
     "name": "pandoc",
     "description": "document format converter",
-    "tags": ["문서", "변환", "markdown"]
+    "tags": [
+      "문서",
+      "변환",
+      "markdown"
+    ],
+    "url": "https://github.com/jgm/pandoc"
   },
   {
     "name": "peco",
     "description": "interactive filtering tool",
-    "tags": ["fuzzy", "필터", "인터랙티브"]
+    "tags": [
+      "fuzzy",
+      "필터",
+      "인터랙티브"
+    ],
+    "url": "https://github.com/peco/peco"
   },
   {
     "name": "pls",
     "description": "pretty ls replacement",
-    "tags": ["ls", "대체", "파일목록"]
+    "tags": [
+      "ls",
+      "대체",
+      "파일목록"
+    ],
+    "url": "https://github.com/pls-rs/pls"
   },
   {
     "name": "podman",
     "description": "daemonless container engine",
-    "tags": ["컨테이너", "docker", "대체"]
+    "tags": [
+      "컨테이너",
+      "docker",
+      "대체"
+    ],
+    "url": "https://github.com/containers/podman"
   },
   {
     "name": "poetry",
     "description": "python dependency manager",
-    "tags": ["python", "패키지", "의존성"]
+    "tags": [
+      "python",
+      "패키지",
+      "의존성"
+    ],
+    "url": "https://github.com/python-poetry/poetry"
   },
   {
     "name": "popeye",
     "description": "kubernetes cluster health",
-    "tags": ["kubernetes", "헬스체크", "진단"]
+    "tags": [
+      "kubernetes",
+      "헬스체크",
+      "진단"
+    ],
+    "url": "https://github.com/derailed/popeye"
   },
   {
     "name": "prettier",
     "description": "code formatter",
-    "tags": ["포맷", "js", "프리티어"]
+    "tags": [
+      "포맷",
+      "js",
+      "프리티어"
+    ],
+    "url": "https://github.com/prettier/prettier"
   },
   {
     "name": "pyenv",
     "description": "python version manager",
-    "tags": ["python", "버전관리"]
+    "tags": [
+      "python",
+      "버전관리"
+    ],
+    "url": "https://github.com/pyenv/pyenv"
   },
   {
     "name": "rename",
     "description": "rename files with perl expressions",
-    "tags": ["이름변경", "파일", "rename"]
+    "tags": [
+      "이름변경",
+      "파일",
+      "rename"
+    ],
+    "url": ""
   },
   {
     "name": "rio",
     "description": "terminal emulator",
-    "tags": ["터미널", "에뮬레이터"]
+    "tags": [
+      "터미널",
+      "에뮬레이터"
+    ],
+    "url": "https://github.com/raphamorim/rio"
   },
   {
     "name": "rqlite",
     "description": "distributed sqlite",
-    "tags": ["sqlite", "db", "분산"]
+    "tags": [
+      "sqlite",
+      "db",
+      "분산"
+    ],
+    "url": "https://github.com/rqlite/rqlite"
   },
   {
     "name": "serie",
     "description": "watch series in terminal",
-    "tags": ["시리즈", "동영상"]
+    "tags": [
+      "시리즈",
+      "동영상"
+    ],
+    "url": "https://github.com/lusingander/serie"
   },
   {
     "name": "shellcheck",
     "description": "shell script linter",
-    "tags": ["shell", "린트"]
+    "tags": [
+      "shell",
+      "린트"
+    ],
+    "url": "https://github.com/koalaman/shellcheck"
   },
   {
     "name": "slides",
     "description": "terminal presentation tool",
-    "tags": ["발표", "슬라이드"]
+    "tags": [
+      "발표",
+      "슬라이드"
+    ],
+    "url": "https://github.com/maaslalani/slides"
   },
   {
     "name": "starship",
     "description": "cross-shell prompt",
-    "tags": ["프롬프트", "shell"]
+    "tags": [
+      "프롬프트",
+      "shell"
+    ],
+    "url": "https://github.com/starship/starship"
   },
   {
     "name": "stats",
     "description": "mac system monitor in menu bar",
-    "tags": ["시스템", "모니터링", "mac"]
+    "tags": [
+      "시스템",
+      "모니터링",
+      "mac"
+    ],
+    "url": "https://github.com/exelban/stats"
   },
   {
     "name": "stern",
     "description": "kubernetes multi-pod log viewer",
-    "tags": ["kubernetes", "로그", "모니터링"]
+    "tags": [
+      "kubernetes",
+      "로그",
+      "모니터링"
+    ],
+    "url": "https://github.com/stern/stern"
   },
   {
     "name": "supabase",
     "description": "supabase cli",
-    "tags": ["supabase", "db", "backend"]
+    "tags": [
+      "supabase",
+      "db",
+      "backend"
+    ],
+    "url": "https://github.com/supabase/cli"
   },
   {
     "name": "supervisor",
     "description": "process control system",
-    "tags": ["프로세스", "관리", "daemon"]
+    "tags": [
+      "프로세스",
+      "관리",
+      "daemon"
+    ],
+    "url": "https://github.com/Supervisor/supervisor"
   },
   {
     "name": "tabby",
     "description": "terminal emulator",
-    "tags": ["터미널", "에뮬레이터"]
+    "tags": [
+      "터미널",
+      "에뮬레이터"
+    ],
+    "url": "https://github.com/Eugeny/tabby"
   },
   {
     "name": "tabiew",
     "description": "sqlite table viewer",
-    "tags": ["sqlite", "뷰어", "db"]
+    "tags": [
+      "sqlite",
+      "뷰어",
+      "db"
+    ],
+    "url": "https://github.com/shshemi/tabiew"
   },
   {
     "name": "taproom",
     "description": "brew tap/keg manager",
-    "tags": ["brew", "tap"]
+    "tags": [
+      "brew",
+      "tap"
+    ],
+    "url": "https://github.com/sentrux/taproom"
   },
   {
     "name": "television",
     "description": "fast fuzzy finder",
-    "tags": ["fuzzy", "검색", "파일"]
+    "tags": [
+      "fuzzy",
+      "검색",
+      "파일"
+    ],
+    "url": "https://github.com/alexpasmantier/television"
   },
   {
     "name": "telnet",
     "description": "connect to remote hosts",
-    "tags": ["포트", "원격", "연결"]
+    "tags": [
+      "포트",
+      "원격",
+      "연결"
+    ],
+    "url": ""
   },
   {
     "name": "tesseract",
     "description": "ocr engine",
-    "tags": ["ocr", "이미지", "텍스트추출"]
+    "tags": [
+      "ocr",
+      "이미지",
+      "텍스트추출"
+    ],
+    "url": "https://github.com/tesseract-ocr/tesseract"
   },
   {
     "name": "tig",
     "description": "text-mode git browser",
-    "tags": ["git", "ui", "로그"]
+    "tags": [
+      "git",
+      "ui",
+      "로그"
+    ],
+    "url": "https://github.com/jonas/tig"
   },
   {
     "name": "tldr",
     "description": "tealdeer, simplified man pages",
-    "tags": ["도움말", "매뉴얼", "요약"]
+    "tags": [
+      "도움말",
+      "매뉴얼",
+      "요약"
+    ],
+    "url": "https://github.com/tealdeer-rs/tealdeer"
   },
   {
     "name": "usage",
     "description": "usage statistics for cli",
-    "tags": ["사용량", "통계"]
+    "tags": [
+      "사용량",
+      "통계"
+    ],
+    "url": ""
   },
   {
     "name": "vagrant",
     "description": "vm environment manager",
-    "tags": ["vm", "가상머신", "개발환경"]
+    "tags": [
+      "vm",
+      "가상머신",
+      "개발환경"
+    ],
+    "url": "https://github.com/hashicorp/vagrant"
   },
   {
     "name": "vale",
     "description": "prose linter",
-    "tags": ["린트", "문서", "prose"]
+    "tags": [
+      "린트",
+      "문서",
+      "prose"
+    ],
+    "url": "https://github.com/errata-ai/vale"
   },
   {
     "name": "vector",
     "description": "log/metrics pipeline",
-    "tags": ["로그", "파이프라인", "메트릭"]
+    "tags": [
+      "로그",
+      "파이프라인",
+      "메트릭"
+    ],
+    "url": "https://github.com/vectordotdev/vector"
   },
   {
     "name": "wasmer",
     "description": "webassembly runtime",
-    "tags": ["wasm", "런타임", "webassembly"]
+    "tags": [
+      "wasm",
+      "런타임",
+      "webassembly"
+    ],
+    "url": "https://github.com/wasmerio/wasmer"
   },
   {
     "name": "wasmtime",
     "description": "webassembly runtime",
-    "tags": ["wasm", "런타임"]
+    "tags": [
+      "wasm",
+      "런타임"
+    ],
+    "url": "https://github.com/bytecodealliance/wasmtime"
   },
   {
     "name": "webpack",
     "description": "js module bundler",
-    "tags": ["js", "번들러", "빌드"]
+    "tags": [
+      "js",
+      "번들러",
+      "빌드"
+    ],
+    "url": "https://github.com/webpack/webpack"
   },
   {
     "name": "wezterm",
     "description": "terminal emulator with lua config",
-    "tags": ["터미널", "에뮬레이터"]
+    "tags": [
+      "터미널",
+      "에뮬레이터"
+    ],
+    "url": "https://github.com/wez/wezterm"
   },
   {
     "name": "xdotool",
     "description": "automate x11 interactions",
-    "tags": ["x11", "자동화"]
+    "tags": [
+      "x11",
+      "자동화"
+    ],
+    "url": "https://github.com/jordansissel/xdotool"
   },
   {
     "name": "yarn",
     "description": "javascript package manager",
-    "tags": ["js", "패키지", "yarn"]
+    "tags": [
+      "js",
+      "패키지",
+      "yarn"
+    ],
+    "url": "https://github.com/yarnpkg/yarn"
   },
   {
     "name": "yazi",
     "description": "terminal file manager",
-    "tags": ["파일", "관리자", "ui"]
+    "tags": [
+      "파일",
+      "관리자",
+      "ui"
+    ],
+    "url": "https://github.com/sxyazi/yazi"
   },
   {
     "name": "yq",
     "description": "yaml processor like jq",
-    "tags": ["yaml", "파싱"]
+    "tags": [
+      "yaml",
+      "파싱"
+    ],
+    "url": "https://github.com/mikefarah/yq"
   },
   {
     "name": "yt-dlp",
     "description": "download videos from websites",
-    "tags": ["다운로드", "동영상", "youtube"]
+    "tags": [
+      "다운로드",
+      "동영상",
+      "youtube"
+    ],
+    "url": "https://github.com/yt-dlp/yt-dlp"
   },
   {
     "name": "zig",
     "description": "zig language toolchain",
-    "tags": ["zig", "컴파일", "빌드"]
+    "tags": [
+      "zig",
+      "컴파일",
+      "빌드"
+    ],
+    "url": "https://github.com/ziglang/zig"
   },
   {
     "name": "zsh",
     "description": "z shell",
-    "tags": ["shell", "zsh"]
+    "tags": [
+      "shell",
+      "zsh"
+    ],
+    "url": ""
   },
   {
     "name": "air",
     "description": "go hot reload dev server",
-    "tags": ["go", "리로드", "핫리로드", "개발"]
+    "tags": [
+      "go",
+      "리로드",
+      "핫리로드",
+      "개발"
+    ],
+    "url": "https://github.com/air-verse/air"
   },
   {
     "name": "confetty",
     "description": "terminal confetti animation",
-    "tags": ["축하", "애니메이션", "ascii"]
+    "tags": [
+      "축하",
+      "애니메이션",
+      "ascii"
+    ],
+    "url": "https://github.com/maaslalani/confetty"
   },
   {
     "name": "countryfetch",
     "description": "country info by name/code",
-    "tags": ["국가", "정보", "정보조회"]
+    "tags": [
+      "국가",
+      "정보",
+      "정보조회"
+    ],
+    "url": "https://github.com/CondensedMilk7/countryfetch"
   },
   {
     "name": "dlv",
     "description": "delve, go debugger",
-    "tags": ["go", "디버거", "debug"]
+    "tags": [
+      "go",
+      "디버거",
+      "debug"
+    ],
+    "url": "https://github.com/go-delve/delve"
   },
   {
     "name": "errcheck",
     "description": "check unchecked go errors",
-    "tags": ["go", "에러", "린트"]
+    "tags": [
+      "go",
+      "에러",
+      "린트"
+    ],
+    "url": "https://github.com/kisielk/errcheck"
   },
   {
     "name": "ginkgo",
     "description": "BDD test framework for go",
-    "tags": ["go", "테스트", "bdd"]
+    "tags": [
+      "go",
+      "테스트",
+      "bdd"
+    ],
+    "url": "https://github.com/onsi/ginkgo"
   },
   {
     "name": "go-enum",
     "description": "generate go enum code",
-    "tags": ["go", "enum", "코드생성"]
+    "tags": [
+      "go",
+      "enum",
+      "코드생성"
+    ],
+    "url": "https://github.com/abice/go-enum"
   },
   {
     "name": "go-licenses",
     "description": "report go dependency licenses",
-    "tags": ["go", "라이선스", "license"]
+    "tags": [
+      "go",
+      "라이선스",
+      "license"
+    ],
+    "url": "https://github.com/google/go-licenses"
   },
   {
     "name": "gofumpt",
     "description": "stricter gofmt formatter",
-    "tags": ["go", "포맷", "gofmt"]
+    "tags": [
+      "go",
+      "포맷",
+      "gofmt"
+    ],
+    "url": "https://github.com/mvdan/gofumpt"
   },
   {
     "name": "goimports",
     "description": "format go imports",
-    "tags": ["go", "포맷", "import"]
+    "tags": [
+      "go",
+      "포맷",
+      "import"
+    ],
+    "url": "https://github.com/golang/tools"
   },
   {
     "name": "gomodifytags",
     "description": "modify go struct tags",
-    "tags": ["go", "struct", "태그"]
+    "tags": [
+      "go",
+      "struct",
+      "태그"
+    ],
+    "url": "https://github.com/fatih/gomodifytags"
   },
   {
     "name": "gopls",
     "description": "go language server",
-    "tags": ["go", "lsp", "편집기"]
+    "tags": [
+      "go",
+      "lsp",
+      "편집기"
+    ],
+    "url": "https://github.com/golang/tools"
   },
   {
     "name": "gotestsum",
     "description": "go test runner with rich output",
-    "tags": ["go", "테스트", "테스트러너"]
+    "tags": [
+      "go",
+      "테스트",
+      "테스트러너"
+    ],
+    "url": "https://github.com/gotestyourself/gotestsum"
   },
   {
     "name": "govulncheck",
     "description": "go vulnerability scanner",
-    "tags": ["go", "보안", "취약점"]
+    "tags": [
+      "go",
+      "보안",
+      "취약점"
+    ],
+    "url": "https://github.com/golang/vuln"
   },
   {
     "name": "gup",
     "description": "update go-installed binaries",
-    "tags": ["go", "업데이트", "버전관리"]
+    "tags": [
+      "go",
+      "업데이트",
+      "버전관리"
+    ],
+    "url": "https://github.com/nao1215/gup"
   },
   {
     "name": "image2ascii",
     "description": "convert image to ascii art",
-    "tags": ["이미지", "ascii", "변환"]
+    "tags": [
+      "이미지",
+      "ascii",
+      "변환"
+    ],
+    "url": "https://github.com/qeesung/image2ascii"
   },
   {
     "name": "imgcat",
     "description": "display images in terminal",
-    "tags": ["이미지", "터미널", "뷰어"]
+    "tags": [
+      "이미지",
+      "터미널",
+      "뷰어"
+    ],
+    "url": "https://github.com/danielgatis/imgcat"
   },
   {
     "name": "impl",
     "description": "generate go interface method stubs",
-    "tags": ["go", "interface", "코드생성"]
+    "tags": [
+      "go",
+      "interface",
+      "코드생성"
+    ],
+    "url": "https://github.com/josharian/impl"
   },
   {
     "name": "json-to-struct",
     "description": "convert json to go struct",
-    "tags": ["json", "go", "struct", "변환"]
+    "tags": [
+      "json",
+      "go",
+      "struct",
+      "변환"
+    ],
+    "url": "https://github.com/tmc/json-to-struct"
   },
   {
     "name": "gojsonstruct",
     "description": "generate go struct from json",
-    "tags": ["json", "go", "struct"]
+    "tags": [
+      "json",
+      "go",
+      "struct"
+    ],
+    "url": "https://github.com/twpayne/go-jsonstruct"
   },
   {
     "name": "kaf",
     "description": "kafka cli with tui",
-    "tags": ["kafka", "메시지", "tui"]
+    "tags": [
+      "kafka",
+      "메시지",
+      "tui"
+    ],
+    "url": "https://github.com/birdayz/kaf"
   },
   {
     "name": "lefthook",
     "description": "git hooks manager",
-    "tags": ["git", "훅", "hooks"]
+    "tags": [
+      "git",
+      "훅",
+      "hooks"
+    ],
+    "url": "https://github.com/evilmartians/lefthook"
   },
   {
     "name": "lensm",
     "description": "assembly source viewer for go",
-    "tags": ["go", "어셈블리", "분석"]
+    "tags": [
+      "go",
+      "어셈블리",
+      "분석"
+    ],
+    "url": "https://github.com/loov/lensm"
   },
   {
     "name": "mockgen",
     "description": "go mock code generator",
-    "tags": ["go", "mock", "테스트"]
+    "tags": [
+      "go",
+      "mock",
+      "테스트"
+    ],
+    "url": "https://github.com/uber-go/mock"
   },
   {
     "name": "mockery",
     "description": "go mock generator from interfaces",
-    "tags": ["go", "mock", "테스트"]
+    "tags": [
+      "go",
+      "mock",
+      "테스트"
+    ],
+    "url": "https://github.com/vektra/mockery"
   },
   {
     "name": "revive",
     "description": "go linter",
-    "tags": ["go", "린트"]
+    "tags": [
+      "go",
+      "린트"
+    ],
+    "url": "https://github.com/mgechev/revive"
   },
   {
     "name": "shfmt",
     "description": "shell script formatter",
-    "tags": ["shell", "포맷", "bash"]
+    "tags": [
+      "shell",
+      "포맷",
+      "bash"
+    ],
+    "url": "https://github.com/mvdan/sh"
   },
   {
     "name": "staticcheck",
     "description": "go static analysis",
-    "tags": ["go", "정적분석", "린트"]
+    "tags": [
+      "go",
+      "정적분석",
+      "린트"
+    ],
+    "url": "https://github.com/dominikh/go-tools"
   },
   {
     "name": "stringer",
     "description": "generate go constant String methods",
-    "tags": ["go", "코드생성", "stringer"]
+    "tags": [
+      "go",
+      "코드생성",
+      "stringer"
+    ],
+    "url": "https://github.com/golang/tools"
   },
   {
     "name": "swag",
     "description": "generate swagger docs from go comments",
-    "tags": ["go", "swagger", "문서"]
+    "tags": [
+      "go",
+      "swagger",
+      "문서"
+    ],
+    "url": "https://github.com/swaggo/swag"
   },
   {
     "name": "termshark",
     "description": "terminal wireshark/tshark ui",
-    "tags": ["네트워크", "패킷", "wireshark", "분석"]
+    "tags": [
+      "네트워크",
+      "패킷",
+      "wireshark",
+      "분석"
+    ],
+    "url": "https://github.com/gcla/termshark"
   },
   {
     "name": "tparse",
     "description": "go test output parser",
-    "tags": ["go", "테스트", "파싱"]
+    "tags": [
+      "go",
+      "테스트",
+      "파싱"
+    ],
+    "url": "https://github.com/mfridman/tparse"
   },
   {
     "name": "vegeta",
     "description": "http load testing tool",
-    "tags": ["http", "부하", "테스트"]
+    "tags": [
+      "http",
+      "부하",
+      "테스트"
+    ],
+    "url": "https://github.com/tsenart/vegeta"
   },
   {
     "name": "xcaddy",
     "description": "build caddy with plugins",
-    "tags": ["caddy", "빌드", "플러그인"]
+    "tags": [
+      "caddy",
+      "빌드",
+      "플러그인"
+    ],
+    "url": "https://github.com/caddyserver/xcaddy"
   },
   {
     "name": "golines",
     "description": "go formatter for long lines",
-    "tags": ["go", "포맷", "라인"]
+    "tags": [
+      "go",
+      "포맷",
+      "라인"
+    ],
+    "url": "https://github.com/segmentio/golines"
   },
   {
     "name": "goplay",
     "description": "run go code in playground",
-    "tags": ["go", "플레이그라운드", "실행"]
+    "tags": [
+      "go",
+      "플레이그라운드",
+      "실행"
+    ],
+    "url": "https://github.com/haya14busa/goplay"
   },
   {
     "name": "godoc",
     "description": "go documentation tool",
-    "tags": ["go", "문서", "godoc"]
+    "tags": [
+      "go",
+      "문서",
+      "godoc"
+    ],
+    "url": "https://github.com/golang/tools"
   },
   {
     "name": "gotests",
     "description": "generate go table-driven tests",
-    "tags": ["go", "테스트", "코드생성"]
+    "tags": [
+      "go",
+      "테스트",
+      "코드생성"
+    ],
+    "url": "https://github.com/cweill/gotests"
   },
   {
     "name": "leaf",
     "description": "terminal markdown previewer",
-    "tags": ["markdown", "뷰어", "미리보기"]
+    "tags": [
+      "markdown",
+      "뷰어",
+      "미리보기"
+    ],
+    "url": "https://github.com/rivolink/leaf"
   },
   {
     "name": "scope-tui",
     "description": "terminal audio visualizer",
-    "tags": ["음악", "시각화", "audio"]
+    "tags": [
+      "음악",
+      "시각화",
+      "audio"
+    ],
+    "url": "https://github.com/alemidev/scope-tui"
   },
   {
     "name": "ttf",
     "description": "terminal tool finder, fuzzy search this tools.json",
-    "tags": ["터미널", "파인더", "fuzzy", "검색"]
+    "tags": [
+      "터미널",
+      "파인더",
+      "fuzzy",
+      "검색"
+    ],
+    "url": "https://github.com/ysoftman/ttf"
   }
 ]
-
