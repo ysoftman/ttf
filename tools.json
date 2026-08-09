@@ -1153,12 +1153,12 @@
     "lang": "Rust"
   },
   {
-    "name": "trip",
-    "description": "trippy, network diagnostic tool combining ping and traceroute",
+    "name": "trippy",
+    "description": "traceroute and ping tui network diagnostics",
     "tags": [
       "네트워크",
-      "ping",
       "traceroute",
+      "ping",
       "진단"
     ],
     "url": "https://github.com/fujiapple852/trippy",
@@ -3705,5 +3705,283 @@
     ],
     "url": "https://github.com/ysoftman/ttf",
     "lang": "Rust"
+  },
+  {
+    "name": "age",
+    "description": "simple modern secure file encryption",
+    "tags": [
+      "암호화",
+      "encryption",
+      "보안"
+    ],
+    "url": "https://github.com/FiloSottile/age",
+    "lang": "Go"
+  },
+  {
+    "name": "atac",
+    "description": "postman like API client in terminal",
+    "tags": [
+      "api",
+      "클라이언트",
+      "tui"
+    ],
+    "url": "https://github.com/Julien-cpsn/ATAC",
+    "lang": "Rust"
+  },
+  {
+    "name": "atuin",
+    "description": "shell history search and multi-device sync",
+    "tags": [
+      "history",
+      "히스토리",
+      "동기화",
+      "검색"
+    ],
+    "url": "https://github.com/atuinsh/atuin",
+    "lang": "Rust"
+  },
+  {
+    "name": "cheznav",
+    "description": "tui for managing chezmoi dotfiles",
+    "tags": [
+      "dotfiles",
+      "chezmoi",
+      "설정"
+    ],
+    "url": "https://github.com/djetelina/cheznav",
+    "lang": "Python"
+  },
+  {
+    "name": "eget",
+    "description": "easily install prebuilt binaries from GitHub",
+    "tags": [
+      "설치",
+      "install",
+      "github",
+      "바이너리"
+    ],
+    "url": "https://github.com/zyedidia/eget",
+    "lang": "Go"
+  },
+  {
+    "name": "fq",
+    "description": "jq for binary formats",
+    "tags": [
+      "jq",
+      "바이너리",
+      "binary",
+      "파싱"
+    ],
+    "url": "https://github.com/wader/fq",
+    "lang": "Go"
+  },
+  {
+    "name": "gdu",
+    "description": "fast disk usage analyzer",
+    "tags": [
+      "디스크",
+      "용량",
+      "분석"
+    ],
+    "url": "https://github.com/dundee/gdu",
+    "lang": "Go"
+  },
+  {
+    "name": "gitnr",
+    "description": "generate .gitignore files using templates",
+    "tags": [
+      "git",
+      "gitignore",
+      "생성",
+      "템플릿"
+    ],
+    "url": "https://github.com/reemus-dev/gitnr",
+    "lang": "Rust"
+  },
+  {
+    "name": "jwt-ui",
+    "description": "decode and encode JSON Web Tokens",
+    "tags": [
+      "jwt",
+      "인증",
+      "디코딩"
+    ],
+    "url": "https://github.com/jwt-rs/jwt-ui",
+    "lang": "Rust"
+  },
+  {
+    "name": "kdash",
+    "description": "k8s dashboard with resource metrics",
+    "tags": [
+      "kubernetes",
+      "k8s",
+      "대시보드",
+      "모니터링"
+    ],
+    "url": "https://github.com/kdash-rs/kdash",
+    "lang": "Rust"
+  },
+  {
+    "name": "kalker",
+    "description": "scientific terminal calculator",
+    "tags": [
+      "계산기",
+      "수학",
+      "math"
+    ],
+    "url": "https://github.com/PaddiM8/kalker",
+    "lang": "Rust"
+  },
+  {
+    "name": "kyanos",
+    "description": "ebpf-based network tracing and analysis",
+    "tags": [
+      "네트워크",
+      "ebpf",
+      "트레이싱",
+      "진단"
+    ],
+    "url": "https://github.com/hengyoush/kyanos",
+    "lang": "Go"
+  },
+  {
+    "name": "lazyrsync",
+    "description": "tui for defining and running rsync transfers",
+    "tags": [
+      "rsync",
+      "백업",
+      "동기화",
+      "tui"
+    ],
+    "url": "https://github.com/westpoint-io/lazyrsync",
+    "lang": "Rust"
+  },
+  {
+    "name": "lnav",
+    "description": "ncurses-based log file viewer with query",
+    "tags": [
+      "로그",
+      "log",
+      "뷰어",
+      "검색"
+    ],
+    "url": "https://github.com/tstack/lnav",
+    "lang": "C++"
+  },
+  {
+    "name": "monolith",
+    "description": "save complete web pages as a single html file",
+    "tags": [
+      "웹",
+      "아카이브",
+      "html",
+      "저장"
+    ],
+    "url": "https://github.com/Y2Z/monolith",
+    "lang": "Rust"
+  },
+  {
+    "name": "mqttui",
+    "description": "publish and subscribe MQTT messages",
+    "tags": [
+      "mqtt",
+      "iot",
+      "메시지"
+    ],
+    "url": "https://github.com/EdJoPaTo/mqttui",
+    "lang": "Rust"
+  },
+  {
+    "name": "posting",
+    "description": "powerful HTTP client in terminal",
+    "tags": [
+      "http",
+      "api",
+      "클라이언트",
+      "tui"
+    ],
+    "url": "https://github.com/darrenburns/posting",
+    "lang": "Python"
+  },
+  {
+    "name": "qo",
+    "description": "query JSON CSV TSV with SQL in tui",
+    "tags": [
+      "sql",
+      "json",
+      "csv",
+      "쿼리"
+    ],
+    "url": "https://github.com/kiki-ki/go-qo",
+    "lang": "Go"
+  },
+  {
+    "name": "rustscan",
+    "description": "modern fast port scanner",
+    "tags": [
+      "포트스캔",
+      "네트워크",
+      "보안",
+      "scanner"
+    ],
+    "url": "https://github.com/RustScan/RustScan",
+    "lang": "Rust"
+  },
+  {
+    "name": "sqlit",
+    "description": "user friendly tui for SQL databases",
+    "tags": [
+      "sql",
+      "데이터베이스",
+      "tui"
+    ],
+    "url": "https://github.com/Maxteabag/sqlit",
+    "lang": "Python"
+  },
+  {
+    "name": "sttr",
+    "description": "30+ string transformations on text",
+    "tags": [
+      "문자열",
+      "변환",
+      "transform"
+    ],
+    "url": "https://github.com/abhimanyu003/sttr",
+    "lang": "Go"
+  },
+  {
+    "name": "tiptop",
+    "description": "system monitoring in spirit of top",
+    "tags": [
+      "모니터링",
+      "시스템",
+      "top"
+    ],
+    "url": "https://github.com/nschloe/tiptop",
+    "lang": "Python"
+  },
+  {
+    "name": "wrkflw",
+    "description": "validate and run GitHub Actions and GitLab CI locally",
+    "tags": [
+      "ci",
+      "github actions",
+      "로컬",
+      "tui"
+    ],
+    "url": "https://github.com/bahdotsh/wrkflw",
+    "lang": "Rust"
+  },
+  {
+    "name": "aider",
+    "description": "AI pair programming in your terminal",
+    "tags": [
+      "ai",
+      "코딩",
+      "어시스턴트",
+      "llm"
+    ],
+    "url": "https://github.com/paul-gauthier/aider",
+    "lang": "Python"
   }
 ]
