@@ -1,6 +1,6 @@
 # ttf
 
-Terminal Tool Finder — 터미널 명령어를 `tools.json`에서 퍼지(fuzzy) 검색하는 CLI 도구.
+Terminal Tool Finder — a CLI tool that fuzzy-searches terminal commands in `tools.json`.
 
 ## install and usage
 
@@ -8,29 +8,29 @@ Terminal Tool Finder — 터미널 명령어를 `tools.json`에서 퍼지(fuzzy)
 # install (crates.io)
 cargo uninstall terminal-tool-finder; cargo install terminal-tool-finder
 
-# 재설치 (이미 설치된 경우)
+# reinstall (if already installed)
 cargo install terminal-tool-finder --force
 
-# install (로컬 소스에서 빌드)
+# install (build from local source)
 cargo build --release
-# 바이너리: target/release/ttf
+# binary: target/release/ttf
 
 # help
 ttf -h
 
-# 퍼지 검색
+# fuzzy search
 ttf <query>
 
-# 전체 목록 출력
+# list all tools
 ttf -l, --list
 
-# tools.json 경로 지정 (기본: exe 디렉토리 또는 ./tools.json)
+# specify tools.json path (default: exe directory or ./tools.json)
 ttf -d <path>
 
-# 최대 결과 수 (기본: 20)
+# max number of results (default: 20)
 ttf -n <n>
 
-# 색상 출력 끄기 (기본: 색상 on, 커맨드명/태그 색상 표시)
+# disable colored output (default: color on, command names/tags colored)
 ttf --nocolor
 ```
 
@@ -40,15 +40,15 @@ ttf --nocolor
 # local test
 cargo test
 
-# 빌드 없이 실행
+# run without building
 cargo run -- <query>
 
-# cargo 로그인
-# <https://crates.io/me> 에서 토큰 생성함
-# 로그인 하면 ~/.cargo/credentials.toml 에 토큰 저장됨
+# cargo login
+# create a token at <https://crates.io/me>
+# the token is saved to ~/.cargo/credentials.toml after login
 cargo login
 
-# cargo.toml 버전업 수정 -> git 커밋 -> cargo 로 배포
-# --allow-dirty : git 커밋 없이 로컬 변경 사항이 있는채로 배포 허용
+# bump version in cargo.toml -> git commit -> deploy with cargo
+# --allow-dirty: allow publishing with uncommitted local changes
 cargo publish
 ```
