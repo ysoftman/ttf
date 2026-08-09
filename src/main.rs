@@ -22,6 +22,35 @@ const C_URL: &str = "\x1b[34m";
 const C_INSTALLED: &str = "\x1b[32m";
 const C_NOT_INSTALLED: &str = "\x1b[31m";
 
+fn lang_ansi(lang: &str) -> String {
+    let hex = match lang {
+        "Rust" => "dea584",
+        "Go" => "00ADD8",
+        "C" => "555555",
+        "Python" => "3572A5",
+        "JavaScript" => "f1e05a",
+        "TypeScript" => "3178c6",
+        "Shell" => "89e051",
+        "Java" => "b07219",
+        "C++" => "f34b7d",
+        "Zig" => "ec915c",
+        "Vim Script" => "199f4b",
+        "Ruby" => "701516",
+        "LLVM" => "185619",
+        "Haskell" => "5e5086",
+        "Swift" => "F05138",
+        "Perl" => "0298c3",
+        "Objective-C" => "438eff",
+        "Lua" => "000080",
+        "HTML" => "e34c26",
+        _ => return "\x1b[1;90m".to_string(),
+    };
+    let r = u8::from_str_radix(&hex[0..2], 16).unwrap();
+    let g = u8::from_str_radix(&hex[2..4], 16).unwrap();
+    let b = u8::from_str_radix(&hex[4..6], 16).unwrap();
+    format!("\x1b[1;38;2;{r};{g};{b}m")
+}
+
 #[derive(Debug, Clone, Deserialize)]
 struct Tool {
     name: String,
@@ -31,6 +60,8 @@ struct Tool {
     tags: Vec<String>,
     #[serde(default)]
     url: String,
+    #[serde(default)]
+    lang: String,
 }
 
 impl Tool {
@@ -189,6 +220,13 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
     } else {
         format!("  [{}]", t.tags.join(", "))
     };
+    let lang_line = if t.lang.is_empty() {
+        String::new()
+    } else if color {
+        format!("  [{}{}{C_RESET}]", lang_ansi(&t.lang), t.lang)
+    } else {
+        format!("  [{}]", t.lang)
+    };
     let url_line = if t.url.is_empty() {
         String::new()
     } else {
@@ -202,20 +240,22 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
     };
     match score {
         Some(s) => print_line!(
-            "{:>3}  {}  {}  {}{}{}",
+            "{:>3}  {}  {}  {}{}{}{}",
             s,
             mark,
             name,
             t.description,
             tagline,
+            lang_line,
             url_line
         ),
         None => print_line!(
-            "{}  {}  {}{}{}",
+            "{}  {}  {}{}{}{}",
             mark,
             name,
             t.description,
             tagline,
+            lang_line,
             url_line
         ),
     }
@@ -588,6 +628,7 @@ mod tests {
             description: String::new(),
             tags: vec!["built-in".to_string()],
             url: String::new(),
+            lang: String::new(),
         };
         assert!(t.is_builtin());
         let plain = Tool {
@@ -595,6 +636,7 @@ mod tests {
             description: String::new(),
             tags: Vec::new(),
             url: String::new(),
+            lang: String::new(),
         };
         assert!(!plain.is_builtin());
     }

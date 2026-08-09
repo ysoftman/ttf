@@ -91,6 +91,13 @@ fn search_shows_url() {
 }
 
 #[test]
+fn search_shows_lang() {
+    let (out, code) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "ls directory"]);
+    assert_eq!(code, 0);
+    assert!(out.contains("  [C]"));
+}
+
+#[test]
 fn color_enabled_by_default() {
     let (out, _) = run(&["-d", "tools.json", "-n", "1", "ls"]);
     assert!(out.contains("\x1b[32m"));
