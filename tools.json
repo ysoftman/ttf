@@ -4,8 +4,7 @@
     "description": "list directory contents",
     "tags": [
       "directory",
-      "파일목록",
-      "디렉토리"
+      "filelist"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -14,8 +13,8 @@
     "name": "cd",
     "description": "change the working directory",
     "tags": [
-      "이동",
-      "디렉토리 변경",
+      "move",
+      "change-directory",
       "built-in"
     ],
     "url": "",
@@ -25,8 +24,8 @@
     "name": "pwd",
     "description": "print name of current working directory",
     "tags": [
-      "경로",
-      "현재디렉토리",
+      "path",
+      "current-directory",
       "built-in"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -36,8 +35,8 @@
     "name": "mkdir",
     "description": "make directories",
     "tags": [
-      "생성",
-      "디렉토리"
+      "create",
+      "directory"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -46,8 +45,8 @@
     "name": "rm",
     "description": "remove files or directories",
     "tags": [
-      "삭제",
-      "파일"
+      "delete",
+      "file"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -56,7 +55,6 @@
     "name": "cp",
     "description": "copy files or directories",
     "tags": [
-      "복사",
       "copy"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -66,9 +64,8 @@
     "name": "mv",
     "description": "move or rename files",
     "tags": [
-      "이동",
-      "rename",
-      "이름변경"
+      "move",
+      "rename"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -77,9 +74,8 @@
     "name": "ln",
     "description": "create hard or symbolic links",
     "tags": [
-      "링크",
-      "symbolic",
-      "심볼릭"
+      "link",
+      "symbolic"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -88,7 +84,6 @@
     "name": "chmod",
     "description": "change file mode bits (permissions)",
     "tags": [
-      "권한",
       "permission"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -98,8 +93,8 @@
     "name": "chown",
     "description": "change file owner and group",
     "tags": [
-      "소유자",
-      "권한"
+      "owner",
+      "permission"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -108,9 +103,9 @@
     "name": "touch",
     "description": "create empty file or update timestamp",
     "tags": [
-      "생성",
-      "빈파일",
-      "시간"
+      "create",
+      "empty-file",
+      "time"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -119,8 +114,8 @@
     "name": "tree",
     "description": "display directory structure as a tree",
     "tags": [
-      "구조",
-      "트리"
+      "structure",
+      "tree"
     ],
     "url": "",
     "lang": ""
@@ -129,8 +124,8 @@
     "name": "find",
     "description": "search for files in a directory hierarchy",
     "tags": [
-      "검색",
-      "파일"
+      "search",
+      "file"
     ],
     "url": "",
     "lang": ""
@@ -139,9 +134,9 @@
     "name": "fd",
     "description": "fast and simple alternative to find",
     "tags": [
-      "검색",
-      "빠른",
-      "파일"
+      "search",
+      "fast",
+      "file"
     ],
     "url": "https://github.com/sharkdp/fd",
     "lang": "Rust"
@@ -150,10 +145,9 @@
     "name": "grep",
     "description": "search for patterns in text",
     "tags": [
-      "검색",
-      "패턴",
-      "regex",
-      "정규식"
+      "search",
+      "pattern",
+      "regex"
     ],
     "url": "",
     "lang": ""
@@ -162,9 +156,9 @@
     "name": "rg",
     "description": "ripgrep, fast recursive grep",
     "tags": [
-      "검색",
-      "패턴",
-      "빠른"
+      "search",
+      "pattern",
+      "fast"
     ],
     "url": "https://github.com/BurntSushi/ripgrep",
     "lang": "Rust"
@@ -173,8 +167,8 @@
     "name": "sed",
     "description": "stream editor for filtering and transforming text",
     "tags": [
-      "치환",
-      "편집",
+      "substitute",
+      "edit",
       "replace"
     ],
     "url": "",
@@ -184,8 +178,7 @@
     "name": "awk",
     "description": "pattern scanning and text processing language",
     "tags": [
-      "텍스트",
-      "열",
+      "text",
       "column"
     ],
     "url": "",
@@ -195,9 +188,8 @@
     "name": "cut",
     "description": "extract selected columns from lines",
     "tags": [
-      "열",
-      "컬럼",
-      "추출"
+      "column",
+      "extract"
     ],
     "url": "",
     "lang": ""
@@ -206,7 +198,6 @@
     "name": "sort",
     "description": "sort lines of text",
     "tags": [
-      "정렬",
       "sort"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -216,8 +207,8 @@
     "name": "uniq",
     "description": "report or omit repeated lines",
     "tags": [
-      "중복",
-      "제거"
+      "duplicate",
+      "remove"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -226,9 +217,8 @@
     "name": "wc",
     "description": "count lines, words, and bytes",
     "tags": [
-      "개수",
-      "줄",
-      "라인"
+      "count",
+      "line"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -237,8 +227,8 @@
     "name": "head",
     "description": "output the first part of files",
     "tags": [
-      "앞부분",
-      "첫줄"
+      "first-part",
+      "first-line"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -247,8 +237,7 @@
     "name": "tail",
     "description": "output the last part of files, follow logs with -f",
     "tags": [
-      "뒷부분",
-      "로그",
+      "last-part",
       "log"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -258,9 +247,9 @@
     "name": "less",
     "description": "view file contents with paging",
     "tags": [
-      "뷰어",
-      "페이지",
-      "스크롤"
+      "viewer",
+      "page",
+      "scroll"
     ],
     "url": "",
     "lang": ""
@@ -269,8 +258,8 @@
     "name": "more",
     "description": "simple pager for text files",
     "tags": [
-      "뷰어",
-      "페이지"
+      "viewer",
+      "page"
     ],
     "url": "",
     "lang": ""
@@ -279,8 +268,8 @@
     "name": "tee",
     "description": "read from stdin and write to stdout and files",
     "tags": [
-      "출력",
-      "리다이렉트"
+      "output",
+      "redirect"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -289,7 +278,7 @@
     "name": "echo",
     "description": "print text to stdout",
     "tags": [
-      "출력",
+      "output",
       "print",
       "built-in"
     ],
@@ -300,8 +289,8 @@
     "name": "printf",
     "description": "format and print data",
     "tags": [
-      "출력",
-      "포맷",
+      "output",
+      "format",
       "built-in"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -311,8 +300,8 @@
     "name": "diff",
     "description": "compare files line by line",
     "tags": [
-      "비교",
-      "차이"
+      "compare",
+      "difference"
     ],
     "url": "",
     "lang": ""
@@ -321,8 +310,8 @@
     "name": "patch",
     "description": "apply diff files to originals",
     "tags": [
-      "패치",
-      "적용"
+      "patch",
+      "apply"
     ],
     "url": "",
     "lang": ""
@@ -331,8 +320,8 @@
     "name": "tar",
     "description": "archive files in a tarball",
     "tags": [
-      "압축",
-      "아카이브"
+      "compress",
+      "archive"
     ],
     "url": "",
     "lang": ""
@@ -341,7 +330,6 @@
     "name": "gzip",
     "description": "compress files with gzip",
     "tags": [
-      "압축",
       "compress"
     ],
     "url": "",
@@ -351,8 +339,7 @@
     "name": "gunzip",
     "description": "decompress gzip files",
     "tags": [
-      "해제",
-      "압축해제"
+      "extract"
     ],
     "url": "",
     "lang": ""
@@ -361,7 +348,7 @@
     "name": "zip",
     "description": "package and compress files into zip",
     "tags": [
-      "압축",
+      "compress",
       "zip"
     ],
     "url": "",
@@ -371,7 +358,7 @@
     "name": "unzip",
     "description": "extract zip archives",
     "tags": [
-      "압축해제",
+      "extract",
       "unzip"
     ],
     "url": "",
@@ -382,7 +369,7 @@
     "description": "lightweight JSON processor",
     "tags": [
       "json",
-      "파싱"
+      "parsing"
     ],
     "url": "https://github.com/jqlang/jq",
     "lang": "C"
@@ -393,7 +380,7 @@
     "tags": [
       "http",
       "api",
-      "다운로드",
+      "download",
       "request"
     ],
     "url": "https://github.com/curl/curl",
@@ -403,7 +390,6 @@
     "name": "wget",
     "description": "download files from the web",
     "tags": [
-      "다운로드",
       "download"
     ],
     "url": "",
@@ -413,9 +399,9 @@
     "name": "ping",
     "description": "test network connectivity",
     "tags": [
-      "네트워크",
-      "연결",
-      "확인"
+      "network",
+      "connection",
+      "check"
     ],
     "url": "",
     "lang": ""
@@ -424,8 +410,7 @@
     "name": "nc",
     "description": "netcat, read/write TCP or UDP",
     "tags": [
-      "포트",
-      "소켓",
+      "port",
       "socket"
     ],
     "url": "",
@@ -436,8 +421,8 @@
     "description": "query DNS servers",
     "tags": [
       "dns",
-      "도메인",
-      "네임서버"
+      "domain",
+      "nameserver"
     ],
     "url": "",
     "lang": ""
@@ -447,7 +432,7 @@
     "description": "query DNS records",
     "tags": [
       "dns",
-      "도메인"
+      "domain"
     ],
     "url": "",
     "lang": ""
@@ -456,8 +441,8 @@
     "name": "traceroute",
     "description": "trace network route to host",
     "tags": [
-      "경로",
-      "네트워크"
+      "route",
+      "network"
     ],
     "url": "",
     "lang": ""
@@ -466,9 +451,9 @@
     "name": "netstat",
     "description": "show network connections and ports",
     "tags": [
-      "포트",
-      "상태",
-      "연결"
+      "port",
+      "status",
+      "connection"
     ],
     "url": "",
     "lang": ""
@@ -477,8 +462,8 @@
     "name": "ss",
     "description": "show socket statistics",
     "tags": [
-      "포트",
-      "소켓"
+      "port",
+      "socket"
     ],
     "url": "",
     "lang": ""
@@ -488,8 +473,8 @@
     "description": "show and manage network interfaces",
     "tags": [
       "ip",
-      "네트워크",
-      "인터페이스"
+      "network",
+      "interface"
     ],
     "url": "",
     "lang": ""
@@ -499,7 +484,7 @@
     "description": "configure network interfaces",
     "tags": [
       "ip",
-      "네트워크"
+      "network"
     ],
     "url": "",
     "lang": ""
@@ -508,7 +493,6 @@
     "name": "ps",
     "description": "show running processes",
     "tags": [
-      "프로세스",
       "process"
     ],
     "url": "",
@@ -518,9 +502,9 @@
     "name": "top",
     "description": "show real-time processes and CPU usage",
     "tags": [
-      "프로세스",
+      "process",
       "cpu",
-      "모니터링"
+      "monitoring"
     ],
     "url": "",
     "lang": ""
@@ -529,9 +513,9 @@
     "name": "htop",
     "description": "interactive process viewer",
     "tags": [
-      "프로세스",
+      "process",
       "cpu",
-      "메모리"
+      "memory"
     ],
     "url": "",
     "lang": ""
@@ -540,8 +524,8 @@
     "name": "kill",
     "description": "send signal to a process by pid",
     "tags": [
-      "프로세스",
-      "종료",
+      "process",
+      "terminate",
       "signal",
       "built-in"
     ],
@@ -552,8 +536,8 @@
     "name": "pkill",
     "description": "kill processes by name",
     "tags": [
-      "프로세스",
-      "종료"
+      "process",
+      "terminate"
     ],
     "url": "",
     "lang": ""
@@ -562,7 +546,6 @@
     "name": "free",
     "description": "show memory usage",
     "tags": [
-      "메모리",
       "memory"
     ],
     "url": "",
@@ -572,8 +555,8 @@
     "name": "df",
     "description": "show disk filesystem usage",
     "tags": [
-      "디스크",
-      "사용량"
+      "disk",
+      "usage"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -582,9 +565,9 @@
     "name": "du",
     "description": "estimate file and directory disk usage",
     "tags": [
-      "디스크",
-      "사용량",
-      "크기"
+      "disk",
+      "usage",
+      "size"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -593,8 +576,8 @@
     "name": "mount",
     "description": "mount filesystems",
     "tags": [
-      "마운트",
-      "파일시스템"
+      "mount",
+      "filesystem"
     ],
     "url": "",
     "lang": ""
@@ -603,8 +586,8 @@
     "name": "umount",
     "description": "unmount filesystems",
     "tags": [
-      "마운트",
-      "해제"
+      "mount",
+      "unmount"
     ],
     "url": "",
     "lang": ""
@@ -613,9 +596,9 @@
     "name": "uname",
     "description": "print system information",
     "tags": [
-      "시스템",
+      "system",
       "os",
-      "커널"
+      "kernel"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -624,8 +607,8 @@
     "name": "uptime",
     "description": "show system load and uptime",
     "tags": [
-      "로드",
-      "가동시간"
+      "load",
+      "uptime"
     ],
     "url": "",
     "lang": ""
@@ -634,7 +617,6 @@
     "name": "whoami",
     "description": "print current user name",
     "tags": [
-      "사용자",
       "user"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -644,8 +626,8 @@
     "name": "history",
     "description": "show shell command history",
     "tags": [
-      "이력",
-      "명령어",
+      "history",
+      "command",
       "built-in"
     ],
     "url": "",
@@ -655,8 +637,8 @@
     "name": "man",
     "description": "display manual pages",
     "tags": [
-      "도움말",
-      "매뉴얼"
+      "help",
+      "manual"
     ],
     "url": "",
     "lang": ""
@@ -665,8 +647,8 @@
     "name": "watch",
     "description": "run a command repeatedly",
     "tags": [
-      "반복",
-      "모니터링"
+      "repeat",
+      "monitoring"
     ],
     "url": "",
     "lang": ""
@@ -675,8 +657,8 @@
     "name": "timeout",
     "description": "run a command with a time limit",
     "tags": [
-      "시간",
-      "제한"
+      "time",
+      "limit"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -685,8 +667,8 @@
     "name": "date",
     "description": "print or set system date/time",
     "tags": [
-      "날짜",
-      "시간"
+      "date",
+      "time"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -695,7 +677,7 @@
     "name": "bc",
     "description": "arbitrary precision calculator",
     "tags": [
-      "계산",
+      "calculation",
       "calculator"
     ],
     "url": "",
@@ -705,7 +687,7 @@
     "name": "base64",
     "description": "encode or decode base64",
     "tags": [
-      "인코딩",
+      "encoding",
       "encode"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -715,8 +697,7 @@
     "name": "sha256sum",
     "description": "compute SHA-256 checksums",
     "tags": [
-      "해시",
-      "체크섬",
+      "hash",
       "checksum"
     ],
     "url": "https://github.com/coreutils/coreutils",
@@ -726,8 +707,8 @@
     "name": "md5sum",
     "description": "compute MD5 checksums",
     "tags": [
-      "해시",
-      "체크섬"
+      "hash",
+      "checksum"
     ],
     "url": "https://github.com/coreutils/coreutils",
     "lang": "C"
@@ -736,8 +717,8 @@
     "name": "openssl",
     "description": "cryptography toolkit with certificates and TLS",
     "tags": [
-      "암호화",
-      "인증서",
+      "encryption",
+      "certificate",
       "tls"
     ],
     "url": "https://github.com/openssl/openssl",
@@ -747,9 +728,9 @@
     "name": "lsof",
     "description": "list open files",
     "tags": [
-      "파일",
-      "프로세스",
-      "포트"
+      "file",
+      "process",
+      "port"
     ],
     "url": "https://github.com/lsof-org/lsof",
     "lang": "C"
@@ -758,9 +739,9 @@
     "name": "strace",
     "description": "trace system calls of a process",
     "tags": [
-      "추적",
-      "시스템콜",
-      "디버깅"
+      "trace",
+      "syscall",
+      "debugging"
     ],
     "url": "https://github.com/strace/strace",
     "lang": "C"
@@ -769,9 +750,9 @@
     "name": "systemctl",
     "description": "control systemd services",
     "tags": [
-      "서비스",
-      "시작",
-      "정지"
+      "service",
+      "start",
+      "stop"
     ],
     "url": "",
     "lang": ""
@@ -780,7 +761,7 @@
     "name": "journalctl",
     "description": "query systemd journal logs",
     "tags": [
-      "로그",
+      "log",
       "journal"
     ],
     "url": "",
@@ -790,8 +771,8 @@
     "name": "crontab",
     "description": "schedule periodic commands",
     "tags": [
-      "스케줄",
-      "주기"
+      "schedule",
+      "period"
     ],
     "url": "",
     "lang": ""
@@ -800,9 +781,8 @@
     "name": "docker",
     "description": "manage containers and images",
     "tags": [
-      "컨테이너",
       "container",
-      "이미지"
+      "image"
     ],
     "url": "https://github.com/moby/moby",
     "lang": "Go"
@@ -811,9 +791,9 @@
     "name": "git",
     "description": "distributed version control",
     "tags": [
-      "버전관리",
+      "version-control",
       "vcs",
-      "커밋"
+      "commit"
     ],
     "url": "https://github.com/git/git",
     "lang": "C"
@@ -822,8 +802,8 @@
     "name": "brew",
     "description": "Homebrew package manager for macOS",
     "tags": [
-      "패키지",
-      "설치",
+      "package",
+      "install",
       "homebrew"
     ],
     "url": "https://github.com/Homebrew/brew",
@@ -834,8 +814,8 @@
     "description": "Rust package manager and build tool",
     "tags": [
       "rust",
-      "빌드",
-      "패키지"
+      "build",
+      "package"
     ],
     "url": "https://github.com/rust-lang/cargo",
     "lang": "Rust"
@@ -845,7 +825,7 @@
     "description": "Rust compiler",
     "tags": [
       "rust",
-      "컴파일"
+      "compile"
     ],
     "url": "https://github.com/rust-lang/rust",
     "lang": "Rust"
@@ -855,7 +835,7 @@
     "description": "Go language build and toolchain",
     "tags": [
       "go",
-      "빌드"
+      "build"
     ],
     "url": "https://github.com/golang/go",
     "lang": "Go"
@@ -865,8 +845,8 @@
     "description": "JavaScript runtime and package manager",
     "tags": [
       "js",
-      "런타임",
-      "패키지"
+      "runtime",
+      "package"
     ],
     "url": "https://github.com/oven-sh/bun",
     "lang": "Rust"
@@ -876,7 +856,7 @@
     "description": "JavaScript runtime",
     "tags": [
       "js",
-      "런타임"
+      "runtime"
     ],
     "url": "https://github.com/nodejs/node",
     "lang": "JavaScript"
@@ -886,7 +866,7 @@
     "description": "Python interpreter",
     "tags": [
       "python",
-      "스크립트"
+      "script"
     ],
     "url": "https://github.com/python/cpython",
     "lang": "Python"
@@ -895,7 +875,7 @@
     "name": "make",
     "description": "build targets from Makefile",
     "tags": [
-      "빌드",
+      "build",
       "makefile"
     ],
     "url": "",
@@ -905,7 +885,7 @@
     "name": "cmake",
     "description": "cross-platform build system",
     "tags": [
-      "빌드",
+      "build",
       "c++"
     ],
     "url": "https://github.com/Kitware/CMake",
@@ -915,7 +895,7 @@
     "name": "gcc",
     "description": "GNU C/C++ compiler",
     "tags": [
-      "컴파일",
+      "compile",
       "c",
       "c++"
     ],
@@ -926,7 +906,7 @@
     "name": "clang",
     "description": "LLVM C/C++ compiler",
     "tags": [
-      "컴파일",
+      "compile",
       "c",
       "c++",
       "llvm"
@@ -938,8 +918,8 @@
     "name": "vim",
     "description": "modal text editor",
     "tags": [
-      "에디터",
-      "편집"
+      "editor",
+      "edit"
     ],
     "url": "https://github.com/vim/vim",
     "lang": "Vim Script"
@@ -948,8 +928,8 @@
     "name": "nvim",
     "description": "Neovim, modern vim fork",
     "tags": [
-      "에디터",
-      "편집",
+      "editor",
+      "edit",
       "neovim"
     ],
     "url": "https://github.com/neovim/neovim",
@@ -959,8 +939,8 @@
     "name": "nano",
     "description": "simple terminal text editor",
     "tags": [
-      "에디터",
-      "편집"
+      "editor",
+      "edit"
     ],
     "url": "",
     "lang": ""
@@ -969,7 +949,7 @@
     "name": "code",
     "description": "Visual Studio Code CLI",
     "tags": [
-      "에디터",
+      "editor",
       "vscode"
     ],
     "url": "https://github.com/microsoft/vscode",
@@ -979,9 +959,9 @@
     "name": "tmux",
     "description": "terminal multiplexer",
     "tags": [
-      "터미널",
-      "멀티플렉서",
-      "세션"
+      "terminal",
+      "multiplexer",
+      "session"
     ],
     "url": "https://github.com/tmux/tmux",
     "lang": "C"
@@ -990,8 +970,8 @@
     "name": "screen",
     "description": "terminal multiplexer",
     "tags": [
-      "터미널",
-      "세션"
+      "terminal",
+      "session"
     ],
     "url": "",
     "lang": ""
@@ -1000,8 +980,7 @@
     "name": "alacritty",
     "description": "GPU-accelerated terminal emulator",
     "tags": [
-      "터미널",
-      "에뮬레이터",
+      "terminal",
       "emulator"
     ],
     "url": "https://github.com/alacritty/alacritty",
@@ -1012,8 +991,8 @@
     "description": "modern replacement for ls",
     "tags": [
       "ls",
-      "대체",
-      "파일목록"
+      "alternative",
+      "filelist"
     ],
     "url": "https://github.com/eza-community/eza",
     "lang": "Rust"
@@ -1023,9 +1002,9 @@
     "description": "ls with icons and colors",
     "tags": [
       "ls",
-      "대체",
-      "파일목록",
-      "아이콘"
+      "alternative",
+      "filelist",
+      "icon"
     ],
     "url": "https://github.com/Peltoche/lsd",
     "lang": "Rust"
@@ -1035,9 +1014,9 @@
     "description": "cat replacement with syntax highlighting",
     "tags": [
       "cat",
-      "대체",
-      "뷰어",
-      "문법강조"
+      "alternative",
+      "viewer",
+      "syntax-highlight"
     ],
     "url": "https://github.com/sharkdp/bat",
     "lang": "Rust"
@@ -1048,7 +1027,7 @@
     "tags": [
       "cat",
       "markdown",
-      "뷰어"
+      "viewer"
     ],
     "url": "https://github.com/swsnr/mdcat",
     "lang": "Rust"
@@ -1059,7 +1038,7 @@
     "tags": [
       "git",
       "diff",
-      "하이라이트"
+      "highlight"
     ],
     "url": "https://github.com/dandavison/delta",
     "lang": "Rust"
@@ -1069,8 +1048,8 @@
     "description": "difftastic, structural diff",
     "tags": [
       "diff",
-      "비교",
-      "구조"
+      "compare",
+      "structure"
     ],
     "url": "https://github.com/wilfred/difftastic",
     "lang": "Rust"
@@ -1081,7 +1060,7 @@
     "tags": [
       "git",
       "ui",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/extrawurst/gitui",
     "lang": "Rust"
@@ -1091,7 +1070,7 @@
     "description": "git repository info like neofetch",
     "tags": [
       "git",
-      "정보",
+      "info",
       "neofetch"
     ],
     "url": "https://github.com/o2sh/onefetch",
@@ -1103,7 +1082,7 @@
     "tags": [
       "dns",
       "dig",
-      "도메인"
+      "domain"
     ],
     "url": "https://github.com/ogham/dog",
     "lang": "Rust"
@@ -1113,8 +1092,8 @@
     "description": "ping with network bandwidth info",
     "tags": [
       "ping",
-      "네트워크",
-      "속도"
+      "network",
+      "speed"
     ],
     "url": "https://github.com/hanshuaikang/NBping",
     "lang": "Rust"
@@ -1124,8 +1103,8 @@
     "description": "ping with interactive graphs",
     "tags": [
       "ping",
-      "네트워크",
-      "그래프"
+      "network",
+      "graph"
     ],
     "url": "https://github.com/orf/gping",
     "lang": "Rust"
@@ -1134,9 +1113,9 @@
     "name": "bandwhich",
     "description": "network bandwidth usage by process",
     "tags": [
-      "네트워크",
-      "대역폭",
-      "모니터링"
+      "network",
+      "bandwidth",
+      "monitoring"
     ],
     "url": "https://github.com/imsnif/bandwhich",
     "lang": "Rust"
@@ -1145,9 +1124,9 @@
     "name": "netwatch",
     "description": "network traffic monitor, iftop/bandwhich alternative",
     "tags": [
-      "네트워크",
-      "트래픽",
-      "모니터링"
+      "network",
+      "traffic",
+      "monitoring"
     ],
     "url": "https://github.com/matthart1983/netwatch",
     "lang": "Rust"
@@ -1156,10 +1135,10 @@
     "name": "trippy",
     "description": "traceroute and ping tui network diagnostics",
     "tags": [
-      "네트워크",
+      "network",
       "traceroute",
       "ping",
-      "진단"
+      "diagnostics"
     ],
     "url": "https://github.com/fujiapple852/trippy",
     "lang": "Rust"
@@ -1168,10 +1147,10 @@
     "name": "btm",
     "description": "bottom, top/htop replacement",
     "tags": [
-      "프로세스",
+      "process",
       "cpu",
-      "대체",
-      "모니터링"
+      "alternative",
+      "monitoring"
     ],
     "url": "https://github.com/ClementTsang/bottom",
     "lang": "Rust"
@@ -1180,9 +1159,9 @@
     "name": "procs",
     "description": "ps replacement with colors",
     "tags": [
-      "프로세스",
+      "process",
       "ps",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/dalance/procs",
     "lang": "Rust"
@@ -1191,9 +1170,9 @@
     "name": "ytop",
     "description": "top/htop replacement",
     "tags": [
-      "프로세스",
+      "process",
       "cpu",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/cjbassi/ytop",
     "lang": "Rust"
@@ -1202,9 +1181,9 @@
     "name": "zenith",
     "description": "top/htop replacement with metrics",
     "tags": [
-      "프로세스",
+      "process",
       "cpu",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/bvaisvil/zenith",
     "lang": "Rust"
@@ -1213,9 +1192,9 @@
     "name": "diskus",
     "description": "du replacement, disk usage",
     "tags": [
-      "디스크",
-      "사용량",
-      "대체"
+      "disk",
+      "usage",
+      "alternative"
     ],
     "url": "https://github.com/sharkdp/diskus",
     "lang": "Rust"
@@ -1224,9 +1203,9 @@
     "name": "dust",
     "description": "du replacement, view disk usage",
     "tags": [
-      "디스크",
-      "사용량",
-      "대체"
+      "disk",
+      "usage",
+      "alternative"
     ],
     "url": "https://github.com/bootandy/dust",
     "lang": "Rust"
@@ -1235,8 +1214,8 @@
     "name": "diskonaut",
     "description": "interactive disk usage explorer",
     "tags": [
-      "디스크",
-      "사용량",
+      "disk",
+      "usage",
       "ui"
     ],
     "url": "https://github.com/imsnif/diskonaut",
@@ -1248,7 +1227,7 @@
     "tags": [
       "hex",
       "hexdump",
-      "바이너리"
+      "binary"
     ],
     "url": "https://github.com/sharkdp/hexyl",
     "lang": "Rust"
@@ -1257,9 +1236,9 @@
     "name": "hyperfine",
     "description": "benchmark commands",
     "tags": [
-      "벤치마크",
-      "시간",
-      "측정"
+      "benchmark",
+      "time",
+      "measurement"
     ],
     "url": "https://github.com/sharkdp/hyperfine",
     "lang": "Rust"
@@ -1269,8 +1248,8 @@
     "description": "watch replacement with colors",
     "tags": [
       "watch",
-      "반복",
-      "모니터링"
+      "repeat",
+      "monitoring"
     ],
     "url": "https://github.com/blacknon/hwatch",
     "lang": "Rust"
@@ -1280,8 +1259,8 @@
     "description": "JSON pager and explorer",
     "tags": [
       "json",
-      "뷰어",
-      "파싱"
+      "viewer",
+      "parsing"
     ],
     "url": "https://github.com/PaulJuliusMartinez/jless",
     "lang": "Rust"
@@ -1291,8 +1270,8 @@
     "description": "sed replacement for find and replace",
     "tags": [
       "sed",
-      "치환",
-      "대체"
+      "substitute",
+      "alternative"
     ],
     "url": "https://github.com/chmln/sd",
     "lang": "Rust"
@@ -1301,9 +1280,8 @@
     "name": "grex",
     "description": "generate regex from examples",
     "tags": [
-      "정규식",
       "regex",
-      "생성"
+      "create"
     ],
     "url": "https://github.com/pemistahl/grex",
     "lang": "Rust"
@@ -1313,7 +1291,7 @@
     "description": "skim, fuzzy finder like fzf",
     "tags": [
       "fuzzy",
-      "검색",
+      "search",
       "fzf"
     ],
     "url": "https://github.com/skim-rs/skim",
@@ -1323,8 +1301,8 @@
     "name": "scooter",
     "description": "interactive find and replace UI",
     "tags": [
-      "검색",
-      "치환",
+      "search",
+      "substitute",
       "ui"
     ],
     "url": "https://github.com/thomasschafer/scooter",
@@ -1335,8 +1313,8 @@
     "description": "smarter cd command",
     "tags": [
       "cd",
-      "이동",
-      "대체"
+      "move",
+      "alternative"
     ],
     "url": "https://github.com/ajeetdsouza/zoxide",
     "lang": "Rust"
@@ -1345,10 +1323,10 @@
     "name": "zellij",
     "description": "terminal multiplexer, tmux alternative",
     "tags": [
-      "터미널",
-      "멀티플렉서",
+      "terminal",
+      "multiplexer",
       "tmux",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/zellij-org/zellij",
     "lang": "Rust"
@@ -1359,7 +1337,7 @@
     "tags": [
       "shell",
       "bash",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/nushell/nushell",
     "lang": "Rust"
@@ -1368,8 +1346,8 @@
     "name": "herdr",
     "description": "agent multiplexer in terminal",
     "tags": [
-      "멀티플렉서",
-      "에이전트"
+      "multiplexer",
+      "agent"
     ],
     "url": "https://github.com/ogulcancelik/herdr",
     "lang": "Rust"
@@ -1378,9 +1356,9 @@
     "name": "cfonts",
     "description": "figlet/toilet replacement, banner text",
     "tags": [
-      "배너",
+      "banner",
       "figlet",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/dominikwilkowski/cfonts",
     "lang": "Rust"
@@ -1389,7 +1367,6 @@
     "name": "ttysvr",
     "description": "terminal screen saver",
     "tags": [
-      "화면보호기",
       "screensaver"
     ],
     "url": "https://github.com/cxreiff/ttysvr",
@@ -1399,9 +1376,8 @@
     "name": "termusic",
     "description": "terminal music player",
     "tags": [
-      "음악",
-      "플레이어",
-      "music"
+      "music",
+      "player"
     ],
     "url": "https://github.com/tramhao/termusic",
     "lang": "Rust"
@@ -1410,9 +1386,8 @@
     "name": "termusic-server",
     "description": "terminal music server",
     "tags": [
-      "음악",
-      "서버",
-      "music"
+      "music",
+      "server"
     ],
     "url": "https://github.com/tramhao/termusic",
     "lang": "Rust"
@@ -1421,7 +1396,6 @@
     "name": "weathr",
     "description": "terminal weather app with ascii animation",
     "tags": [
-      "날씨",
       "weather"
     ],
     "url": "https://github.com/Veirt/weathr",
@@ -1431,9 +1405,9 @@
     "name": "tokei",
     "description": "count lines of code",
     "tags": [
-      "코드",
-      "통계",
-      "라인"
+      "code",
+      "statistics",
+      "line"
     ],
     "url": "https://github.com/XAMPPRocky/tokei",
     "lang": "Rust"
@@ -1442,10 +1416,10 @@
     "name": "feroxbuster",
     "description": "web content discovery for hidden directories",
     "tags": [
-      "웹",
-      "취약점",
-      "보안",
-      "스캔"
+      "web",
+      "vulnerability",
+      "security",
+      "scan"
     ],
     "url": "https://github.com/epi052/feroxbuster",
     "lang": "Rust"
@@ -1454,8 +1428,8 @@
     "name": "lychee",
     "description": "check broken hyperlinks",
     "tags": [
-      "링크",
-      "검사",
+      "link",
+      "check",
       "markdown"
     ],
     "url": "https://github.com/lycheeverse/lychee",
@@ -1465,9 +1439,9 @@
     "name": "oha",
     "description": "HTTP load testing tool",
     "tags": [
-      "부하",
+      "load",
       "http",
-      "테스트"
+      "test"
     ],
     "url": "https://github.com/hatoo/oha",
     "lang": "Rust"
@@ -1479,7 +1453,7 @@
       "csv",
       "excel",
       "sql",
-      "데이터"
+      "data"
     ],
     "url": "https://github.com/dathere/qsv",
     "lang": "Rust"
@@ -1489,8 +1463,8 @@
     "description": "CSV file tool",
     "tags": [
       "csv",
-      "데이터",
-      "분석"
+      "data",
+      "analysis"
     ],
     "url": "https://github.com/medialab/xan",
     "lang": "Rust"
@@ -1500,9 +1474,8 @@
     "description": "auto rebuild on source change",
     "tags": [
       "rust",
-      "빌드",
-      "watch",
-      "감시"
+      "build",
+      "watch"
     ],
     "url": "https://github.com/watchexec/cargo-watch",
     "lang": "Rust"
@@ -1511,7 +1484,7 @@
     "name": "mise",
     "description": "version manager for node/python/go",
     "tags": [
-      "버전관리",
+      "version-manager",
       "node",
       "python",
       "go"
@@ -1524,8 +1497,8 @@
     "description": "python package and version manager",
     "tags": [
       "python",
-      "패키지",
-      "버전관리"
+      "package",
+      "version-manager"
     ],
     "url": "https://github.com/astral-sh/uv",
     "lang": "Rust"
@@ -1535,8 +1508,8 @@
     "description": "python linter and formatter",
     "tags": [
       "python",
-      "린트",
-      "포맷"
+      "lint",
+      "format"
     ],
     "url": "https://github.com/astral-sh/ruff",
     "lang": "Rust"
@@ -1546,8 +1519,8 @@
     "description": "markdown linter and formatter",
     "tags": [
       "markdown",
-      "린트",
-      "포맷"
+      "lint",
+      "format"
     ],
     "url": "https://github.com/rvben/rumdl",
     "lang": "Rust"
@@ -1556,9 +1529,9 @@
     "name": "typos",
     "description": "typo checker",
     "tags": [
-      "오타",
-      "철자",
-      "검사"
+      "typo",
+      "spelling",
+      "check"
     ],
     "url": "https://github.com/crate-ci/typos",
     "lang": "Rust"
@@ -1569,7 +1542,7 @@
     "tags": [
       "llm",
       "ai",
-      "모델"
+      "model"
     ],
     "url": "https://github.com/AlexsJones/llmfit",
     "lang": "Rust"
@@ -1578,9 +1551,8 @@
     "name": "ohmystock",
     "description": "personal stock price checker",
     "tags": [
-      "주식",
       "stock",
-      "시세"
+      "quote"
     ],
     "url": "https://github.com/ysoftman/ohmystock",
     "lang": "HTML"
@@ -1589,8 +1561,8 @@
     "name": "presenterm",
     "description": "markdown terminal slideshow",
     "tags": [
-      "발표",
-      "슬라이드",
+      "presentation",
+      "slides",
       "markdown"
     ],
     "url": "https://github.com/mfontanini/presenterm",
@@ -1600,9 +1572,9 @@
     "name": "binsider",
     "description": "analyze ELF binaries",
     "tags": [
-      "바이너리",
+      "binary",
       "elf",
-      "분석"
+      "analysis"
     ],
     "url": "https://github.com/orhun/binsider",
     "lang": "Rust"
@@ -1612,8 +1584,8 @@
     "description": "whoami replacement",
     "tags": [
       "whoami",
-      "사용자",
-      "대체"
+      "user",
+      "alternative"
     ],
     "url": "https://github.com/ardaku/whoami",
     "lang": "Rust"
@@ -1624,7 +1596,7 @@
     "tags": [
       "scp",
       "ftp",
-      "전송",
+      "transfer",
       "sftp"
     ],
     "url": "https://github.com/veeso/termscp",
@@ -1635,8 +1607,8 @@
     "description": "Argo Workflows CLI",
     "tags": [
       "kubernetes",
-      "워크플로우",
-      "배포"
+      "workflow",
+      "deployment"
     ],
     "url": "https://github.com/argoproj/argo-workflows",
     "lang": "Go"
@@ -1645,9 +1617,9 @@
     "name": "ansible",
     "description": "IT automation and configuration management",
     "tags": [
-      "자동화",
-      "인프라",
-      "설정관리"
+      "automation",
+      "infrastructure",
+      "config-management"
     ],
     "url": "https://github.com/ansible/ansible",
     "lang": "Python"
@@ -1657,7 +1629,7 @@
     "description": "lint ansible playbooks",
     "tags": [
       "ansible",
-      "린트"
+      "lint"
     ],
     "url": "https://github.com/ansible/ansible-lint",
     "lang": "Python"
@@ -1667,7 +1639,7 @@
     "description": "Argo CD CLI for GitOps deployment",
     "tags": [
       "gitops",
-      "배포",
+      "deployment",
       "kubernetes"
     ],
     "url": "https://github.com/argoproj/argo-cd",
@@ -1678,7 +1650,7 @@
     "description": "show ascii table and chars",
     "tags": [
       "ascii",
-      "문자"
+      "character"
     ],
     "url": "",
     "lang": ""
@@ -1688,7 +1660,7 @@
     "description": "ascii aquarium screensaver",
     "tags": [
       "ascii",
-      "화면보호기"
+      "screensaver"
     ],
     "url": "https://github.com/cmatsuoka/asciiquarium",
     "lang": "Perl"
@@ -1698,7 +1670,7 @@
     "description": "star wars ascii animation in terminal",
     "tags": [
       "ascii",
-      "애니메이션"
+      "animation"
     ],
     "url": "",
     "lang": ""
@@ -1717,7 +1689,7 @@
     "name": "bazel",
     "description": "fast build tool",
     "tags": [
-      "빌드",
+      "build",
       "bazel"
     ],
     "url": "https://github.com/bazelbuild/bazel",
@@ -1728,8 +1700,8 @@
     "description": "js/ts linter and formatter",
     "tags": [
       "js",
-      "린트",
-      "포맷"
+      "lint",
+      "format"
     ],
     "url": "https://github.com/biomejs/biome",
     "lang": "Rust"
@@ -1738,8 +1710,8 @@
     "name": "bison",
     "description": "parser generator",
     "tags": [
-      "파서",
-      "컴파일러"
+      "parser",
+      "compiler"
     ],
     "url": "",
     "lang": ""
@@ -1748,7 +1720,6 @@
     "name": "blueutil",
     "description": "control bluetooth from CLI",
     "tags": [
-      "블루투스",
       "bluetooth"
     ],
     "url": "https://github.com/toy/blueutil",
@@ -1758,9 +1729,9 @@
     "name": "bmon",
     "description": "bandwidth monitor",
     "tags": [
-      "네트워크",
-      "대역폭",
-      "모니터링"
+      "network",
+      "bandwidth",
+      "monitoring"
     ],
     "url": "https://github.com/tgraf/bmon",
     "lang": "C"
@@ -1769,10 +1740,10 @@
     "name": "btop",
     "description": "resource monitor with graphs",
     "tags": [
-      "프로세스",
+      "process",
       "cpu",
-      "메모리",
-      "모니터링"
+      "memory",
+      "monitoring"
     ],
     "url": "https://github.com/aristocratos/btop",
     "lang": "C++"
@@ -1781,7 +1752,7 @@
     "name": "caddy",
     "description": "web server with automatic https",
     "tags": [
-      "웹서버",
+      "webserver",
       "https",
       "proxy"
     ],
@@ -1792,7 +1763,7 @@
     "name": "calc",
     "description": "arbitrary precision calculator",
     "tags": [
-      "계산",
+      "calculation",
       "calculator"
     ],
     "url": "https://github.com/lcn2/calc",
@@ -1802,8 +1773,8 @@
     "name": "catimg",
     "description": "print images in terminal",
     "tags": [
-      "이미지",
-      "터미널"
+      "image",
+      "terminal"
     ],
     "url": "https://github.com/posva/catimg",
     "lang": "C"
@@ -1812,8 +1783,8 @@
     "name": "cava",
     "description": "audio visualizer for terminal",
     "tags": [
-      "음악",
-      "시각화",
+      "music",
+      "visualization",
       "audio"
     ],
     "url": "https://github.com/karlstav/cava",
@@ -1824,8 +1795,8 @@
     "description": "cat with syntax highlighting",
     "tags": [
       "cat",
-      "문법강조",
-      "뷰어"
+      "syntax-highlight",
+      "viewer"
     ],
     "url": "https://github.com/owenthereal/ccat",
     "lang": "Go"
@@ -1834,7 +1805,7 @@
     "name": "clang-format",
     "description": "format c/c++ code",
     "tags": [
-      "포맷",
+      "format",
       "c",
       "c++"
     ],
@@ -1845,7 +1816,7 @@
     "name": "cliamp",
     "description": "amp editor for terminal",
     "tags": [
-      "에디터",
+      "editor",
       "amp"
     ],
     "url": "",
@@ -1855,7 +1826,7 @@
     "name": "cmatrix",
     "description": "matrix rain animation",
     "tags": [
-      "애니메이션",
+      "animation",
       "ascii"
     ],
     "url": "https://github.com/abishekvashok/cmatrix",
@@ -1865,9 +1836,8 @@
     "name": "cmus",
     "description": "terminal music player",
     "tags": [
-      "음악",
-      "플레이어",
-      "music"
+      "music",
+      "player"
     ],
     "url": "https://github.com/cmus/cmus",
     "lang": "C"
@@ -1876,8 +1846,8 @@
     "name": "cmux",
     "description": "multiplex cd to navigate directories",
     "tags": [
-      "이동",
-      "디렉토리"
+      "move",
+      "directory"
     ],
     "url": "",
     "lang": ""
@@ -1886,9 +1856,9 @@
     "name": "colima",
     "description": "container runtime on mac",
     "tags": [
-      "컨테이너",
+      "container",
       "docker",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/abiosoft/colima",
     "lang": "Go"
@@ -1898,7 +1868,7 @@
     "description": "backup/restore consul kv",
     "tags": [
       "consul",
-      "백업",
+      "backup",
       "kv"
     ],
     "url": "",
@@ -1908,7 +1878,7 @@
     "name": "cowsay",
     "description": "display cow with a message",
     "tags": [
-      "말풍선",
+      "speech-bubble",
       "ascii"
     ],
     "url": "",
@@ -1920,8 +1890,8 @@
     "tags": [
       "ai",
       "llm",
-      "코딩",
-      "에이전트"
+      "coding",
+      "agent"
     ],
     "url": "https://github.com/charmbracelet/crush",
     "lang": "Go"
@@ -1930,9 +1900,9 @@
     "name": "ctags",
     "description": "generate tag files for code navigation",
     "tags": [
-      "태그",
-      "코드",
-      "네비게이션"
+      "tag",
+      "code",
+      "navigation"
     ],
     "url": "https://github.com/universal-ctags/ctags",
     "lang": "C"
@@ -1941,8 +1911,8 @@
     "name": "ctop",
     "description": "container metrics monitor",
     "tags": [
-      "컨테이너",
-      "모니터링",
+      "container",
+      "monitoring",
       "docker"
     ],
     "url": "https://github.com/bcicen/ctop",
@@ -1952,9 +1922,9 @@
     "name": "dblab",
     "description": "interactive database client",
     "tags": [
-      "데이터베이스",
+      "database",
       "db",
-      "클라이언트"
+      "client"
     ],
     "url": "https://github.com/danvergara/dblab",
     "lang": "Go"
@@ -1965,7 +1935,7 @@
     "tags": [
       "js",
       "ts",
-      "런타임"
+      "runtime"
     ],
     "url": "https://github.com/denoland/deno",
     "lang": "Rust"
@@ -1974,8 +1944,8 @@
     "name": "digdag",
     "description": "workflow engine",
     "tags": [
-      "워크플로우",
-      "스케줄"
+      "workflow",
+      "schedule"
     ],
     "url": "https://github.com/treasure-data/digdag",
     "lang": "Java"
@@ -1985,8 +1955,8 @@
     "description": "explore docker image layers",
     "tags": [
       "docker",
-      "이미지",
-      "분석"
+      "image",
+      "analysis"
     ],
     "url": "https://github.com/wagoodman/dive",
     "lang": "Go"
@@ -1996,7 +1966,7 @@
     "description": "define and run multi-container apps",
     "tags": [
       "docker",
-      "컨테이너",
+      "container",
       "compose"
     ],
     "url": "https://github.com/docker/compose",
@@ -2006,9 +1976,9 @@
     "name": "duf",
     "description": "df replacement, disk usage",
     "tags": [
-      "디스크",
-      "사용량",
-      "대체"
+      "disk",
+      "usage",
+      "alternative"
     ],
     "url": "https://github.com/muesli/duf",
     "lang": "Go"
@@ -2019,7 +1989,7 @@
     "tags": [
       "yaml",
       "diff",
-      "비교"
+      "compare"
     ],
     "url": "https://github.com/homeport/dyff",
     "lang": "Go"
@@ -2028,7 +1998,6 @@
     "name": "emojify",
     "description": "convert ascii emoticons to emoji",
     "tags": [
-      "이모지",
       "emoji"
     ],
     "url": "https://github.com/mrowa44/emojify",
@@ -2038,9 +2007,8 @@
     "name": "entr",
     "description": "run command when files change",
     "tags": [
-      "감시",
       "watch",
-      "자동실행"
+      "auto-run"
     ],
     "url": "",
     "lang": ""
@@ -2050,7 +2018,7 @@
     "description": "js/ts linter",
     "tags": [
       "js",
-      "린트"
+      "lint"
     ],
     "url": "https://github.com/eslint/eslint",
     "lang": "JavaScript"
@@ -2060,8 +2028,8 @@
     "description": "distributed key-value store",
     "tags": [
       "kv",
-      "저장소",
-      "분산"
+      "storage",
+      "distributed"
     ],
     "url": "https://github.com/etcd-io/etcd",
     "lang": "Go"
@@ -2070,8 +2038,8 @@
     "name": "fastfetch",
     "description": "system info display like neofetch",
     "tags": [
-      "시스템",
-      "정보",
+      "system",
+      "info",
       "neofetch"
     ],
     "url": "https://github.com/fastfetch-cli/fastfetch",
@@ -2081,8 +2049,8 @@
     "name": "ffmpeg",
     "description": "media converter and processor",
     "tags": [
-      "미디어",
-      "변환",
+      "media",
+      "convert",
       "video",
       "audio"
     ],
@@ -2093,7 +2061,7 @@
     "name": "figlet",
     "description": "make banner text",
     "tags": [
-      "배너",
+      "banner",
       "ascii"
     ],
     "url": "",
@@ -2113,9 +2081,9 @@
     "name": "flex",
     "description": "lexical analyzer generator",
     "tags": [
-      "컴파일러",
+      "compiler",
       "lex",
-      "스캐너"
+      "scanner"
     ],
     "url": "",
     "lang": ""
@@ -2126,7 +2094,7 @@
     "tags": [
       "git",
       "fzf",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/wfxr/forgit",
     "lang": "Shell"
@@ -2135,8 +2103,8 @@
     "name": "fortune",
     "description": "print random quotes",
     "tags": [
-      "명언",
-      "랜덤"
+      "quote",
+      "random"
     ],
     "url": "",
     "lang": ""
@@ -2146,8 +2114,8 @@
     "description": "fuzzy finder for files and history",
     "tags": [
       "fuzzy",
-      "검색",
-      "대화형"
+      "search",
+      "interactive"
     ],
     "url": "https://github.com/junegunn/fzf",
     "lang": "Go"
@@ -2157,7 +2125,7 @@
     "description": "google cloud cli",
     "tags": [
       "gcp",
-      "클라우드",
+      "cloud",
       "google"
     ],
     "url": "",
@@ -2189,8 +2157,8 @@
     "name": "ghostty",
     "description": "fast terminal emulator",
     "tags": [
-      "터미널",
-      "에뮬레이터"
+      "terminal",
+      "emulator"
     ],
     "url": "https://github.com/ghostty-org/ghostty",
     "lang": "Zig"
@@ -2200,7 +2168,7 @@
     "description": "manipulate gif images",
     "tags": [
       "gif",
-      "이미지"
+      "image"
     ],
     "url": "https://github.com/kohler/gifsicle",
     "lang": "C"
@@ -2211,7 +2179,7 @@
     "tags": [
       "git",
       "changelog",
-      "릴리즈"
+      "release"
     ],
     "url": "https://github.com/orhun/git-cliff",
     "lang": "Rust"
@@ -2221,7 +2189,7 @@
     "description": "extra git commands",
     "tags": [
       "git",
-      "확장"
+      "extension"
     ],
     "url": "https://github.com/tj/git-extras",
     "lang": "Shell"
@@ -2231,8 +2199,8 @@
     "description": "git log viewer",
     "tags": [
       "git",
-      "로그",
-      "로그뷰어"
+      "log",
+      "logviewer"
     ],
     "url": "https://github.com/Shylock-HG/gitlogue",
     "lang": ""
@@ -2242,8 +2210,8 @@
     "description": "git commit with emoji",
     "tags": [
       "git",
-      "이모지",
-      "커밋"
+      "emoji",
+      "commit"
     ],
     "url": "https://github.com/carloscuesta/gitmoji-cli",
     "lang": "JavaScript"
@@ -2253,7 +2221,7 @@
     "description": "markdown renderer for terminal",
     "tags": [
       "markdown",
-      "뷰어"
+      "viewer"
     ],
     "url": "https://github.com/charmbracelet/glow",
     "lang": "Go"
@@ -2263,7 +2231,7 @@
     "description": "go linters runner",
     "tags": [
       "go",
-      "린트"
+      "lint"
     ],
     "url": "https://github.com/golangci/golangci-lint",
     "lang": "Go"
@@ -2272,9 +2240,8 @@
     "name": "grc",
     "description": "colorize command output",
     "tags": [
-      "컬러",
-      "색상",
-      "하이라이트"
+      "color",
+      "highlight"
     ],
     "url": "",
     "lang": ""
@@ -2285,7 +2252,7 @@
     "tags": [
       "pdf",
       "postscript",
-      "변환"
+      "convert"
     ],
     "url": "https://github.com/ArtifexSoftware/ghostpdl",
     "lang": "C"
@@ -2295,8 +2262,8 @@
     "description": "jpeg compression tool",
     "tags": [
       "jpeg",
-      "이미지",
-      "압축"
+      "image",
+      "compress"
     ],
     "url": "https://github.com/google/guetzli",
     "lang": "C++"
@@ -2305,8 +2272,8 @@
     "name": "helix",
     "description": "modal text editor",
     "tags": [
-      "에디터",
-      "편집"
+      "editor",
+      "edit"
     ],
     "url": "https://github.com/helix-editor/helix",
     "lang": "Rust"
@@ -2316,8 +2283,8 @@
     "description": "kubernetes package manager",
     "tags": [
       "kubernetes",
-      "패키지",
-      "배포"
+      "package",
+      "deployment"
     ],
     "url": "https://github.com/helm/helm",
     "lang": "Go"
@@ -2327,8 +2294,8 @@
     "description": "http load generator",
     "tags": [
       "http",
-      "부하",
-      "테스트"
+      "load",
+      "test"
     ],
     "url": "https://github.com/rakyll/hey",
     "lang": "Go"
@@ -2337,7 +2304,7 @@
     "name": "hg",
     "description": "mercurial, distributed vcs",
     "tags": [
-      "버전관리",
+      "version-control",
       "vcs",
       "hg"
     ],
@@ -2348,8 +2315,8 @@
     "name": "hop",
     "description": "quick navigation shortcut tool",
     "tags": [
-      "이동",
-      "단축키"
+      "move",
+      "shortcut"
     ],
     "url": "",
     "lang": ""
@@ -2358,9 +2325,9 @@
     "name": "iftop",
     "description": "network bandwidth monitor",
     "tags": [
-      "네트워크",
-      "대역폭",
-      "모니터링"
+      "network",
+      "bandwidth",
+      "monitoring"
     ],
     "url": "",
     "lang": ""
@@ -2371,7 +2338,7 @@
     "tags": [
       "json",
       "jq",
-      "인터랙티브"
+      "interactive"
     ],
     "url": "https://github.com/ynqa/jnv",
     "lang": "Rust"
@@ -2392,8 +2359,8 @@
     "description": "distributed streaming platform",
     "tags": [
       "kafka",
-      "스트리밍",
-      "메시지"
+      "streaming",
+      "message"
     ],
     "url": "https://github.com/apache/kafka",
     "lang": "Java"
@@ -2403,7 +2370,7 @@
     "description": "kafka producer/consumer cli",
     "tags": [
       "kafka",
-      "메시지"
+      "message"
     ],
     "url": "https://github.com/edenhill/kcat",
     "lang": "C"
@@ -2412,8 +2379,8 @@
     "name": "kitty",
     "description": "gpu-accelerated terminal emulator",
     "tags": [
-      "터미널",
-      "에뮬레이터"
+      "terminal",
+      "emulator"
     ],
     "url": "https://github.com/kovidgoyal/kitty",
     "lang": "Python"
@@ -2423,7 +2390,7 @@
     "description": "kubernetes resource monitor",
     "tags": [
       "kubernetes",
-      "모니터링"
+      "monitoring"
     ],
     "url": "https://github.com/ynqa/ktop",
     "lang": "Go"
@@ -2434,7 +2401,7 @@
     "tags": [
       "kubernetes",
       "kubectl",
-      "컬러"
+      "color"
     ],
     "url": "https://github.com/hidetatz/kubecolor",
     "lang": "Go"
@@ -2445,7 +2412,7 @@
     "tags": [
       "kubernetes",
       "context",
-      "전환"
+      "switch"
     ],
     "url": "https://github.com/ahmetb/kubectx",
     "lang": "Go"
@@ -2456,7 +2423,7 @@
     "tags": [
       "kubernetes",
       "k8s",
-      "컨테이너"
+      "container"
     ],
     "url": "https://github.com/kubernetes/kubectl",
     "lang": "Go"
@@ -2467,7 +2434,7 @@
     "tags": [
       "kubernetes",
       "secret",
-      "암호화"
+      "encryption"
     ],
     "url": "https://github.com/bitnami-labs/sealed-secrets",
     "lang": "Go"
@@ -2478,7 +2445,7 @@
     "tags": [
       "kubernetes",
       "yaml",
-      "템플릿"
+      "template"
     ],
     "url": "https://github.com/kubernetes-sigs/kustomize",
     "lang": "Go"
@@ -2508,8 +2475,8 @@
     "description": "ssh connection manager",
     "tags": [
       "ssh",
-      "연결",
-      "관리"
+      "connection",
+      "management"
     ],
     "url": "https://github.com/stefanmaric/lazyssh",
     "lang": ""
@@ -2520,7 +2487,7 @@
     "tags": [
       "vm",
       "linux",
-      "가상머신"
+      "virtual-machine"
     ],
     "url": "https://github.com/lima-vm/lima",
     "lang": "Go"
@@ -2531,7 +2498,7 @@
     "tags": [
       "ai",
       "llm",
-      "서버"
+      "server"
     ],
     "url": "https://github.com/mudler/LocalAI",
     "lang": "Go"
@@ -2540,7 +2507,7 @@
     "name": "lolcat",
     "description": "rainbow color text",
     "tags": [
-      "색상",
+      "color",
       "rainbow"
     ],
     "url": "https://github.com/jaseg/lolcat",
@@ -2550,8 +2517,8 @@
     "name": "lsix",
     "description": "show images in terminal",
     "tags": [
-      "이미지",
-      "터미널"
+      "image",
+      "terminal"
     ],
     "url": "https://github.com/hackerb9/lsix",
     "lang": "Shell"
@@ -2561,7 +2528,7 @@
     "description": "lua package manager",
     "tags": [
       "lua",
-      "패키지"
+      "package"
     ],
     "url": "https://github.com/luarocks/luarocks",
     "lang": "Lua"
@@ -2570,8 +2537,8 @@
     "name": "macmon",
     "description": "mac network monitor",
     "tags": [
-      "네트워크",
-      "모니터링",
+      "network",
+      "monitoring",
       "mac"
     ],
     "url": "https://github.com/vladkens/macmon",
@@ -2581,8 +2548,8 @@
     "name": "mactop",
     "description": "mac resource monitor",
     "tags": [
-      "시스템",
-      "모니터링",
+      "system",
+      "monitoring",
       "mac"
     ],
     "url": "https://github.com/context-labs/mactop",
@@ -2592,9 +2559,9 @@
     "name": "magick",
     "description": "imagemagick, image manipulation",
     "tags": [
-      "이미지",
-      "변환",
-      "리사이즈"
+      "image",
+      "convert",
+      "resize"
     ],
     "url": "https://github.com/ImageMagick/ImageMagick",
     "lang": "C"
@@ -2604,7 +2571,7 @@
     "description": "markdown linter",
     "tags": [
       "markdown",
-      "린트"
+      "lint"
     ],
     "url": "https://github.com/DavidAnson/markdownlint-cli2",
     "lang": "JavaScript"
@@ -2614,7 +2581,7 @@
     "description": "java build tool",
     "tags": [
       "java",
-      "빌드",
+      "build",
       "maven"
     ],
     "url": "https://github.com/apache/maven",
@@ -2624,8 +2591,8 @@
     "name": "mc",
     "description": "midnight commander, file manager",
     "tags": [
-      "파일",
-      "관리자",
+      "file",
+      "manager",
       "ui"
     ],
     "url": "https://github.com/MidnightCommander/mc",
@@ -2636,7 +2603,7 @@
     "description": "local kubernetes cluster",
     "tags": [
       "kubernetes",
-      "로컬",
+      "local",
       "k8s"
     ],
     "url": "https://github.com/kubernetes/minikube",
@@ -2646,7 +2613,7 @@
     "name": "mkcert",
     "description": "create locally trusted certificates",
     "tags": [
-      "인증서",
+      "certificate",
       "https",
       "tls"
     ],
@@ -2657,9 +2624,9 @@
     "name": "mpg123",
     "description": "mp3 player",
     "tags": [
-      "음악",
+      "music",
       "mp3",
-      "플레이어"
+      "player"
     ],
     "url": "",
     "lang": ""
@@ -2668,8 +2635,8 @@
     "name": "mprocs",
     "description": "run multiple processes in terminal",
     "tags": [
-      "프로세스",
-      "멀티",
+      "process",
+      "multi",
       "tmux"
     ],
     "url": "https://github.com/pvolok/mprocs",
@@ -2679,8 +2646,8 @@
     "name": "mpv",
     "description": "media player",
     "tags": [
-      "미디어",
-      "플레이어",
+      "media",
+      "player",
       "video"
     ],
     "url": "https://github.com/mpv-player/mpv",
@@ -2690,8 +2657,8 @@
     "name": "musikcube",
     "description": "terminal music player",
     "tags": [
-      "음악",
-      "플레이어"
+      "music",
+      "player"
     ],
     "url": "https://github.com/clangen/musikcube",
     "lang": "C++"
@@ -2702,7 +2669,7 @@
     "tags": [
       "mysql",
       "db",
-      "클라이언트"
+      "client"
     ],
     "url": "https://github.com/dbcli/mycli",
     "lang": "Python"
@@ -2711,9 +2678,9 @@
     "name": "ncmpcpp",
     "description": "mpd client with ui",
     "tags": [
-      "음악",
+      "music",
       "mpd",
-      "클라이언트"
+      "client"
     ],
     "url": "",
     "lang": ""
@@ -2722,8 +2689,8 @@
     "name": "neofetch",
     "description": "system info with logo",
     "tags": [
-      "시스템",
-      "정보"
+      "system",
+      "info"
     ],
     "url": "https://github.com/dylanaraps/neofetch",
     "lang": "Shell"
@@ -2734,7 +2701,7 @@
     "tags": [
       "neovim",
       "gui",
-      "에디터"
+      "editor"
     ],
     "url": "https://github.com/neovide/neovide",
     "lang": "Rust"
@@ -2743,9 +2710,9 @@
     "name": "ngrok",
     "description": "expose local server to internet",
     "tags": [
-      "터널링",
+      "tunneling",
       "http",
-      "로컬"
+      "local"
     ],
     "url": "",
     "lang": ""
@@ -2754,7 +2721,7 @@
     "name": "ninja",
     "description": "fast build system",
     "tags": [
-      "빌드",
+      "build",
       "ninja"
     ],
     "url": "",
@@ -2764,9 +2731,9 @@
     "name": "oh-my-posh",
     "description": "custom prompt engine",
     "tags": [
-      "프롬프트",
+      "prompt",
       "shell",
-      "테마"
+      "theme"
     ],
     "url": "https://github.com/JanDeDobbeleer/oh-my-posh",
     "lang": "Go"
@@ -2777,7 +2744,7 @@
     "tags": [
       "llm",
       "ai",
-      "로컬"
+      "local"
     ],
     "url": "https://github.com/ollama/ollama",
     "lang": "Go"
@@ -2787,7 +2754,7 @@
     "description": "show mac cpu temperature",
     "tags": [
       "cpu",
-      "온도",
+      "temperature",
       "mac"
     ],
     "url": "https://github.com/lavoiesl/osx-cpu-temp",
@@ -2798,8 +2765,8 @@
     "description": "docker container inspector",
     "tags": [
       "docker",
-      "컨테이너",
-      "모니터링"
+      "container",
+      "monitoring"
     ],
     "url": "https://github.com/mrjackwills/oxker",
     "lang": "Rust"
@@ -2808,8 +2775,8 @@
     "name": "pandoc",
     "description": "document format converter",
     "tags": [
-      "문서",
-      "변환",
+      "document",
+      "convert",
       "markdown"
     ],
     "url": "https://github.com/jgm/pandoc",
@@ -2820,8 +2787,8 @@
     "description": "interactive filtering tool",
     "tags": [
       "fuzzy",
-      "필터",
-      "인터랙티브"
+      "filter",
+      "interactive"
     ],
     "url": "https://github.com/peco/peco",
     "lang": "Go"
@@ -2831,8 +2798,8 @@
     "description": "pretty ls replacement",
     "tags": [
       "ls",
-      "대체",
-      "파일목록"
+      "alternative",
+      "filelist"
     ],
     "url": "https://github.com/pls-rs/pls",
     "lang": "Rust"
@@ -2841,9 +2808,9 @@
     "name": "podman",
     "description": "daemonless container engine",
     "tags": [
-      "컨테이너",
+      "container",
       "docker",
-      "대체"
+      "alternative"
     ],
     "url": "https://github.com/containers/podman",
     "lang": "Go"
@@ -2853,8 +2820,8 @@
     "description": "python dependency manager",
     "tags": [
       "python",
-      "패키지",
-      "의존성"
+      "package",
+      "dependency"
     ],
     "url": "https://github.com/python-poetry/poetry",
     "lang": "Python"
@@ -2864,8 +2831,8 @@
     "description": "kubernetes cluster health",
     "tags": [
       "kubernetes",
-      "헬스체크",
-      "진단"
+      "health-check",
+      "diagnostics"
     ],
     "url": "https://github.com/derailed/popeye",
     "lang": "Go"
@@ -2874,9 +2841,9 @@
     "name": "prettier",
     "description": "code formatter",
     "tags": [
-      "포맷",
+      "format",
       "js",
-      "프리티어"
+      "prettier"
     ],
     "url": "https://github.com/prettier/prettier",
     "lang": "JavaScript"
@@ -2886,7 +2853,7 @@
     "description": "python version manager",
     "tags": [
       "python",
-      "버전관리"
+      "version-manager"
     ],
     "url": "https://github.com/pyenv/pyenv",
     "lang": "Shell"
@@ -2895,9 +2862,8 @@
     "name": "rename",
     "description": "rename files with perl expressions",
     "tags": [
-      "이름변경",
-      "파일",
-      "rename"
+      "rename",
+      "file"
     ],
     "url": "",
     "lang": ""
@@ -2906,8 +2872,8 @@
     "name": "rio",
     "description": "terminal emulator",
     "tags": [
-      "터미널",
-      "에뮬레이터"
+      "terminal",
+      "emulator"
     ],
     "url": "https://github.com/raphamorim/rio",
     "lang": "Rust"
@@ -2918,7 +2884,7 @@
     "tags": [
       "sqlite",
       "db",
-      "분산"
+      "distributed"
     ],
     "url": "https://github.com/rqlite/rqlite",
     "lang": "Go"
@@ -2927,8 +2893,8 @@
     "name": "serie",
     "description": "watch series in terminal",
     "tags": [
-      "시리즈",
-      "동영상"
+      "series",
+      "video"
     ],
     "url": "https://github.com/lusingander/serie",
     "lang": "Rust"
@@ -2938,7 +2904,7 @@
     "description": "shell script linter",
     "tags": [
       "shell",
-      "린트"
+      "lint"
     ],
     "url": "https://github.com/koalaman/shellcheck",
     "lang": "Haskell"
@@ -2947,8 +2913,8 @@
     "name": "slides",
     "description": "terminal presentation tool",
     "tags": [
-      "발표",
-      "슬라이드"
+      "presentation",
+      "slides"
     ],
     "url": "https://github.com/maaslalani/slides",
     "lang": "Go"
@@ -2957,7 +2923,7 @@
     "name": "starship",
     "description": "cross-shell prompt",
     "tags": [
-      "프롬프트",
+      "prompt",
       "shell"
     ],
     "url": "https://github.com/starship/starship",
@@ -2967,8 +2933,8 @@
     "name": "stats",
     "description": "mac system monitor in menu bar",
     "tags": [
-      "시스템",
-      "모니터링",
+      "system",
+      "monitoring",
       "mac"
     ],
     "url": "https://github.com/exelban/stats",
@@ -2979,8 +2945,8 @@
     "description": "kubernetes multi-pod log viewer",
     "tags": [
       "kubernetes",
-      "로그",
-      "모니터링"
+      "log",
+      "monitoring"
     ],
     "url": "https://github.com/stern/stern",
     "lang": "Go"
@@ -3000,8 +2966,8 @@
     "name": "supervisor",
     "description": "process control system",
     "tags": [
-      "프로세스",
-      "관리",
+      "process",
+      "management",
       "daemon"
     ],
     "url": "https://github.com/Supervisor/supervisor",
@@ -3011,8 +2977,8 @@
     "name": "tabby",
     "description": "terminal emulator",
     "tags": [
-      "터미널",
-      "에뮬레이터"
+      "terminal",
+      "emulator"
     ],
     "url": "https://github.com/Eugeny/tabby",
     "lang": "TypeScript"
@@ -3022,7 +2988,7 @@
     "description": "sqlite table viewer",
     "tags": [
       "sqlite",
-      "뷰어",
+      "viewer",
       "db"
     ],
     "url": "https://github.com/shshemi/tabiew",
@@ -3043,8 +3009,8 @@
     "description": "fast fuzzy finder",
     "tags": [
       "fuzzy",
-      "검색",
-      "파일"
+      "search",
+      "file"
     ],
     "url": "https://github.com/alexpasmantier/television",
     "lang": "Rust"
@@ -3053,9 +3019,9 @@
     "name": "telnet",
     "description": "connect to remote hosts",
     "tags": [
-      "포트",
-      "원격",
-      "연결"
+      "port",
+      "remote",
+      "connection"
     ],
     "url": "",
     "lang": ""
@@ -3065,8 +3031,8 @@
     "description": "ocr engine",
     "tags": [
       "ocr",
-      "이미지",
-      "텍스트추출"
+      "image",
+      "text-extraction"
     ],
     "url": "https://github.com/tesseract-ocr/tesseract",
     "lang": "C++"
@@ -3077,7 +3043,7 @@
     "tags": [
       "git",
       "ui",
-      "로그"
+      "log"
     ],
     "url": "https://github.com/jonas/tig",
     "lang": "C"
@@ -3086,9 +3052,9 @@
     "name": "tldr",
     "description": "tealdeer, simplified man pages",
     "tags": [
-      "도움말",
-      "매뉴얼",
-      "요약"
+      "help",
+      "manual",
+      "summary"
     ],
     "url": "https://github.com/tealdeer-rs/tealdeer",
     "lang": "Rust"
@@ -3097,8 +3063,8 @@
     "name": "usage",
     "description": "usage statistics for cli",
     "tags": [
-      "사용량",
-      "통계"
+      "usage",
+      "statistics"
     ],
     "url": "",
     "lang": ""
@@ -3108,8 +3074,8 @@
     "description": "vm environment manager",
     "tags": [
       "vm",
-      "가상머신",
-      "개발환경"
+      "virtual-machine",
+      "dev-environment"
     ],
     "url": "https://github.com/hashicorp/vagrant",
     "lang": "Ruby"
@@ -3118,8 +3084,8 @@
     "name": "vale",
     "description": "prose linter",
     "tags": [
-      "린트",
-      "문서",
+      "lint",
+      "document",
       "prose"
     ],
     "url": "https://github.com/errata-ai/vale",
@@ -3129,9 +3095,9 @@
     "name": "vector",
     "description": "log/metrics pipeline",
     "tags": [
-      "로그",
-      "파이프라인",
-      "메트릭"
+      "log",
+      "pipeline",
+      "metrics"
     ],
     "url": "https://github.com/vectordotdev/vector",
     "lang": "Rust"
@@ -3141,7 +3107,7 @@
     "description": "webassembly runtime",
     "tags": [
       "wasm",
-      "런타임",
+      "runtime",
       "webassembly"
     ],
     "url": "https://github.com/wasmerio/wasmer",
@@ -3152,7 +3118,7 @@
     "description": "webassembly runtime",
     "tags": [
       "wasm",
-      "런타임"
+      "runtime"
     ],
     "url": "https://github.com/bytecodealliance/wasmtime",
     "lang": "Rust"
@@ -3162,8 +3128,8 @@
     "description": "js module bundler",
     "tags": [
       "js",
-      "번들러",
-      "빌드"
+      "bundler",
+      "build"
     ],
     "url": "https://github.com/webpack/webpack",
     "lang": "JavaScript"
@@ -3172,8 +3138,8 @@
     "name": "wezterm",
     "description": "terminal emulator with lua config",
     "tags": [
-      "터미널",
-      "에뮬레이터"
+      "terminal",
+      "emulator"
     ],
     "url": "https://github.com/wez/wezterm",
     "lang": "Rust"
@@ -3183,7 +3149,7 @@
     "description": "automate x11 interactions",
     "tags": [
       "x11",
-      "자동화"
+      "automation"
     ],
     "url": "https://github.com/jordansissel/xdotool",
     "lang": "C"
@@ -3193,7 +3159,7 @@
     "description": "javascript package manager",
     "tags": [
       "js",
-      "패키지",
+      "package",
       "yarn"
     ],
     "url": "https://github.com/yarnpkg/yarn",
@@ -3203,8 +3169,8 @@
     "name": "yazi",
     "description": "terminal file manager",
     "tags": [
-      "파일",
-      "관리자",
+      "file",
+      "manager",
       "ui"
     ],
     "url": "https://github.com/sxyazi/yazi",
@@ -3215,7 +3181,7 @@
     "description": "yaml processor like jq",
     "tags": [
       "yaml",
-      "파싱"
+      "parsing"
     ],
     "url": "https://github.com/mikefarah/yq",
     "lang": "Go"
@@ -3224,8 +3190,8 @@
     "name": "yt-dlp",
     "description": "download videos from websites",
     "tags": [
-      "다운로드",
-      "동영상",
+      "download",
+      "video",
       "youtube"
     ],
     "url": "https://github.com/yt-dlp/yt-dlp",
@@ -3236,8 +3202,8 @@
     "description": "zig language toolchain",
     "tags": [
       "zig",
-      "컴파일",
-      "빌드"
+      "compile",
+      "build"
     ],
     "url": "https://github.com/ziglang/zig",
     "lang": "Zig"
@@ -3257,9 +3223,9 @@
     "description": "go hot reload dev server",
     "tags": [
       "go",
-      "리로드",
-      "핫리로드",
-      "개발"
+      "reload",
+      "hot-reload",
+      "development"
     ],
     "url": "https://github.com/air-verse/air",
     "lang": "Go"
@@ -3268,8 +3234,8 @@
     "name": "confetty",
     "description": "terminal confetti animation",
     "tags": [
-      "축하",
-      "애니메이션",
+      "celebration",
+      "animation",
       "ascii"
     ],
     "url": "https://github.com/maaslalani/confetty",
@@ -3279,9 +3245,9 @@
     "name": "countryfetch",
     "description": "country info by name/code",
     "tags": [
-      "국가",
-      "정보",
-      "정보조회"
+      "country",
+      "info",
+      "lookup"
     ],
     "url": "https://github.com/CondensedMilk7/countryfetch",
     "lang": "Go"
@@ -3291,7 +3257,7 @@
     "description": "delve, go debugger",
     "tags": [
       "go",
-      "디버거",
+      "debugger",
       "debug"
     ],
     "url": "https://github.com/go-delve/delve",
@@ -3302,8 +3268,8 @@
     "description": "check unchecked go errors",
     "tags": [
       "go",
-      "에러",
-      "린트"
+      "error",
+      "lint"
     ],
     "url": "https://github.com/kisielk/errcheck",
     "lang": "Go"
@@ -3313,7 +3279,7 @@
     "description": "BDD test framework for go",
     "tags": [
       "go",
-      "테스트",
+      "test",
       "bdd"
     ],
     "url": "https://github.com/onsi/ginkgo",
@@ -3325,7 +3291,7 @@
     "tags": [
       "go",
       "enum",
-      "코드생성"
+      "codegen"
     ],
     "url": "https://github.com/abice/go-enum",
     "lang": "Go"
@@ -3335,7 +3301,6 @@
     "description": "report go dependency licenses",
     "tags": [
       "go",
-      "라이선스",
       "license"
     ],
     "url": "https://github.com/google/go-licenses",
@@ -3346,7 +3311,7 @@
     "description": "stricter gofmt formatter",
     "tags": [
       "go",
-      "포맷",
+      "format",
       "gofmt"
     ],
     "url": "https://github.com/mvdan/gofumpt",
@@ -3357,7 +3322,7 @@
     "description": "format go imports",
     "tags": [
       "go",
-      "포맷",
+      "format",
       "import"
     ],
     "url": "https://github.com/golang/tools",
@@ -3369,7 +3334,7 @@
     "tags": [
       "go",
       "struct",
-      "태그"
+      "tag"
     ],
     "url": "https://github.com/fatih/gomodifytags",
     "lang": "Go"
@@ -3380,7 +3345,7 @@
     "tags": [
       "go",
       "lsp",
-      "편집기"
+      "editor"
     ],
     "url": "https://github.com/golang/tools",
     "lang": "Go"
@@ -3390,8 +3355,8 @@
     "description": "go test runner with rich output",
     "tags": [
       "go",
-      "테스트",
-      "테스트러너"
+      "test",
+      "test-runner"
     ],
     "url": "https://github.com/gotestyourself/gotestsum",
     "lang": "Go"
@@ -3401,8 +3366,8 @@
     "description": "go vulnerability scanner",
     "tags": [
       "go",
-      "보안",
-      "취약점"
+      "security",
+      "vulnerability"
     ],
     "url": "https://github.com/golang/vuln",
     "lang": "Go"
@@ -3412,8 +3377,8 @@
     "description": "update go-installed binaries",
     "tags": [
       "go",
-      "업데이트",
-      "버전관리"
+      "update",
+      "version-manager"
     ],
     "url": "https://github.com/nao1215/gup",
     "lang": "Go"
@@ -3422,9 +3387,9 @@
     "name": "image2ascii",
     "description": "convert image to ascii art",
     "tags": [
-      "이미지",
+      "image",
       "ascii",
-      "변환"
+      "convert"
     ],
     "url": "https://github.com/qeesung/image2ascii",
     "lang": "Go"
@@ -3433,9 +3398,9 @@
     "name": "imgcat",
     "description": "display images in terminal",
     "tags": [
-      "이미지",
-      "터미널",
-      "뷰어"
+      "image",
+      "terminal",
+      "viewer"
     ],
     "url": "https://github.com/danielgatis/imgcat",
     "lang": "Go"
@@ -3446,7 +3411,7 @@
     "tags": [
       "go",
       "interface",
-      "코드생성"
+      "codegen"
     ],
     "url": "https://github.com/josharian/impl",
     "lang": "Go"
@@ -3458,7 +3423,7 @@
       "json",
       "go",
       "struct",
-      "변환"
+      "convert"
     ],
     "url": "https://github.com/tmc/json-to-struct",
     "lang": "Go"
@@ -3479,7 +3444,7 @@
     "description": "kafka cli with tui",
     "tags": [
       "kafka",
-      "메시지",
+      "message",
       "tui"
     ],
     "url": "https://github.com/birdayz/kaf",
@@ -3490,7 +3455,7 @@
     "description": "git hooks manager",
     "tags": [
       "git",
-      "훅",
+      "hook",
       "hooks"
     ],
     "url": "https://github.com/evilmartians/lefthook",
@@ -3501,8 +3466,8 @@
     "description": "assembly source viewer for go",
     "tags": [
       "go",
-      "어셈블리",
-      "분석"
+      "assembly",
+      "analysis"
     ],
     "url": "https://github.com/loov/lensm",
     "lang": "Go"
@@ -3513,7 +3478,7 @@
     "tags": [
       "go",
       "mock",
-      "테스트"
+      "test"
     ],
     "url": "https://github.com/uber-go/mock",
     "lang": "Go"
@@ -3524,7 +3489,7 @@
     "tags": [
       "go",
       "mock",
-      "테스트"
+      "test"
     ],
     "url": "https://github.com/vektra/mockery",
     "lang": "Go"
@@ -3534,7 +3499,7 @@
     "description": "go linter",
     "tags": [
       "go",
-      "린트"
+      "lint"
     ],
     "url": "https://github.com/mgechev/revive",
     "lang": "Go"
@@ -3544,7 +3509,7 @@
     "description": "shell script formatter",
     "tags": [
       "shell",
-      "포맷",
+      "format",
       "bash"
     ],
     "url": "https://github.com/mvdan/sh",
@@ -3555,8 +3520,8 @@
     "description": "go static analysis",
     "tags": [
       "go",
-      "정적분석",
-      "린트"
+      "static-analysis",
+      "lint"
     ],
     "url": "https://github.com/dominikh/go-tools",
     "lang": "Go"
@@ -3566,7 +3531,7 @@
     "description": "generate go constant String methods",
     "tags": [
       "go",
-      "코드생성",
+      "codegen",
       "stringer"
     ],
     "url": "https://github.com/golang/tools",
@@ -3578,7 +3543,7 @@
     "tags": [
       "go",
       "swagger",
-      "문서"
+      "document"
     ],
     "url": "https://github.com/swaggo/swag",
     "lang": "Go"
@@ -3587,10 +3552,10 @@
     "name": "termshark",
     "description": "terminal wireshark/tshark ui",
     "tags": [
-      "네트워크",
-      "패킷",
+      "network",
+      "packet",
       "wireshark",
-      "분석"
+      "analysis"
     ],
     "url": "https://github.com/gcla/termshark",
     "lang": "Go"
@@ -3600,8 +3565,8 @@
     "description": "go test output parser",
     "tags": [
       "go",
-      "테스트",
-      "파싱"
+      "test",
+      "parsing"
     ],
     "url": "https://github.com/mfridman/tparse",
     "lang": "Go"
@@ -3611,8 +3576,8 @@
     "description": "http load testing tool",
     "tags": [
       "http",
-      "부하",
-      "테스트"
+      "load",
+      "test"
     ],
     "url": "https://github.com/tsenart/vegeta",
     "lang": "Go"
@@ -3622,8 +3587,8 @@
     "description": "build caddy with plugins",
     "tags": [
       "caddy",
-      "빌드",
-      "플러그인"
+      "build",
+      "plugin"
     ],
     "url": "https://github.com/caddyserver/xcaddy",
     "lang": "Go"
@@ -3633,8 +3598,8 @@
     "description": "go formatter for long lines",
     "tags": [
       "go",
-      "포맷",
-      "라인"
+      "format",
+      "line"
     ],
     "url": "https://github.com/segmentio/golines",
     "lang": "Go"
@@ -3644,8 +3609,8 @@
     "description": "run go code in playground",
     "tags": [
       "go",
-      "플레이그라운드",
-      "실행"
+      "playground",
+      "run"
     ],
     "url": "https://github.com/haya14busa/goplay",
     "lang": "Go"
@@ -3655,7 +3620,7 @@
     "description": "go documentation tool",
     "tags": [
       "go",
-      "문서",
+      "document",
       "godoc"
     ],
     "url": "https://github.com/golang/tools",
@@ -3666,8 +3631,8 @@
     "description": "generate go table-driven tests",
     "tags": [
       "go",
-      "테스트",
-      "코드생성"
+      "test",
+      "codegen"
     ],
     "url": "https://github.com/cweill/gotests",
     "lang": "Go"
@@ -3677,8 +3642,8 @@
     "description": "terminal markdown previewer",
     "tags": [
       "markdown",
-      "뷰어",
-      "미리보기"
+      "viewer",
+      "preview"
     ],
     "url": "https://github.com/rivolink/leaf",
     "lang": "Rust"
@@ -3687,8 +3652,8 @@
     "name": "scope-tui",
     "description": "terminal audio visualizer",
     "tags": [
-      "음악",
-      "시각화",
+      "music",
+      "visualization",
       "audio"
     ],
     "url": "https://github.com/alemidev/scope-tui",
@@ -3698,10 +3663,10 @@
     "name": "ttf",
     "description": "terminal tool finder, fuzzy search this tools.json",
     "tags": [
-      "터미널",
-      "파인더",
+      "terminal",
+      "finder",
       "fuzzy",
-      "검색"
+      "search"
     ],
     "url": "https://github.com/ysoftman/ttf",
     "lang": "Rust"
@@ -3710,9 +3675,8 @@
     "name": "age",
     "description": "simple modern secure file encryption",
     "tags": [
-      "암호화",
       "encryption",
-      "보안"
+      "security"
     ],
     "url": "https://github.com/FiloSottile/age",
     "lang": "Go"
@@ -3722,7 +3686,7 @@
     "description": "postman like API client in terminal",
     "tags": [
       "api",
-      "클라이언트",
+      "client",
       "tui"
     ],
     "url": "https://github.com/Julien-cpsn/ATAC",
@@ -3733,9 +3697,8 @@
     "description": "shell history search and multi-device sync",
     "tags": [
       "history",
-      "히스토리",
-      "동기화",
-      "검색"
+      "sync",
+      "search"
     ],
     "url": "https://github.com/atuinsh/atuin",
     "lang": "Rust"
@@ -3746,7 +3709,7 @@
     "tags": [
       "dotfiles",
       "chezmoi",
-      "설정"
+      "config"
     ],
     "url": "https://github.com/djetelina/cheznav",
     "lang": "Python"
@@ -3755,10 +3718,9 @@
     "name": "eget",
     "description": "easily install prebuilt binaries from GitHub",
     "tags": [
-      "설치",
       "install",
       "github",
-      "바이너리"
+      "binary"
     ],
     "url": "https://github.com/zyedidia/eget",
     "lang": "Go"
@@ -3768,9 +3730,8 @@
     "description": "jq for binary formats",
     "tags": [
       "jq",
-      "바이너리",
       "binary",
-      "파싱"
+      "parsing"
     ],
     "url": "https://github.com/wader/fq",
     "lang": "Go"
@@ -3779,9 +3740,9 @@
     "name": "gdu",
     "description": "fast disk usage analyzer",
     "tags": [
-      "디스크",
-      "용량",
-      "분석"
+      "disk",
+      "size",
+      "analysis"
     ],
     "url": "https://github.com/dundee/gdu",
     "lang": "Go"
@@ -3792,8 +3753,8 @@
     "tags": [
       "git",
       "gitignore",
-      "생성",
-      "템플릿"
+      "create",
+      "template"
     ],
     "url": "https://github.com/reemus-dev/gitnr",
     "lang": "Rust"
@@ -3803,8 +3764,8 @@
     "description": "decode and encode JSON Web Tokens",
     "tags": [
       "jwt",
-      "인증",
-      "디코딩"
+      "auth",
+      "decoding"
     ],
     "url": "https://github.com/jwt-rs/jwt-ui",
     "lang": "Rust"
@@ -3815,8 +3776,8 @@
     "tags": [
       "kubernetes",
       "k8s",
-      "대시보드",
-      "모니터링"
+      "dashboard",
+      "monitoring"
     ],
     "url": "https://github.com/kdash-rs/kdash",
     "lang": "Rust"
@@ -3825,8 +3786,7 @@
     "name": "kalker",
     "description": "scientific terminal calculator",
     "tags": [
-      "계산기",
-      "수학",
+      "calculator",
       "math"
     ],
     "url": "https://github.com/PaddiM8/kalker",
@@ -3836,10 +3796,10 @@
     "name": "kyanos",
     "description": "ebpf-based network tracing and analysis",
     "tags": [
-      "네트워크",
+      "network",
       "ebpf",
-      "트레이싱",
-      "진단"
+      "tracing",
+      "diagnostics"
     ],
     "url": "https://github.com/hengyoush/kyanos",
     "lang": "Go"
@@ -3849,8 +3809,8 @@
     "description": "tui for defining and running rsync transfers",
     "tags": [
       "rsync",
-      "백업",
-      "동기화",
+      "backup",
+      "sync",
       "tui"
     ],
     "url": "https://github.com/westpoint-io/lazyrsync",
@@ -3860,10 +3820,9 @@
     "name": "lnav",
     "description": "ncurses-based log file viewer with query",
     "tags": [
-      "로그",
       "log",
-      "뷰어",
-      "검색"
+      "viewer",
+      "search"
     ],
     "url": "https://github.com/tstack/lnav",
     "lang": "C++"
@@ -3872,10 +3831,10 @@
     "name": "monolith",
     "description": "save complete web pages as a single html file",
     "tags": [
-      "웹",
-      "아카이브",
+      "web",
+      "archive",
       "html",
-      "저장"
+      "save"
     ],
     "url": "https://github.com/Y2Z/monolith",
     "lang": "Rust"
@@ -3886,7 +3845,7 @@
     "tags": [
       "mqtt",
       "iot",
-      "메시지"
+      "message"
     ],
     "url": "https://github.com/EdJoPaTo/mqttui",
     "lang": "Rust"
@@ -3897,7 +3856,7 @@
     "tags": [
       "http",
       "api",
-      "클라이언트",
+      "client",
       "tui"
     ],
     "url": "https://github.com/darrenburns/posting",
@@ -3910,7 +3869,7 @@
       "sql",
       "json",
       "csv",
-      "쿼리"
+      "query"
     ],
     "url": "https://github.com/kiki-ki/go-qo",
     "lang": "Go"
@@ -3919,9 +3878,9 @@
     "name": "rustscan",
     "description": "modern fast port scanner",
     "tags": [
-      "포트스캔",
-      "네트워크",
-      "보안",
+      "portscan",
+      "network",
+      "security",
       "scanner"
     ],
     "url": "https://github.com/RustScan/RustScan",
@@ -3932,7 +3891,7 @@
     "description": "user friendly tui for SQL databases",
     "tags": [
       "sql",
-      "데이터베이스",
+      "database",
       "tui"
     ],
     "url": "https://github.com/Maxteabag/sqlit",
@@ -3942,8 +3901,8 @@
     "name": "sttr",
     "description": "30+ string transformations on text",
     "tags": [
-      "문자열",
-      "변환",
+      "string",
+      "convert",
       "transform"
     ],
     "url": "https://github.com/abhimanyu003/sttr",
@@ -3953,8 +3912,8 @@
     "name": "tiptop",
     "description": "system monitoring in spirit of top",
     "tags": [
-      "모니터링",
-      "시스템",
+      "monitoring",
+      "system",
       "top"
     ],
     "url": "https://github.com/nschloe/tiptop",
@@ -3966,7 +3925,7 @@
     "tags": [
       "ci",
       "github actions",
-      "로컬",
+      "local",
       "tui"
     ],
     "url": "https://github.com/bahdotsh/wrkflw",
@@ -3977,8 +3936,8 @@
     "description": "AI pair programming in your terminal",
     "tags": [
       "ai",
-      "코딩",
-      "어시스턴트",
+      "coding",
+      "assistant",
       "llm"
     ],
     "url": "https://github.com/paul-gauthier/aider",
@@ -3989,7 +3948,7 @@
     "description": "SQL IDE for your terminal",
     "tags": [
       "sql",
-      "데이터베이스",
+      "database",
       "tui",
       "ide"
     ],
@@ -4001,8 +3960,8 @@
     "description": "dig into ClickHouse with TUI interface",
     "tags": [
       "clickhouse",
-      "데이터베이스",
-      "모니터링",
+      "database",
+      "monitoring",
       "tui"
     ],
     "url": "https://github.com/azat/chdig",
@@ -4013,8 +3972,8 @@
     "description": "realtime MySQL health monitoring in the terminal",
     "tags": [
       "mysql",
-      "데이터베이스",
-      "모니터링",
+      "database",
+      "monitoring",
       "tui"
     ],
     "url": "https://github.com/charles-001/dolphie",
@@ -4025,7 +3984,7 @@
     "description": "a TUI for managing MongoDB databases",
     "tags": [
       "mongodb",
-      "데이터베이스",
+      "database",
       "tui"
     ],
     "url": "https://github.com/kopecmaciej/vi-mongo",
@@ -4037,7 +3996,7 @@
     "tags": [
       "dynamodb",
       "aws",
-      "데이터베이스",
+      "database",
       "tui"
     ],
     "url": "https://github.com/lusingander/ddv",
@@ -4082,9 +4041,9 @@
     "name": "intelli-shell",
     "description": "like IntelliSense, but for shells",
     "tags": [
-      "셸",
-      "자동완성",
-      "명령어",
+      "shell",
+      "autocomplete",
+      "command",
       "tui"
     ],
     "url": "https://github.com/lasantosr/intelli-shell",
@@ -4117,7 +4076,7 @@
     "name": "mani",
     "description": "a CLI tool to help manage multiple repositories",
     "tags": [
-      "여러 저장소",
+      "multi-repo",
       "git",
       "tui"
     ],
@@ -4129,8 +4088,8 @@
     "description": "a TUI to download files/folders from repositories without cloning",
     "tags": [
       "github",
-      "다운로드",
-      "저장소",
+      "download",
+      "repository",
       "tui"
     ],
     "url": "https://github.com/abhixdd/ghgrab",
@@ -4141,8 +4100,8 @@
     "description": "a TUI for visualizing Git repository statistics",
     "tags": [
       "git",
-      "통계",
-      "시각화",
+      "statistics",
+      "visualization",
       "tui"
     ],
     "url": "https://github.com/hjr265/gittop",
@@ -4164,7 +4123,7 @@
     "description": "advanced MCP protocol debugger and interactive TUI",
     "tags": [
       "mcp",
-      "디버깅",
+      "debugging",
       "tui"
     ],
     "url": "https://github.com/conikeec/mcp-probe",
@@ -4196,9 +4155,9 @@
     "name": "fnug",
     "description": "run all your lints, tests and commands at once",
     "tags": [
-      "테스트",
+      "test",
       "lint",
-      "병렬",
+      "parallel",
       "tui"
     ],
     "url": "https://github.com/nickolaj-jepsen/fnug",
@@ -4220,7 +4179,7 @@
     "description": "an interactive Kubernetes log viewer",
     "tags": [
       "kubernetes",
-      "로그",
+      "log",
       "tui"
     ],
     "url": "https://github.com/robinovitch61/kl",
@@ -4242,7 +4201,7 @@
     "description": "a keyboard-focused systemd units TUI",
     "tags": [
       "systemd",
-      "서비스",
+      "service",
       "tui"
     ],
     "url": "https://github.com/isd-project/isd",
@@ -4253,7 +4212,7 @@
     "description": "manage cron jobs locally and on servers",
     "tags": [
       "cron",
-      "스케줄",
+      "schedule",
       "tui"
     ],
     "url": "https://github.com/antoniorodr/cronboard",
@@ -4264,7 +4223,7 @@
     "description": "a TUI for Apache Kafka",
     "tags": [
       "kafka",
-      "메시지",
+      "message",
       "tui"
     ],
     "url": "https://github.com/sauljabin/kaskade",
@@ -4285,9 +4244,9 @@
     "name": "dirsearch",
     "description": "a web path scanner for finding hidden files and directories",
     "tags": [
-      "웹",
-      "스캔",
-      "보안"
+      "web",
+      "scan",
+      "security"
     ],
     "url": "https://github.com/maurosoria/dirsearch",
     "lang": "Python"
@@ -4296,9 +4255,9 @@
     "name": "cariddi",
     "description": "crawl urls, scan endpoints, secrets, api keys and tokens",
     "tags": [
-      "보안",
-      "크롤링",
-      "스캔"
+      "security",
+      "crawling",
+      "scan"
     ],
     "url": "https://github.com/edoardottt/cariddi",
     "lang": "Go"
@@ -4307,8 +4266,8 @@
     "name": "snitch",
     "description": "a TUI for inspecting network connections",
     "tags": [
-      "네트워크",
-      "연결",
+      "network",
+      "connection",
       "tui"
     ],
     "url": "https://github.com/karol-broda/snitch",
@@ -4319,7 +4278,7 @@
     "description": "a better whois and domain intelligence toolkit",
     "tags": [
       "whois",
-      "도메인",
+      "domain",
       "dns"
     ],
     "url": "https://github.com/retlehs/quien",
@@ -4329,9 +4288,9 @@
     "name": "wtfis",
     "description": "passive hostname, domain and IP lookup tool",
     "tags": [
-      "도메인",
+      "domain",
       "ip",
-      "조회"
+      "lookup"
     ],
     "url": "https://github.com/pirxthepilot/wtfis",
     "lang": "Python"
@@ -4341,8 +4300,8 @@
     "description": "a global DNS propagation checker for your terminal",
     "tags": [
       "dns",
-      "전파",
-      "확인"
+      "propagation",
+      "check"
     ],
     "url": "https://github.com/514-labs/dnsglobe",
     "lang": "Rust"
@@ -4352,8 +4311,8 @@
     "description": "a LAN discovery tool with a modern TUI interface",
     "tags": [
       "lan",
-      "네트워크",
-      "스캔",
+      "network",
+      "scan",
       "tui"
     ],
     "url": "https://github.com/ramonvermeulen/whosthere",
@@ -4363,7 +4322,7 @@
     "name": "ddgr",
     "description": "DuckDuckGo from the terminal",
     "tags": [
-      "검색",
+      "search",
       "duckduckgo"
     ],
     "url": "https://github.com/jarun/ddgr",
@@ -4373,8 +4332,8 @@
     "name": "wiki-tui",
     "description": "a fast Wikipedia CLI/TUI client",
     "tags": [
-      "위키백과",
-      "검색",
+      "wikipedia",
+      "search",
       "tui"
     ],
     "url": "https://github.com/Builditluc/wiki-tui",
@@ -4384,8 +4343,8 @@
     "name": "jocalsend",
     "description": "a TUI file-sharing tool based on the LocalSend protocol",
     "tags": [
-      "파일전송",
-      "공유",
+      "file-transfer",
+      "share",
       "tui"
     ],
     "url": "https://git.kittencollective.com/nebkor/joecalsend",
@@ -4395,8 +4354,8 @@
     "name": "gobackup",
     "description": "backup databases and files to cloud storage",
     "tags": [
-      "백업",
-      "클라우드"
+      "backup",
+      "cloud"
     ],
     "url": "https://github.com/gobackup/gobackup",
     "lang": "Go"
@@ -4405,9 +4364,9 @@
     "name": "wiper",
     "description": "a TUI disk analyser and cleanup tool",
     "tags": [
-      "디스크",
-      "정리",
-      "분석",
+      "disk",
+      "cleanup",
+      "analysis",
       "tui"
     ],
     "url": "https://github.com/ikebastuz/wiper",
@@ -4417,9 +4376,9 @@
     "name": "mcat",
     "description": "parse, convert and preview images, videos and markdown",
     "tags": [
-      "미리보기",
-      "이미지",
-      "비디오"
+      "preview",
+      "image",
+      "video"
     ],
     "url": "https://github.com/Skardyy/mcat",
     "lang": "Rust"
@@ -4429,7 +4388,7 @@
     "description": "a modern, secure and user-friendly dotfile manager",
     "tags": [
       "dotfiles",
-      "설정",
+      "config",
       "tui"
     ],
     "url": "https://github.com/serkanyersen/dotstate",
@@ -4440,7 +4399,7 @@
     "description": "terminal based assisted management of SSH config files",
     "tags": [
       "ssh",
-      "설정",
+      "config",
       "tui"
     ],
     "url": "https://github.com/karlot/sshclick",
@@ -4450,8 +4409,8 @@
     "name": "kew",
     "description": "a fast, privacy friendly terminal music player",
     "tags": [
-      "음악",
-      "플레이어",
+      "music",
+      "player",
       "tui"
     ],
     "url": "https://codeberg.org/ravachol/kew",
@@ -4461,8 +4420,8 @@
     "name": "herald",
     "description": "a powerful TUI email client and calendar tool",
     "tags": [
-      "이메일",
-      "메일",
+      "email",
+      "mail",
       "tui"
     ],
     "url": "https://github.com/herald-email/herald-mail-app",
@@ -4473,7 +4432,7 @@
     "description": "Jupyter notebooks in the terminal",
     "tags": [
       "jupyter",
-      "노트북",
+      "notebook",
       "tui"
     ],
     "url": "https://github.com/joouha/euporie",
@@ -4483,7 +4442,7 @@
     "name": "podliner",
     "description": "podcasts in any terminal",
     "tags": [
-      "팟캐스트",
+      "podcast",
       "tui"
     ],
     "url": "https://github.com/timkicker/podliner",
@@ -4494,7 +4453,6 @@
     "description": "a TUI ebook reader with text-to-speech",
     "tags": [
       "ebook",
-      "전자책",
       "tts"
     ],
     "url": "https://github.com/superstarryeyes/lue",
@@ -4504,8 +4462,8 @@
     "name": "msgvault",
     "description": "archive a lifetime of email with analytics, entirely offline",
     "tags": [
-      "이메일",
-      "아카이브",
+      "email",
+      "archive",
       "tui"
     ],
     "url": "https://github.com/wesm/msgvault",
@@ -4515,8 +4473,8 @@
     "name": "nless",
     "description": "excel for your logs, pipe in anything into columns",
     "tags": [
-      "로그",
-      "파싱",
+      "log",
+      "parsing",
       "tui"
     ],
     "url": "https://github.com/mpryor/nothing-less",
@@ -4526,8 +4484,8 @@
     "name": "ticker",
     "description": "a terminal stock ticker with live updates",
     "tags": [
-      "주식",
-      "주가",
+      "stock",
+      "stock-price",
       "tui"
     ],
     "url": "https://github.com/achannarasappa/ticker",
@@ -4537,8 +4495,8 @@
     "name": "sampler",
     "description": "visualization for any shell command",
     "tags": [
-      "대시보드",
-      "시각화",
+      "dashboard",
+      "visualization",
       "tui"
     ],
     "url": "https://github.com/sqshq/sampler",
@@ -4548,8 +4506,8 @@
     "name": "cy",
     "description": "a time traveling terminal multiplexer",
     "tags": [
-      "멀티플렉서",
-      "터미널",
+      "multiplexer",
+      "terminal",
       "tmux"
     ],
     "url": "https://github.com/cfoust/cy",
@@ -4559,8 +4517,8 @@
     "name": "sunbeam",
     "description": "a general purpose command-line launcher",
     "tags": [
-      "런처",
-      "실행기",
+      "launcher",
+      "runner",
       "tui"
     ],
     "url": "https://github.com/pomdtr/sunbeam",
@@ -4570,8 +4528,8 @@
     "name": "pik",
     "description": "a TUI for interactively stopping processes",
     "tags": [
-      "프로세스",
-      "종료",
+      "process",
+      "terminate",
       "kill",
       "tui"
     ],
