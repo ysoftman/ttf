@@ -1,6 +1,6 @@
 [package]
 name = "terminal-tool-finder"
-version = "0.1.6"
+version = "0.1.7"
 edition = "2024"
 description = "Terminal Tool Finder — fuzzy search terminal commands from tools.json"
 license = "MIT"
