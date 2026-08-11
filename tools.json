@@ -4535,5 +4535,849 @@
     ],
     "url": "https://github.com/jacek-kurlit/pik",
     "lang": "Rust"
+  },
+  {
+    "name": "rsync",
+    "description": "fast file copying and sync tool",
+    "tags": [
+      "sync",
+      "transfer",
+      "backup",
+      "remote"
+    ],
+    "url": "https://github.com/RsyncProject/rsync",
+    "lang": "C"
+  },
+  {
+    "name": "pv",
+    "description": "monitor progress of data through a pipe",
+    "tags": [
+      "pipe",
+      "progress",
+      "speed"
+    ],
+    "url": "https://github.com/a-j-wood/pv",
+    "lang": "C"
+  },
+  {
+    "name": "progress",
+    "description": "show progress for coreutils commands",
+    "tags": [
+      "progress",
+      "coreutils",
+      "monitor"
+    ],
+    "url": "https://github.com/Xfennec/progress",
+    "lang": "C"
+  },
+  {
+    "name": "ncdu",
+    "description": "ncurses disk usage analyzer",
+    "tags": [
+      "disk",
+      "usage",
+      "tui"
+    ],
+    "url": "https://dev.yorhel.nl/ncdu",
+    "lang": "C"
+  },
+  {
+    "name": "socat",
+    "description": "socket relay and multipurpose connector",
+    "tags": [
+      "socket",
+      "proxy",
+      "tcp"
+    ],
+    "url": "http://www.dest-unreach.org/socat/",
+    "lang": "C"
+  },
+  {
+    "name": "miller",
+    "description": "swiss army knife for data processing",
+    "tags": [
+      "csv",
+      "json",
+      "data",
+      "awk"
+    ],
+    "url": "https://github.com/johnkerl/miller",
+    "lang": "Go"
+  },
+  {
+    "name": "visidata",
+    "description": "terminal spreadsheet for data analysis",
+    "tags": [
+      "data",
+      "spreadsheet",
+      "tui"
+    ],
+    "url": "https://github.com/saulpw/visidata",
+    "lang": "Python"
+  },
+  {
+    "name": "httpie",
+    "description": "user friendly http client",
+    "tags": [
+      "http",
+      "api",
+      "request",
+      "client"
+    ],
+    "url": "https://github.com/httpie/cli",
+    "lang": "Python"
+  },
+  {
+    "name": "xh",
+    "description": "httpie replacement in rust",
+    "tags": [
+      "http",
+      "api",
+      "request",
+      "httpie"
+    ],
+    "url": "https://github.com/ducaale/xh",
+    "lang": "Rust"
+  },
+  {
+    "name": "hurl",
+    "description": "run and test http requests with plain text",
+    "tags": [
+      "http",
+      "test",
+      "api"
+    ],
+    "url": "https://github.com/Orange-OpenSource/hurl",
+    "lang": "Rust"
+  },
+  {
+    "name": "fclones",
+    "description": "fast duplicate file finder and remover",
+    "tags": [
+      "duplicate",
+      "file",
+      "cleanup"
+    ],
+    "url": "https://github.com/pkolaczk/fclones",
+    "lang": "Rust"
+  },
+  {
+    "name": "eg",
+    "description": "useful examples at the command line",
+    "tags": [
+      "examples",
+      "help",
+      "command"
+    ],
+    "url": "https://github.com/srsudar/eg",
+    "lang": "Go"
+  },
+  {
+    "name": "nmap",
+    "description": "network discovery and port scanner",
+    "tags": [
+      "port",
+      "scan",
+      "security",
+      "network"
+    ],
+    "url": "https://github.com/nmap/nmap",
+    "lang": "C"
+  },
+  {
+    "name": "tcpdump",
+    "description": "capture and analyze network packets",
+    "tags": [
+      "packet",
+      "capture",
+      "network"
+    ],
+    "url": "https://github.com/the-tcpdump-group/tcpdump",
+    "lang": "C"
+  },
+  {
+    "name": "mtr",
+    "description": "ping and traceroute combined",
+    "tags": [
+      "ping",
+      "traceroute",
+      "network"
+    ],
+    "url": "https://github.com/traviscross/mtr",
+    "lang": "C"
+  },
+  {
+    "name": "mitmproxy",
+    "description": "interactive https proxy",
+    "tags": [
+      "proxy",
+      "http",
+      "inspect"
+    ],
+    "url": "https://github.com/mitmproxy/mitmproxy",
+    "lang": "Python"
+  },
+  {
+    "name": "wuzz",
+    "description": "interactive tui for http inspection",
+    "tags": [
+      "http",
+      "tui",
+      "inspect"
+    ],
+    "url": "https://github.com/asciimoo/wuzz",
+    "lang": "Go"
+  },
+  {
+    "name": "slumber",
+    "description": "terminal-based rest client",
+    "tags": [
+      "http",
+      "api",
+      "client",
+      "rest"
+    ],
+    "url": "https://github.com/LucasPickering/slumber",
+    "lang": "Rust"
+  },
+  {
+    "name": "grpcurl",
+    "description": "command line grpc client",
+    "tags": [
+      "grpc",
+      "api",
+      "client"
+    ],
+    "url": "https://github.com/fullstorydev/grpcurl",
+    "lang": "Go"
+  },
+  {
+    "name": "evans",
+    "description": "grpc client with tui",
+    "tags": [
+      "grpc",
+      "client",
+      "tui"
+    ],
+    "url": "https://github.com/ktr0731/evans",
+    "lang": "Go"
+  },
+  {
+    "name": "ffuf",
+    "description": "fast web fuzzer",
+    "tags": [
+      "fuzzing",
+      "web",
+      "security"
+    ],
+    "url": "https://github.com/ffuf/ffuf",
+    "lang": "Go"
+  },
+  {
+    "name": "gobuster",
+    "description": "directory and dns brute force",
+    "tags": [
+      "directory",
+      "dns",
+      "brute"
+    ],
+    "url": "https://github.com/OJ/gobuster",
+    "lang": "Go"
+  },
+  {
+    "name": "nuclei",
+    "description": "fast vulnerability scanner",
+    "tags": [
+      "vulnerability",
+      "scan",
+      "security"
+    ],
+    "url": "https://github.com/projectdiscovery/nuclei",
+    "lang": "Go"
+  },
+  {
+    "name": "httpx",
+    "description": "http probe and toolkit",
+    "tags": [
+      "http",
+      "probe",
+      "security"
+    ],
+    "url": "https://github.com/projectdiscovery/httpx",
+    "lang": "Go"
+  },
+  {
+    "name": "subfinder",
+    "description": "passive subdomain enumeration",
+    "tags": [
+      "dns",
+      "subdomain",
+      "recon"
+    ],
+    "url": "https://github.com/projectdiscovery/subfinder",
+    "lang": "Go"
+  },
+  {
+    "name": "masscan",
+    "description": "internet-scale port scanner",
+    "tags": [
+      "port",
+      "scan",
+      "fast"
+    ],
+    "url": "https://github.com/robertdavidgraham/masscan",
+    "lang": "C"
+  },
+  {
+    "name": "iperf3",
+    "description": "network bandwidth measurement",
+    "tags": [
+      "bandwidth",
+      "speed",
+      "network"
+    ],
+    "url": "https://github.com/esnet/iperf",
+    "lang": "C"
+  },
+  {
+    "name": "speedtest-cli",
+    "description": "internet speed test from cli",
+    "tags": [
+      "speed",
+      "bandwidth",
+      "network"
+    ],
+    "url": "https://github.com/sivel/speedtest-cli",
+    "lang": "Python"
+  },
+  {
+    "name": "mosh",
+    "description": "mobile shell, remote shell over udp",
+    "tags": [
+      "ssh",
+      "remote",
+      "shell"
+    ],
+    "url": "https://github.com/mobile-shell/mosh",
+    "lang": "C++"
+  },
+  {
+    "name": "autossh",
+    "description": "keep ssh sessions alive",
+    "tags": [
+      "ssh",
+      "tunnel",
+      "keepalive"
+    ],
+    "url": "https://github.com/AutoSSH/autossh",
+    "lang": "C"
+  },
+  {
+    "name": "sshuttle",
+    "description": "vpn over ssh",
+    "tags": [
+      "vpn",
+      "proxy",
+      "ssh"
+    ],
+    "url": "https://github.com/sshuttle/sshuttle",
+    "lang": "Python"
+  },
+  {
+    "name": "proxychains",
+    "description": "force traffic through proxy chain",
+    "tags": [
+      "proxy",
+      "chain",
+      "anonymity"
+    ],
+    "url": "https://github.com/rofl0r/proxychains-ng",
+    "lang": "C"
+  },
+  {
+    "name": "micro",
+    "description": "modern terminal text editor",
+    "tags": [
+      "editor",
+      "terminal"
+    ],
+    "url": "https://github.com/zyedidia/micro",
+    "lang": "Go"
+  },
+  {
+    "name": "kakoune",
+    "description": "modal text editor",
+    "tags": [
+      "editor",
+      "modal",
+      "code"
+    ],
+    "url": "https://github.com/mawww/kakoune",
+    "lang": "C++"
+  },
+  {
+    "name": "vis",
+    "description": "modal editor based on sam",
+    "tags": [
+      "editor",
+      "modal",
+      "code"
+    ],
+    "url": "https://github.com/martanne/vis",
+    "lang": "C"
+  },
+  {
+    "name": "emacs",
+    "description": "extensible editor, works in terminal",
+    "tags": [
+      "editor",
+      "emacs",
+      "lisp"
+    ],
+    "url": "https://github.com/emacs-mirror/emacs",
+    "lang": "C"
+  },
+  {
+    "name": "direnv",
+    "description": "load environment per directory",
+    "tags": [
+      "env",
+      "shell",
+      "directory"
+    ],
+    "url": "https://github.com/direnv/direnv",
+    "lang": "Go"
+  },
+  {
+    "name": "rustup",
+    "description": "rust toolchain installer",
+    "tags": [
+      "rust",
+      "toolchain",
+      "install"
+    ],
+    "url": "https://github.com/rust-lang/rustup",
+    "lang": "Rust"
+  },
+  {
+    "name": "rustfmt",
+    "description": "rust code formatter",
+    "tags": [
+      "rust",
+      "format",
+      "lint"
+    ],
+    "url": "https://github.com/rust-lang/rustfmt",
+    "lang": "Rust"
+  },
+  {
+    "name": "cargo-clippy",
+    "description": "rust linter",
+    "tags": [
+      "rust",
+      "lint",
+      "cargo"
+    ],
+    "url": "https://github.com/rust-lang/rust-clippy",
+    "lang": "Rust"
+  },
+  {
+    "name": "fnm",
+    "description": "fast node version manager",
+    "tags": [
+      "node",
+      "version-manager",
+      "js"
+    ],
+    "url": "https://github.com/Schniz/fnm",
+    "lang": "Rust"
+  },
+  {
+    "name": "volta",
+    "description": "javascript toolchain version manager",
+    "tags": [
+      "node",
+      "version-manager",
+      "js"
+    ],
+    "url": "https://github.com/volta-cli/volta",
+    "lang": "Rust"
+  },
+  {
+    "name": "pnpm",
+    "description": "fast javascript package manager",
+    "tags": [
+      "package",
+      "js",
+      "pnpm"
+    ],
+    "url": "https://github.com/pnpm/pnpm",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "npm",
+    "description": "javascript package manager",
+    "tags": [
+      "package",
+      "js",
+      "npm"
+    ],
+    "url": "https://github.com/npm/cli",
+    "lang": "JavaScript"
+  },
+  {
+    "name": "jj",
+    "description": "jujutsu, version control system",
+    "tags": [
+      "vcs",
+      "git",
+      "version-control"
+    ],
+    "url": "https://github.com/jj-vcs/jj",
+    "lang": "Rust"
+  },
+  {
+    "name": "k6",
+    "description": "load testing tool",
+    "tags": [
+      "load",
+      "test",
+      "http"
+    ],
+    "url": "https://github.com/grafana/k6",
+    "lang": "Go"
+  },
+  {
+    "name": "wrk",
+    "description": "http benchmarking tool",
+    "tags": [
+      "load",
+      "benchmark",
+      "http"
+    ],
+    "url": "https://github.com/wg/wrk",
+    "lang": "C"
+  },
+  {
+    "name": "vhs",
+    "description": "record terminal as gif/webm",
+    "tags": [
+      "record",
+      "gif",
+      "animation"
+    ],
+    "url": "https://github.com/charmbracelet/vhs",
+    "lang": "Go"
+  },
+  {
+    "name": "asciinema",
+    "description": "record and share terminal sessions",
+    "tags": [
+      "record",
+      "share",
+      "screencast"
+    ],
+    "url": "https://github.com/asciinema/asciinema",
+    "lang": "Rust"
+  },
+  {
+    "name": "t-rec",
+    "description": "record terminal to animated gif",
+    "tags": [
+      "record",
+      "gif",
+      "screencast"
+    ],
+    "url": "https://github.com/sassman/t-rec-rs",
+    "lang": "Rust"
+  },
+  {
+    "name": "meson",
+    "description": "fast build system",
+    "tags": [
+      "build",
+      "meson",
+      "c"
+    ],
+    "url": "https://github.com/mesonbuild/meson",
+    "lang": "Python"
+  },
+  {
+    "name": "esbuild",
+    "description": "extremely fast js bundler",
+    "tags": [
+      "js",
+      "bundler",
+      "build"
+    ],
+    "url": "https://github.com/evanw/esbuild",
+    "lang": "Go"
+  },
+  {
+    "name": "vite",
+    "description": "fast frontend dev server and build tool",
+    "tags": [
+      "js",
+      "build",
+      "dev-server"
+    ],
+    "url": "https://github.com/vitejs/vite",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "hadolint",
+    "description": "dockerfile linter",
+    "tags": [
+      "docker",
+      "lint",
+      "dockerfile"
+    ],
+    "url": "https://github.com/hadolint/hadolint",
+    "lang": "Haskell"
+  },
+  {
+    "name": "mypy",
+    "description": "python static type checker",
+    "tags": [
+      "python",
+      "type-check",
+      "lint"
+    ],
+    "url": "https://github.com/python/mypy",
+    "lang": "Python"
+  },
+  {
+    "name": "black",
+    "description": "python code formatter",
+    "tags": [
+      "python",
+      "format",
+      "lint"
+    ],
+    "url": "https://github.com/psf/black",
+    "lang": "Python"
+  },
+  {
+    "name": "taskwarrior",
+    "description": "command line todo manager",
+    "tags": [
+      "task",
+      "todo",
+      "productivity"
+    ],
+    "url": "https://github.com/GothenburgBitFactory/taskwarrior",
+    "lang": "C++"
+  },
+  {
+    "name": "taskwarrior-tui",
+    "description": "tui for taskwarrior",
+    "tags": [
+      "task",
+      "todo",
+      "tui"
+    ],
+    "url": "https://github.com/kdheepak/taskwarrior-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "jrnl",
+    "description": "command line journal",
+    "tags": [
+      "journal",
+      "note",
+      "diary"
+    ],
+    "url": "https://github.com/jrnl-org/jrnl",
+    "lang": "Python"
+  },
+  {
+    "name": "navi",
+    "description": "interactive cheatsheet tool",
+    "tags": [
+      "cheatsheet",
+      "help",
+      "interactive"
+    ],
+    "url": "https://github.com/denisidoro/navi",
+    "lang": "Rust"
+  },
+  {
+    "name": "cheat",
+    "description": "command line cheatsheets",
+    "tags": [
+      "cheatsheet",
+      "help",
+      "command"
+    ],
+    "url": "https://github.com/cheat/cheat",
+    "lang": "Go"
+  },
+  {
+    "name": "newsboat",
+    "description": "terminal rss feed reader",
+    "tags": [
+      "rss",
+      "feed",
+      "reader"
+    ],
+    "url": "https://github.com/newsboat/newsboat",
+    "lang": "C++"
+  },
+  {
+    "name": "calcurse",
+    "description": "calendar and scheduling tui",
+    "tags": [
+      "calendar",
+      "schedule",
+      "tui"
+    ],
+    "url": "https://github.com/lfos/calcurse",
+    "lang": "C"
+  },
+  {
+    "name": "ncspot",
+    "description": "spotify music player in terminal",
+    "tags": [
+      "music",
+      "spotify",
+      "tui"
+    ],
+    "url": "https://github.com/hrkfdn/ncspot",
+    "lang": "Rust"
+  },
+  {
+    "name": "castero",
+    "description": "podcast client for terminal",
+    "tags": [
+      "podcast",
+      "tui"
+    ],
+    "url": "https://github.com/xgi/castero",
+    "lang": "Python"
+  },
+  {
+    "name": "topgrade",
+    "description": "upgrade all your tools at once",
+    "tags": [
+      "upgrade",
+      "update",
+      "package"
+    ],
+    "url": "https://github.com/topgrade-rs/topgrade",
+    "lang": "Rust"
+  },
+  {
+    "name": "nix",
+    "description": "reproducible package manager",
+    "tags": [
+      "package",
+      "nix",
+      "build"
+    ],
+    "url": "https://github.com/NixOS/nix",
+    "lang": "C++"
+  },
+  {
+    "name": "gcalcli",
+    "description": "google calendar from cli",
+    "tags": [
+      "calendar",
+      "google",
+      "schedule"
+    ],
+    "url": "https://github.com/insanum/gcalcli",
+    "lang": "Python"
+  },
+  {
+    "name": "nnn",
+    "description": "fast terminal file manager",
+    "tags": [
+      "file",
+      "manager",
+      "tui",
+      "navigator"
+    ],
+    "url": "https://github.com/jarun/nnn",
+    "lang": "C"
+  },
+  {
+    "name": "broot",
+    "description": "directory tree navigation tool",
+    "tags": [
+      "directory",
+      "tree",
+      "navigation",
+      "tui"
+    ],
+    "url": "https://github.com/Canop/broot",
+    "lang": "Rust"
+  },
+  {
+    "name": "lf",
+    "description": "terminal file manager",
+    "tags": [
+      "file",
+      "manager",
+      "tui"
+    ],
+    "url": "https://github.com/gokcehan/lf",
+    "lang": "Go"
+  },
+  {
+    "name": "ranger",
+    "description": "vim-inspired file manager",
+    "tags": [
+      "file",
+      "manager",
+      "vim"
+    ],
+    "url": "https://github.com/ranger/ranger",
+    "lang": "Python"
+  },
+  {
+    "name": "vifm",
+    "description": "vim style file manager",
+    "tags": [
+      "file",
+      "manager",
+      "vim"
+    ],
+    "url": "https://github.com/vifm/vifm",
+    "lang": "C"
+  },
+  {
+    "name": "viu",
+    "description": "view images in terminal",
+    "tags": [
+      "image",
+      "terminal",
+      "preview"
+    ],
+    "url": "https://github.com/atanunq/viu",
+    "lang": "Rust"
+  },
+  {
+    "name": "chafa",
+    "description": "print images as terminal graphics",
+    "tags": [
+      "image",
+      "terminal",
+      "ascii",
+      "art"
+    ],
+    "url": "https://github.com/hpjansson/chafa",
+    "lang": "C"
+  },
+  {
+    "name": "xplr",
+    "description": "hackable terminal file explorer",
+    "tags": [
+      "file",
+      "manager",
+      "tui",
+      "explorer"
+    ],
+    "url": "https://github.com/sayanarijit/xplr",
+    "lang": "Rust"
   }
 ]
