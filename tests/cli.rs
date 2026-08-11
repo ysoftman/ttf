@@ -48,7 +48,7 @@ fn list_shows_all_without_limit() {
 
 #[test]
 fn search_respects_limit() {
-    let (out, code) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "디스크"]);
+    let (out, code) = run(&["--nocolor", "-d", "tools.json", "-n", "1", "disk"]);
     assert_eq!(code, 0);
     let lines: Vec<&str> = out
         .lines()
