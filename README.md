@@ -21,6 +21,10 @@ ttf -h
 # fuzzy search
 ttf <query>
 
+# interactive fuzzy finder popup (requires fzf)
+# opens an fzf popup with all tools; type to filter, Enter to pick
+ttf
+
 # list all tools
 ttf -l, --list
 

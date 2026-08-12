@@ -94,6 +94,7 @@ fn print_usage() {
          \n\
          Usage:\n  \
          \x20 ttf [OPTIONS] <query>    fuzzy search tools\n  \
+         \x20 ttf [OPTIONS]            interactive fuzzy finder popup (requires fzf)\n  \
          \n\
          Options:\n  \
          \x20 -d, --data <path>   path to external tools.json (default: embedded data)\n  \
@@ -261,6 +262,55 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
     }
 }
 
+fn pick_tool_interactively(tools: &[Tool]) -> Result<Option<Tool>, String> {
+    if !is_installed("fzf") {
+        return Err(
+            "interactive mode requires fzf: install it from https://github.com/junegunn/fzf, or pass a query"
+                .to_string(),
+        );
+    }
+    let mut child = std::process::Command::new("fzf")
+        .args([
+            "--height=~40%",
+            "--border",
+            "--layout=reverse",
+            "--prompt=ttf> ",
+        ])
+        .stdin(std::process::Stdio::piped())
+        .stdout(std::process::Stdio::piped())
+        .stderr(std::process::Stdio::inherit())
+        .spawn()
+        .map_err(|e| format!("cannot launch fzf: {e}"))?;
+
+    {
+        use std::io::Write;
+        let mut stdin = child
+            .stdin
+            .take()
+            .ok_or_else(|| "fzf stdin unavailable".to_string())?;
+        for t in tools {
+            let mut line = t.name.clone();
+            line.push('\t');
+            line.push_str(&t.description);
+            if !t.tags.is_empty() {
+                line.push_str(&format!("  [{}]", t.tags.join(", ")));
+            }
+            let _ = writeln!(stdin, "{line}");
+        }
+    }
+
+    let output = child
+        .wait_with_output()
+        .map_err(|e| format!("fzf failed: {e}"))?;
+    let selected = String::from_utf8_lossy(&output.stdout);
+    let selected = selected.trim();
+    if selected.is_empty() {
+        return Ok(None);
+    }
+    let name = selected.split('\t').next().unwrap_or("").trim();
+    Ok(tools.iter().find(|t| t.name == name).cloned())
+}
+
 #[derive(Debug, PartialEq)]
 struct Config {
     data: Option<String>,
@@ -364,8 +414,17 @@ fn main() -> ExitCode {
 
     let query = cfg.query_parts.join(" ");
     if query.is_empty() {
-        eprintln!("error: missing query (see --help)");
-        return ExitCode::from(2);
+        let tool = match pick_tool_interactively(&tools) {
+            Ok(Some(t)) => t,
+            Ok(None) => return ExitCode::from(130),
+            Err(e) => {
+                eprintln!("error: {e}");
+                return ExitCode::from(2);
+            }
+        };
+        let width = tools.iter().map(|t| t.name.len()).max().unwrap_or(0);
+        print_tool(&tool, width, None, cfg.color);
+        return ExitCode::SUCCESS;
     }
 
     let mut matches: Vec<Match> = tools
