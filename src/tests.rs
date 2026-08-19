@@ -60,8 +60,7 @@ fn parse_args_multiple_query_parts() {
 
 #[test]
 fn parse_args_data_and_limit() {
-    let cfg =
-        parse_args(&[arg("-d"), arg("data.json"), arg("-n"), arg("5"), arg("ls")]).unwrap();
+    let cfg = parse_args(&[arg("-d"), arg("data.json"), arg("-n"), arg("5"), arg("ls")]).unwrap();
     assert_eq!(cfg.data.as_deref(), Some("data.json"));
     assert_eq!(cfg.limit, 5);
 }
