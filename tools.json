@@ -3498,5 +3498,1398 @@
     "tags": ["system", "info", "xfetch", "fastfetch"],
     "url": "https://github.com/xfetch-cli/xfetch",
     "lang": "Rust"
+  },
+  {
+    "name": "sherlock",
+    "description": "hunt social media accounts by username",
+    "tags": ["osint", "social", "username", "search"],
+    "url": "https://github.com/sherlock-project/sherlock",
+    "lang": "Python"
+  },
+  {
+    "name": "mole",
+    "description": "deep clean and optimize your mac",
+    "tags": ["clean", "macos", "optimize"],
+    "url": "https://github.com/tw93/Mole",
+    "lang": "Shell"
+  },
+  {
+    "name": "tldr-pages",
+    "description": "collaborative cheatsheets for console commands",
+    "tags": ["cheatsheet", "docs", "help"],
+    "url": "https://github.com/tldr-pages/tldr",
+    "lang": "Markdown"
+  },
+  {
+    "name": "rclone",
+    "description": "rsync for cloud storage",
+    "tags": ["sync", "cloud", "storage", "transfer"],
+    "url": "https://github.com/rclone/rclone",
+    "lang": "Go"
+  },
+  {
+    "name": "aria2",
+    "description": "ultra fast download utility",
+    "tags": ["download", "torrent", "http"],
+    "url": "https://github.com/aria2/aria2",
+    "lang": "C++"
+  },
+  {
+    "name": "croc",
+    "description": "send files between computers securely",
+    "tags": ["transfer", "file", "p2p", "share"],
+    "url": "https://github.com/schollz/croc",
+    "lang": "Go"
+  },
+  {
+    "name": "restic",
+    "description": "fast, secure and efficient backup program",
+    "tags": ["backup", "restore", "encryption"],
+    "url": "https://github.com/restic/restic",
+    "lang": "Go"
+  },
+  {
+    "name": "just",
+    "description": "command runner, make alternative",
+    "tags": ["task", "runner", "make", "alternative"],
+    "url": "https://github.com/casey/just",
+    "lang": "Rust"
+  },
+  {
+    "name": "superfile",
+    "description": "fancy modern terminal file manager",
+    "tags": ["file", "manager", "tui"],
+    "url": "https://github.com/yorukot/superfile",
+    "lang": "Go"
+  },
+  {
+    "name": "fx",
+    "description": "terminal json viewer and processor",
+    "tags": ["json", "viewer", "tui"],
+    "url": "https://github.com/antonmedv/fx",
+    "lang": "Go"
+  },
+  {
+    "name": "gallery-dl",
+    "description": "download image galleries from image hosts",
+    "tags": ["download", "image", "gallery"],
+    "url": "https://github.com/mikf/gallery-dl",
+    "lang": "Python"
+  },
+  {
+    "name": "ast-grep",
+    "description": "structural code search, lint and rewrite",
+    "tags": ["search", "lint", "refactor", "ast"],
+    "url": "https://github.com/ast-grep/ast-grep",
+    "lang": "Rust"
+  },
+  {
+    "name": "pgcli",
+    "description": "postgres cli with autocompletion",
+    "tags": ["postgresql", "database", "sql", "repl"],
+    "url": "https://github.com/dbcli/pgcli",
+    "lang": "Python"
+  },
+  {
+    "name": "goose",
+    "description": "database migration tool",
+    "tags": ["database", "migration", "sql"],
+    "url": "https://github.com/pressly/goose",
+    "lang": "Go"
+  },
+  {
+    "name": "pwndbg",
+    "description": "gdb plugin for exploit dev and reversing",
+    "tags": ["debugger", "gdb", "security", "reverse"],
+    "url": "https://github.com/pwndbg/pwndbg",
+    "lang": "Python"
+  },
+  {
+    "name": "aichat",
+    "description": "all-in-one ai powered cli chat and copilot",
+    "tags": ["ai", "llm", "chat"],
+    "url": "https://github.com/sigoden/aichat",
+    "lang": "Rust"
+  },
+  {
+    "name": "rga",
+    "description": "ripgrep for pdfs, docs, ebooks and archives",
+    "tags": ["search", "grep", "pdf", "archive"],
+    "url": "https://github.com/phiresky/ripgrep-all",
+    "lang": "Rust"
+  },
+  {
+    "name": "mapscii",
+    "description": "world map in your console",
+    "tags": ["map", "ascii", "world"],
+    "url": "https://github.com/rastapasta/mapscii",
+    "lang": "JavaScript"
+  },
+  {
+    "name": "textql",
+    "description": "run sql against csv and tsv files",
+    "tags": ["sql", "csv", "query"],
+    "url": "https://github.com/dinedal/textql",
+    "lang": "Go"
+  },
+  {
+    "name": "up",
+    "description": "write linux pipes with instant live preview",
+    "tags": ["pipe", "preview", "shell", "tui"],
+    "url": "https://github.com/akavel/up",
+    "lang": "Go"
+  },
+  {
+    "name": "hunk",
+    "description": "review-first terminal diff viewer",
+    "tags": ["diff", "review", "git", "tui"],
+    "url": "https://github.com/modem-dev/hunk",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "jc",
+    "description": "convert cli output to json or yaml",
+    "tags": ["json", "yaml", "convert", "parse"],
+    "url": "https://github.com/kellyjonbrazil/jc",
+    "lang": "Python"
+  },
+  {
+    "name": "scc",
+    "description": "fast code counter with complexity metrics",
+    "tags": ["count", "loc", "complexity"],
+    "url": "https://github.com/boyter/scc",
+    "lang": "Go"
+  },
+  {
+    "name": "fresh",
+    "description": "fast and powerful terminal text editor",
+    "tags": ["editor", "text", "tui"],
+    "url": "https://github.com/sinelaw/fresh",
+    "lang": "Rust"
+  },
+  {
+    "name": "tailspin",
+    "description": "log file highlighter",
+    "tags": ["log", "highlight", "viewer"],
+    "url": "https://github.com/bensadeh/tailspin",
+    "lang": "Rust"
+  },
+  {
+    "name": "blink",
+    "description": "tiniest x86-64 linux emulator",
+    "tags": ["emulator", "x86", "linux"],
+    "url": "https://github.com/jart/blink",
+    "lang": "C"
+  },
+  {
+    "name": "zerobrew",
+    "description": "faster homebrew alternative",
+    "tags": ["package", "homebrew", "macos", "alternative"],
+    "url": "https://github.com/lucasgelfond/zerobrew",
+    "lang": "Rust"
+  },
+  {
+    "name": "buku",
+    "description": "personal bookmark manager in text",
+    "tags": ["bookmark", "browser", "database"],
+    "url": "https://github.com/jarun/buku",
+    "lang": "Python"
+  },
+  {
+    "name": "nvitop",
+    "description": "interactive nvidia gpu process viewer",
+    "tags": ["gpu", "nvidia", "monitoring", "tui"],
+    "url": "https://github.com/XuehaiPan/nvitop",
+    "lang": "Python"
+  },
+  {
+    "name": "gopass",
+    "description": "unix password manager for teams",
+    "tags": ["password", "secret", "gpg"],
+    "url": "https://github.com/gopasspw/gopass",
+    "lang": "Go"
+  },
+  {
+    "name": "himalaya",
+    "description": "cli to manage emails",
+    "tags": ["email", "imap", "smtp"],
+    "url": "https://github.com/pimalaya/himalaya",
+    "lang": "Rust"
+  },
+  {
+    "name": "slack-term",
+    "description": "slack client for terminal",
+    "tags": ["slack", "chat", "tui"],
+    "url": "https://github.com/jpbruinsslot/slack-term",
+    "lang": "Go"
+  },
+  {
+    "name": "pastel",
+    "description": "generate, analyze and convert colors",
+    "tags": ["color", "palette", "convert"],
+    "url": "https://github.com/sharkdp/pastel",
+    "lang": "Rust"
+  },
+  {
+    "name": "zizmor",
+    "description": "static analysis for github actions",
+    "tags": ["github", "actions", "lint", "security"],
+    "url": "https://github.com/zizmorcore/zizmor",
+    "lang": "Rust"
+  },
+  {
+    "name": "pueue",
+    "description": "manage and queue long running shell commands",
+    "tags": ["queue", "task", "shell", "daemon"],
+    "url": "https://github.com/Nukesor/pueue",
+    "lang": "Rust"
+  },
+  {
+    "name": "httpstat",
+    "description": "visualize curl statistics",
+    "tags": ["http", "curl", "statistics"],
+    "url": "https://github.com/reorx/httpstat",
+    "lang": "Python"
+  },
+  {
+    "name": "dua",
+    "description": "view disk usage and delete unwanted data",
+    "tags": ["disk", "usage", "clean", "tui"],
+    "url": "https://github.com/Byron/dua-cli",
+    "lang": "Rust"
+  },
+  {
+    "name": "jira-cli",
+    "description": "interact with jira from the terminal",
+    "tags": ["jira", "issue", "tui"],
+    "url": "https://github.com/ankitpokhrel/jira-cli",
+    "lang": "Go"
+  },
+  {
+    "name": "clipboard",
+    "description": "smart clipboard manager",
+    "tags": ["clipboard", "copy", "paste"],
+    "url": "https://github.com/Slackadays/Clipboard",
+    "lang": "C++"
+  },
+  {
+    "name": "viddy",
+    "description": "modern watch command with time machine",
+    "tags": ["watch", "monitor", "diff", "tui"],
+    "url": "https://github.com/sachaos/viddy",
+    "lang": "Rust"
+  },
+  {
+    "name": "pet",
+    "description": "simple command-line snippet manager",
+    "tags": ["snippet", "command", "manager"],
+    "url": "https://github.com/knqyf263/pet",
+    "lang": "Go"
+  },
+  {
+    "name": "rainfrog",
+    "description": "database management tui for postgres",
+    "tags": ["postgresql", "database", "sql", "tui"],
+    "url": "https://github.com/achristmascarl/rainfrog",
+    "lang": "Rust"
+  },
+  {
+    "name": "octosql",
+    "description": "query many databases with one sql dialect",
+    "tags": ["sql", "query", "database"],
+    "url": "https://github.com/cube2222/octosql",
+    "lang": "Go"
+  },
+  {
+    "name": "s-tui",
+    "description": "cpu stress and monitoring utility",
+    "tags": ["cpu", "stress", "monitoring", "tui"],
+    "url": "https://github.com/amanusk/s-tui",
+    "lang": "Python"
+  },
+  {
+    "name": "rustnet",
+    "description": "cross-platform network monitoring tui",
+    "tags": ["network", "monitoring", "tui"],
+    "url": "https://github.com/domcyrus/rustnet",
+    "lang": "Rust"
+  },
+  {
+    "name": "youplot",
+    "description": "draw plots on the terminal",
+    "tags": ["plot", "chart", "graph"],
+    "url": "https://github.com/red-data-tools/YouPlot",
+    "lang": "Ruby"
+  },
+  {
+    "name": "hledger",
+    "description": "plain text accounting cli",
+    "tags": ["accounting", "finance", "ledger"],
+    "url": "https://github.com/simonmichael/hledger",
+    "lang": "Haskell"
+  },
+  {
+    "name": "hledger-ui",
+    "description": "plain text accounting tui",
+    "tags": ["accounting", "finance", "tui"],
+    "url": "https://github.com/simonmichael/hledger",
+    "lang": "Haskell"
+  },
+  {
+    "name": "zrok",
+    "description": "peer-to-peer sharing platform",
+    "tags": ["share", "tunnel", "p2p", "network"],
+    "url": "https://github.com/openziti/zrok",
+    "lang": "Go"
+  },
+  {
+    "name": "x-cmd",
+    "description": "compact swiss army knife for the terminal",
+    "tags": ["shell", "toolkit", "utility"],
+    "url": "https://github.com/x-cmd/x-cmd",
+    "lang": "Awk"
+  },
+  {
+    "name": "fselect",
+    "description": "find files with sql-like queries",
+    "tags": ["find", "search", "sql", "file"],
+    "url": "https://github.com/jhspetersson/fselect",
+    "lang": "Rust"
+  },
+  {
+    "name": "hstr",
+    "description": "bash and zsh shell history suggestion box",
+    "tags": ["history", "shell", "search", "tui"],
+    "url": "https://github.com/dvorka-oss/hstr",
+    "lang": "C"
+  },
+  {
+    "name": "doggo",
+    "description": "dns client for humans",
+    "tags": ["dns", "lookup", "network"],
+    "url": "https://github.com/mr-karan/doggo",
+    "lang": "Go"
+  },
+  {
+    "name": "lazysql",
+    "description": "cross-platform tui database client",
+    "tags": ["database", "sql", "tui"],
+    "url": "https://github.com/jorgerojas26/lazysql",
+    "lang": "Go"
+  },
+  {
+    "name": "terminaltexteffects",
+    "description": "inline visual effects in the terminal",
+    "tags": ["animation", "effect", "text"],
+    "url": "https://github.com/ChrisBuilds/terminaltexteffects",
+    "lang": "Python"
+  },
+  {
+    "name": "httplab",
+    "description": "inspect http requests and mock responses",
+    "tags": ["http", "mock", "debug", "tui"],
+    "url": "https://github.com/qustavo/httplab",
+    "lang": "Go"
+  },
+  {
+    "name": "amp",
+    "description": "complete text editor for your terminal",
+    "tags": ["editor", "text", "vim"],
+    "url": "https://github.com/jmacdonald/amp",
+    "lang": "Rust"
+  },
+  {
+    "name": "grv",
+    "description": "git repository viewer",
+    "tags": ["git", "viewer", "tui"],
+    "url": "https://github.com/rgburke/grv",
+    "lang": "Go"
+  },
+  {
+    "name": "devzat",
+    "description": "chat over ssh",
+    "tags": ["chat", "ssh", "server"],
+    "url": "https://github.com/quackduck/devzat",
+    "lang": "Go"
+  },
+  {
+    "name": "toolong",
+    "description": "view, tail, merge and search log files",
+    "tags": ["log", "tail", "search", "tui"],
+    "url": "https://github.com/Textualize/toolong",
+    "lang": "Python"
+  },
+  {
+    "name": "csvlens",
+    "description": "csv viewer like less for csv",
+    "tags": ["csv", "viewer", "pager", "tui"],
+    "url": "https://github.com/YS-L/csvlens",
+    "lang": "Rust"
+  },
+  {
+    "name": "ali",
+    "description": "load testing tool with real-time analysis",
+    "tags": ["load-test", "http", "benchmark", "tui"],
+    "url": "https://github.com/nakabonne/ali",
+    "lang": "Go"
+  },
+  {
+    "name": "neomutt",
+    "description": "command line mail reader based on mutt",
+    "tags": ["email", "mail", "client"],
+    "url": "https://github.com/neomutt/neomutt",
+    "lang": "C"
+  },
+  {
+    "name": "ghq",
+    "description": "remote git repository management",
+    "tags": ["git", "repository", "clone"],
+    "url": "https://github.com/x-motemen/ghq",
+    "lang": "Go"
+  },
+  {
+    "name": "doxx",
+    "description": "view microsoft word docx files in terminal",
+    "tags": ["docx", "word", "viewer"],
+    "url": "https://github.com/bgreenwell/doxx",
+    "lang": "Rust"
+  },
+  {
+    "name": "ox",
+    "description": "rust text editor that runs in your terminal",
+    "tags": ["editor", "text", "tui"],
+    "url": "https://github.com/curlpipe/ox",
+    "lang": "Rust"
+  },
+  {
+    "name": "jaq",
+    "description": "jq clone focused on correctness and speed",
+    "tags": ["json", "jq", "query", "alternative"],
+    "url": "https://github.com/01mf02/jaq",
+    "lang": "Rust"
+  },
+  {
+    "name": "ouch",
+    "description": "painless compression and decompression",
+    "tags": ["compress", "archive", "extract"],
+    "url": "https://github.com/ouch-org/ouch",
+    "lang": "Rust"
+  },
+  {
+    "name": "curlie",
+    "description": "curl with httpie ease of use",
+    "tags": ["http", "curl", "client", "alternative"],
+    "url": "https://github.com/rs/curlie",
+    "lang": "Go"
+  },
+  {
+    "name": "nethogs",
+    "description": "net top, per process network bandwidth",
+    "tags": ["network", "bandwidth", "process", "monitoring"],
+    "url": "https://github.com/raboof/nethogs",
+    "lang": "C++"
+  },
+  {
+    "name": "tuios",
+    "description": "tui window manager for terminal sessions",
+    "tags": ["window", "session", "multiplexer", "tui"],
+    "url": "https://github.com/Gaurav-Gosain/tuios",
+    "lang": "Go"
+  },
+  {
+    "name": "surge",
+    "description": "blazing fast tui download manager",
+    "tags": ["download", "manager", "tui"],
+    "url": "https://github.com/SurgeDM/Surge",
+    "lang": "Go"
+  },
+  {
+    "name": "kb",
+    "description": "minimalist knowledge base manager",
+    "tags": ["note", "knowledge", "docs"],
+    "url": "https://github.com/gnebbia/kb",
+    "lang": "Python"
+  },
+  {
+    "name": "bacon",
+    "description": "background rust code checker",
+    "tags": ["rust", "cargo", "check", "watch"],
+    "url": "https://github.com/Canop/bacon",
+    "lang": "Rust"
+  },
+  {
+    "name": "gobang",
+    "description": "cross platform tui database client",
+    "tags": ["database", "sql", "tui"],
+    "url": "https://github.com/TaKO8Ki/gobang",
+    "lang": "Rust"
+  },
+  {
+    "name": "hl",
+    "description": "fast log viewer and processor",
+    "tags": ["log", "viewer", "json"],
+    "url": "https://github.com/pamburus/hl",
+    "lang": "Rust"
+  },
+  {
+    "name": "tgpt",
+    "description": "ai chatbots in the terminal without api keys",
+    "tags": ["ai", "llm", "chat"],
+    "url": "https://github.com/aandrew-me/tgpt",
+    "lang": "Go"
+  },
+  {
+    "name": "ugrep",
+    "description": "fast grep for archives, documents and fuzzy search",
+    "tags": ["grep", "search", "fuzzy", "archive"],
+    "url": "https://github.com/Genivia/ugrep",
+    "lang": "C++"
+  },
+  {
+    "name": "s3scanner",
+    "description": "scan for misconfigured s3 buckets",
+    "tags": ["aws", "s3", "security", "scan"],
+    "url": "https://github.com/sa7mon/S3Scanner",
+    "lang": "Go"
+  },
+  {
+    "name": "irssi",
+    "description": "cross-platform irc client",
+    "tags": ["irc", "chat", "client"],
+    "url": "https://github.com/irssi/irssi",
+    "lang": "C"
+  },
+  {
+    "name": "hishtory",
+    "description": "shell history synced, queryable and in context",
+    "tags": ["history", "shell", "sync", "search"],
+    "url": "https://github.com/ddworken/hishtory",
+    "lang": "Go"
+  },
+  {
+    "name": "gotop",
+    "description": "terminal graphical activity monitor",
+    "tags": ["system", "monitoring", "tui"],
+    "url": "https://github.com/xxxserxxx/gotop",
+    "lang": "Go"
+  },
+  {
+    "name": "khal",
+    "description": "standards based cli calendar",
+    "tags": ["calendar", "ical", "schedule"],
+    "url": "https://github.com/pimutils/khal",
+    "lang": "Python"
+  },
+  {
+    "name": "bluetui",
+    "description": "manage bluetooth on linux",
+    "tags": ["bluetooth", "linux", "tui"],
+    "url": "https://github.com/pythops/bluetui",
+    "lang": "Rust"
+  },
+  {
+    "name": "kmon",
+    "description": "linux kernel manager and activity monitor",
+    "tags": ["kernel", "module", "monitoring", "tui"],
+    "url": "https://github.com/orhun/kmon",
+    "lang": "Rust"
+  },
+  {
+    "name": "pop",
+    "description": "send emails from your terminal",
+    "tags": ["email", "smtp", "send"],
+    "url": "https://github.com/charmbracelet/pop",
+    "lang": "Go"
+  },
+  {
+    "name": "gitu",
+    "description": "tui git client inspired by magit",
+    "tags": ["git", "magit", "tui"],
+    "url": "https://github.com/altsem/gitu",
+    "lang": "Rust"
+  },
+  {
+    "name": "bagels",
+    "description": "expense tracker in your terminal",
+    "tags": ["expense", "finance", "budget", "tui"],
+    "url": "https://github.com/EnhancedJax/Bagels",
+    "lang": "Python"
+  },
+  {
+    "name": "dysk",
+    "description": "list your filesystems on linux",
+    "tags": ["disk", "filesystem", "df", "alternative"],
+    "url": "https://github.com/Canop/dysk",
+    "lang": "Rust"
+  },
+  {
+    "name": "jqp",
+    "description": "tui playground to experiment with jq",
+    "tags": ["jq", "json", "playground", "tui"],
+    "url": "https://github.com/noahgorstein/jqp",
+    "lang": "Go"
+  },
+  {
+    "name": "impala",
+    "description": "manage wifi on linux",
+    "tags": ["wifi", "network", "linux", "tui"],
+    "url": "https://github.com/pythops/impala",
+    "lang": "Rust"
+  },
+  {
+    "name": "git-split-diffs",
+    "description": "syntax highlighted side-by-side git diffs",
+    "tags": ["git", "diff", "highlight"],
+    "url": "https://github.com/banga/git-split-diffs",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "patat",
+    "description": "terminal presentations using pandoc",
+    "tags": ["presentation", "slide", "markdown"],
+    "url": "https://github.com/jaspervdj/patat",
+    "lang": "Haskell"
+  },
+  {
+    "name": "pspg",
+    "description": "unix pager optimized for tabular data",
+    "tags": ["pager", "table", "csv", "sql"],
+    "url": "https://github.com/okbob/pspg",
+    "lang": "C"
+  },
+  {
+    "name": "process-compose",
+    "description": "scheduler for non-containerized apps",
+    "tags": ["process", "orchestration", "tui"],
+    "url": "https://github.com/F1bonacc1/process-compose",
+    "lang": "Go"
+  },
+  {
+    "name": "bpftop",
+    "description": "real-time view of running ebpf programs",
+    "tags": ["ebpf", "monitoring", "linux", "tui"],
+    "url": "https://github.com/jfernandez/bpftop",
+    "lang": "C"
+  },
+  {
+    "name": "git-who",
+    "description": "git blame for file trees",
+    "tags": ["git", "blame", "author"],
+    "url": "https://github.com/sinclairtarget/git-who",
+    "lang": "Go"
+  },
+  {
+    "name": "numbat",
+    "description": "scientific calculator with physical units",
+    "tags": ["calculator", "unit", "math"],
+    "url": "https://github.com/sharkdp/numbat",
+    "lang": "Rust"
+  },
+  {
+    "name": "erdtree",
+    "description": "filesystem and disk-usage utility",
+    "tags": ["disk", "usage", "tree", "file"],
+    "url": "https://github.com/solidiquis/erdtree",
+    "lang": "Rust"
+  },
+  {
+    "name": "oryx",
+    "description": "sniff network traffic using ebpf",
+    "tags": ["network", "sniffer", "ebpf", "tui"],
+    "url": "https://github.com/pythops/oryx",
+    "lang": "Rust"
+  },
+  {
+    "name": "sq",
+    "description": "swiss-army knife for wrangling data",
+    "tags": ["data", "sql", "json", "csv"],
+    "url": "https://github.com/neilotoole/sq",
+    "lang": "Go"
+  },
+  {
+    "name": "ralph-tui",
+    "description": "orchestrate ai coding agents",
+    "tags": ["ai", "agent", "orchestration", "tui"],
+    "url": "https://github.com/subsy/ralph-tui",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "kondo",
+    "description": "clean node_modules, target and build dirs",
+    "tags": ["clean", "build", "cache", "disk"],
+    "url": "https://github.com/tbillington/kondo",
+    "lang": "Rust"
+  },
+  {
+    "name": "calcure",
+    "description": "customizable tui calendar and task manager",
+    "tags": ["calendar", "task", "todo", "tui"],
+    "url": "https://github.com/anufrievroman/calcure",
+    "lang": "Python"
+  },
+  {
+    "name": "gowall",
+    "description": "convert an image to any color-scheme",
+    "tags": ["image", "color", "theme", "wallpaper"],
+    "url": "https://github.com/Achno/gowall",
+    "lang": "Go"
+  },
+  {
+    "name": "sheets",
+    "description": "minimal terminal spreadsheet and csv viewer",
+    "tags": ["spreadsheet", "csv", "viewer", "tui"],
+    "url": "https://github.com/maaslalani/sheets",
+    "lang": "Go"
+  },
+  {
+    "name": "taws",
+    "description": "aws resource viewer and manager",
+    "tags": ["aws", "cloud", "tui"],
+    "url": "https://github.com/huseyinbabal/taws",
+    "lang": "Rust"
+  },
+  {
+    "name": "caligula",
+    "description": "lightweight tui for disk imaging",
+    "tags": ["disk", "image", "flash", "tui"],
+    "url": "https://github.com/ifd3f/caligula",
+    "lang": "Rust"
+  },
+  {
+    "name": "nap",
+    "description": "code snippets in your terminal",
+    "tags": ["snippet", "code", "manager", "tui"],
+    "url": "https://github.com/maaslalani/nap",
+    "lang": "Go"
+  },
+  {
+    "name": "flowcontrol",
+    "description": "programmer's text editor",
+    "tags": ["editor", "text", "tui"],
+    "url": "https://github.com/neurocyte/flow",
+    "lang": "Zig"
+  },
+  {
+    "name": "cpufetch",
+    "description": "fancy cpu architecture fetching tool",
+    "tags": ["cpu", "info", "fetch"],
+    "url": "https://github.com/Dr-Noob/cpufetch",
+    "lang": "C"
+  },
+  {
+    "name": "jjui",
+    "description": "terminal ui for jujutsu",
+    "tags": ["jujutsu", "vcs", "tui"],
+    "url": "https://github.com/idursun/jjui",
+    "lang": "Go"
+  },
+  {
+    "name": "circumflex",
+    "description": "hacker news in your terminal",
+    "tags": ["hackernews", "news", "reader", "tui"],
+    "url": "https://github.com/bensadeh/circumflex",
+    "lang": "Go"
+  },
+  {
+    "name": "smassh",
+    "description": "typing test tui",
+    "tags": ["typing", "test", "game", "tui"],
+    "url": "https://github.com/kraanzu/smassh",
+    "lang": "Python"
+  },
+  {
+    "name": "systemctl-tui",
+    "description": "interact with systemd services and logs",
+    "tags": ["systemd", "service", "log", "tui"],
+    "url": "https://github.com/rgwood/systemctl-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "ov",
+    "description": "feature rich terminal pager",
+    "tags": ["pager", "viewer", "less", "alternative"],
+    "url": "https://github.com/noborus/ov",
+    "lang": "Go"
+  },
+  {
+    "name": "gloomberb",
+    "description": "financial terminal in your terminal",
+    "tags": ["finance", "stock", "market", "tui"],
+    "url": "https://github.com/gloom-sh/gloomberb",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "macchina",
+    "description": "fast and minimal system information frontend",
+    "tags": ["system", "info", "fetch"],
+    "url": "https://github.com/Macchina-CLI/macchina",
+    "lang": "Rust"
+  },
+  {
+    "name": "angryoxide",
+    "description": "wifi attack and pentesting tool",
+    "tags": ["wifi", "security", "pentest"],
+    "url": "https://github.com/Ragnt/AngryOxide",
+    "lang": "Rust"
+  },
+  {
+    "name": "kibi",
+    "description": "text editor in less than 1024 lines",
+    "tags": ["editor", "text", "minimal"],
+    "url": "https://github.com/ilai-deutel/kibi",
+    "lang": "Rust"
+  },
+  {
+    "name": "gita",
+    "description": "manage multiple git repos at once",
+    "tags": ["git", "repository", "batch"],
+    "url": "https://github.com/nosarthur/gita",
+    "lang": "Python"
+  },
+  {
+    "name": "asn",
+    "description": "asn lookup tool and traceroute server",
+    "tags": ["asn", "network", "lookup", "traceroute"],
+    "url": "https://github.com/nitefood/asn",
+    "lang": "Shell"
+  },
+  {
+    "name": "tldx",
+    "description": "domain availability research tool",
+    "tags": ["domain", "dns", "availability"],
+    "url": "https://github.com/brandonyoungdev/tldx",
+    "lang": "Go"
+  },
+  {
+    "name": "git-interactive-rebase-tool",
+    "description": "improved sequence editor for git rebase",
+    "tags": ["git", "rebase", "editor", "tui"],
+    "url": "https://github.com/MitMaro/git-interactive-rebase-tool",
+    "lang": "Rust"
+  },
+  {
+    "name": "resterm",
+    "description": "tui rest, graphql, grpc and websocket client",
+    "tags": ["rest", "http", "graphql", "tui"],
+    "url": "https://github.com/unkn0wn-root/resterm",
+    "lang": "Go"
+  },
+  {
+    "name": "cgdb",
+    "description": "curses interface to gdb",
+    "tags": ["debugger", "gdb", "curses"],
+    "url": "https://github.com/cgdb/cgdb",
+    "lang": "C"
+  },
+  {
+    "name": "gollama",
+    "description": "manage your ollama models",
+    "tags": ["ollama", "llm", "model", "tui"],
+    "url": "https://github.com/sammcj/gollama",
+    "lang": "Go"
+  },
+  {
+    "name": "termdbms",
+    "description": "terminal ui for editing database files",
+    "tags": ["database", "sqlite", "editor", "tui"],
+    "url": "https://github.com/mathaou/termdbms",
+    "lang": "Go"
+  },
+  {
+    "name": "netscanner",
+    "description": "network scanning tool",
+    "tags": ["network", "scan", "tui"],
+    "url": "https://github.com/Chleba/netscanner",
+    "lang": "Rust"
+  },
+  {
+    "name": "tere",
+    "description": "faster alternative to cd and ls",
+    "tags": ["navigate", "file", "cd", "tui"],
+    "url": "https://github.com/mgunyho/tere",
+    "lang": "Rust"
+  },
+  {
+    "name": "durdraw",
+    "description": "ascii and ansi art text editor",
+    "tags": ["ascii", "ansi", "art", "editor"],
+    "url": "https://github.com/durdraw/durdraw",
+    "lang": "Python"
+  },
+  {
+    "name": "recoverpy",
+    "description": "recover overwritten or deleted data",
+    "tags": ["recover", "file", "disk", "tui"],
+    "url": "https://github.com/PabloLec/RecoverPy",
+    "lang": "Python"
+  },
+  {
+    "name": "papis",
+    "description": "cli document and bibliography manager",
+    "tags": ["bibliography", "document", "paper"],
+    "url": "https://github.com/papis/papis",
+    "lang": "HTML"
+  },
+  {
+    "name": "portal",
+    "description": "quick command-line file transfer",
+    "tags": ["transfer", "file", "p2p", "share"],
+    "url": "https://github.com/SpatiumPortae/portal",
+    "lang": "Go"
+  },
+  {
+    "name": "gomuks",
+    "description": "terminal matrix client",
+    "tags": ["matrix", "chat", "client", "tui"],
+    "url": "https://github.com/gomuks/gomuks",
+    "lang": "Go"
+  },
+  {
+    "name": "nnd",
+    "description": "lightweight native debugger for linux",
+    "tags": ["debugger", "linux", "tui"],
+    "url": "https://github.com/al13n321/nnd",
+    "lang": "Rust"
+  },
+  {
+    "name": "tickrs",
+    "description": "realtime ticker data in your terminal",
+    "tags": ["stock", "ticker", "finance", "tui"],
+    "url": "https://github.com/tarkah/tickrs",
+    "lang": "Rust"
+  },
+  {
+    "name": "jiratui",
+    "description": "manage jira issues from the terminal",
+    "tags": ["jira", "issue", "tui"],
+    "url": "https://github.com/whyisdifficult/jiratui",
+    "lang": "Python"
+  },
+  {
+    "name": "jql",
+    "description": "json query language cli",
+    "tags": ["json", "query", "jq"],
+    "url": "https://github.com/yamafaktory/jql",
+    "lang": "Rust"
+  },
+  {
+    "name": "httm",
+    "description": "time machine-like tool for zfs and btrfs",
+    "tags": ["snapshot", "zfs", "btrfs", "backup"],
+    "url": "https://github.com/kimono-koans/httm",
+    "lang": "Rust"
+  },
+  {
+    "name": "yt-x",
+    "description": "browse youtube from your terminal",
+    "tags": ["youtube", "video", "browse"],
+    "url": "https://github.com/Benexl/yt-x",
+    "lang": "Shell"
+  },
+  {
+    "name": "cargo-geiger",
+    "description": "detect unsafe rust in crates and dependencies",
+    "tags": ["rust", "cargo", "unsafe", "audit"],
+    "url": "https://github.com/geiger-rs/cargo-geiger",
+    "lang": "Rust"
+  },
+  {
+    "name": "adguardian-term",
+    "description": "adguard home terminal monitoring",
+    "tags": ["adguard", "dns", "monitoring", "tui"],
+    "url": "https://github.com/lissy93/AdGuardian-Term",
+    "lang": "Rust"
+  },
+  {
+    "name": "ttyper",
+    "description": "terminal typing test",
+    "tags": ["typing", "test", "game", "tui"],
+    "url": "https://github.com/max-niederman/ttyper",
+    "lang": "Rust"
+  },
+  {
+    "name": "gittype",
+    "description": "code-typing game from your source code",
+    "tags": ["typing", "game", "code", "tui"],
+    "url": "https://github.com/unhappychoice/gittype",
+    "lang": "Rust"
+  },
+  {
+    "name": "sshs",
+    "description": "terminal ui for ssh connections",
+    "tags": ["ssh", "connection", "tui"],
+    "url": "https://github.com/quantumsheep/sshs",
+    "lang": "Rust"
+  },
+  {
+    "name": "systemd-manager-tui",
+    "description": "manage systemd services",
+    "tags": ["systemd", "service", "linux", "tui"],
+    "url": "https://github.com/matheus-git/systemd-manager-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "nerdlog",
+    "description": "remote-first multi-host log viewer",
+    "tags": ["log", "remote", "viewer", "tui"],
+    "url": "https://github.com/dimonomid/nerdlog",
+    "lang": "Go"
+  },
+  {
+    "name": "lstr",
+    "description": "fast minimalist directory tree viewer",
+    "tags": ["tree", "directory", "file", "tui"],
+    "url": "https://github.com/bgreenwell/lstr",
+    "lang": "Rust"
+  },
+  {
+    "name": "diffnav",
+    "description": "git diff pager with file tree",
+    "tags": ["git", "diff", "pager", "delta"],
+    "url": "https://github.com/dlvhdr/diffnav",
+    "lang": "Go"
+  },
+  {
+    "name": "xleak",
+    "description": "view excel files in your terminal",
+    "tags": ["excel", "xlsx", "spreadsheet", "viewer"],
+    "url": "https://github.com/bgreenwell/xleak",
+    "lang": "Rust"
+  },
+  {
+    "name": "systeroid",
+    "description": "more powerful alternative to sysctl",
+    "tags": ["sysctl", "kernel", "linux", "alternative"],
+    "url": "https://github.com/orhun/systeroid",
+    "lang": "Rust"
+  },
+  {
+    "name": "wut",
+    "description": "explain the output of your last command",
+    "tags": ["ai", "explain", "shell", "llm"],
+    "url": "https://github.com/shobrook/wut",
+    "lang": "Python"
+  },
+  {
+    "name": "so",
+    "description": "terminal interface for stack overflow",
+    "tags": ["stackoverflow", "search", "help", "tui"],
+    "url": "https://github.com/samtay/so",
+    "lang": "Rust"
+  },
+  {
+    "name": "bluetuith",
+    "description": "tui bluetooth manager for linux",
+    "tags": ["bluetooth", "linux", "tui"],
+    "url": "https://github.com/bluetuith-org/bluetuith",
+    "lang": "Go"
+  },
+  {
+    "name": "lazyjournal",
+    "description": "terminal ui for journalctl",
+    "tags": ["log", "journalctl", "systemd", "tui"],
+    "url": "https://github.com/Lifailon/lazyjournal",
+    "lang": "Go"
+  },
+  {
+    "name": "bugstalker",
+    "description": "modern rust debugger for linux",
+    "tags": ["debugger", "rust", "linux", "tui"],
+    "url": "https://github.com/godzie44/BugStalker",
+    "lang": "Rust"
+  },
+  {
+    "name": "ttyplot",
+    "description": "realtime terminal plotting from stdin",
+    "tags": ["plot", "chart", "realtime"],
+    "url": "https://github.com/tenox7/ttyplot",
+    "lang": "C"
+  },
+  {
+    "name": "gurk",
+    "description": "signal messenger client for terminal",
+    "tags": ["signal", "chat", "messenger", "tui"],
+    "url": "https://github.com/boxdot/gurk-rs",
+    "lang": "Rust"
+  },
+  {
+    "name": "dtop",
+    "description": "multi-host docker monitoring",
+    "tags": ["docker", "monitoring", "tui"],
+    "url": "https://github.com/amir20/dtop",
+    "lang": "Rust"
+  },
+  {
+    "name": "lemurs",
+    "description": "customizable tui display and login manager",
+    "tags": ["login", "display-manager", "linux", "tui"],
+    "url": "https://github.com/coastalwhite/lemurs",
+    "lang": "Rust"
+  },
+  {
+    "name": "tcping",
+    "description": "cross-platform ping for tcp ports",
+    "tags": ["ping", "tcp", "port", "network"],
+    "url": "https://github.com/pouriyajamshidi/tcping",
+    "lang": "Go"
+  },
+  {
+    "name": "basalt",
+    "description": "manage obsidian vaults and notes",
+    "tags": ["obsidian", "note", "markdown", "tui"],
+    "url": "https://github.com/erikjuhani/basalt",
+    "lang": "Rust"
+  },
+  {
+    "name": "toot",
+    "description": "interact with mastodon from the terminal",
+    "tags": ["mastodon", "social", "fediverse"],
+    "url": "https://github.com/ihabunek/toot",
+    "lang": "Python"
+  },
+  {
+    "name": "dstp",
+    "description": "run common networking tests against any site",
+    "tags": ["network", "test", "dns", "http"],
+    "url": "https://github.com/ycd/dstp",
+    "lang": "Go"
+  },
+  {
+    "name": "terraform-tui",
+    "description": "terraform state and plan tui",
+    "tags": ["terraform", "infra", "tui"],
+    "url": "https://github.com/idoavrah/terraform-tui",
+    "lang": "Python"
+  },
+  {
+    "name": "iamb",
+    "description": "matrix client for vim addicts",
+    "tags": ["matrix", "chat", "vim", "tui"],
+    "url": "https://github.com/ulyssa/iamb",
+    "lang": "Rust"
+  },
+  {
+    "name": "wordgrinder",
+    "description": "word processor for the terminal",
+    "tags": ["word", "editor", "document"],
+    "url": "https://github.com/davidgiven/wordgrinder",
+    "lang": "Lua"
+  },
+  {
+    "name": "bfs",
+    "description": "breadth-first version of unix find",
+    "tags": ["find", "search", "file", "alternative"],
+    "url": "https://github.com/tavianator/bfs",
+    "lang": "C"
+  },
+  {
+    "name": "concord",
+    "description": "tui discord client with inline images",
+    "tags": ["discord", "chat", "client", "tui"],
+    "url": "https://github.com/chojs23/concord",
+    "lang": "Rust"
+  },
+  {
+    "name": "critique",
+    "description": "terminal ui for reviewing git diffs",
+    "tags": ["git", "diff", "review", "tui"],
+    "url": "https://github.com/remorses/critique",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "spotatui",
+    "description": "music player for spotify, subsonic and youtube",
+    "tags": ["music", "spotify", "player", "tui"],
+    "url": "https://github.com/LargeModGames/spotatui",
+    "lang": "Rust"
+  },
+  {
+    "name": "hostctl",
+    "description": "manage /etc/hosts profiles",
+    "tags": ["hosts", "dns", "network"],
+    "url": "https://github.com/guumaster/hostctl",
+    "lang": "Go"
+  },
+  {
+    "name": "torra",
+    "description": "find and download torrents from the cli",
+    "tags": ["torrent", "download", "search"],
+    "url": "https://github.com/stabldev/torrra",
+    "lang": "Python"
+  },
+  {
+    "name": "lla",
+    "description": "fast ls replacement with superpowers",
+    "tags": ["ls", "filelist", "directory", "alternative"],
+    "url": "https://github.com/chaqchase/lla",
+    "lang": "Rust"
+  },
+  {
+    "name": "tre",
+    "description": "modern alternative to the tree command",
+    "tags": ["tree", "directory", "file", "alternative"],
+    "url": "https://github.com/dduan/tre",
+    "lang": "Rust"
+  },
+  {
+    "name": "desed",
+    "description": "debug your sed scripts",
+    "tags": ["sed", "debugger", "script", "tui"],
+    "url": "https://github.com/SoptikHa2/desed",
+    "lang": "Rust"
+  },
+  {
+    "name": "dstask",
+    "description": "cli todo manager with git sync",
+    "tags": ["todo", "task", "git", "markdown"],
+    "url": "https://github.com/naggie/dstask",
+    "lang": "Go"
+  },
+  {
+    "name": "lazyjj",
+    "description": "tui for jujutsu vcs",
+    "tags": ["jujutsu", "vcs", "tui"],
+    "url": "https://github.com/Cretezy/lazyjj",
+    "lang": "Rust"
+  },
+  {
+    "name": "cyme",
+    "description": "list system usb buses and devices",
+    "tags": ["usb", "device", "lsusb"],
+    "url": "https://github.com/tuna-f1sh/cyme",
+    "lang": "Rust"
+  },
+  {
+    "name": "chess-tui",
+    "description": "play chess from your terminal",
+    "tags": ["chess", "game", "tui"],
+    "url": "https://github.com/thomas-mauran/chess-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "flameshow",
+    "description": "flamegraph viewer in the terminal",
+    "tags": ["flamegraph", "profiling", "viewer", "tui"],
+    "url": "https://github.com/laixintao/flameshow",
+    "lang": "Python"
+  },
+  {
+    "name": "updo",
+    "description": "uptime monitoring cli with alerting",
+    "tags": ["uptime", "monitoring", "http", "alert"],
+    "url": "https://github.com/Owloops/updo",
+    "lang": "Go"
+  },
+  {
+    "name": "textual-paint",
+    "description": "ms paint in your terminal",
+    "tags": ["paint", "draw", "ascii", "tui"],
+    "url": "https://github.com/1j01/textual-paint",
+    "lang": "Python"
+  },
+  {
+    "name": "lemmeknow",
+    "description": "identify anything from a string",
+    "tags": ["identify", "regex", "forensics"],
+    "url": "https://github.com/swanandx/lemmeknow",
+    "lang": "Rust"
+  },
+  {
+    "name": "bookokrat",
+    "description": "terminal epub and pdf ebook reader",
+    "tags": ["ebook", "epub", "pdf", "reader"],
+    "url": "https://github.com/bugzmanov/bookokrat",
+    "lang": "Rust"
+  },
+  {
+    "name": "flyline",
+    "description": "modern command-line editing for bash",
+    "tags": ["bash", "readline", "shell", "edit"],
+    "url": "https://github.com/HalFrgrd/flyline",
+    "lang": "Rust"
+  },
+  {
+    "name": "otel-tui",
+    "description": "terminal opentelemetry viewer",
+    "tags": ["opentelemetry", "trace", "observability", "tui"],
+    "url": "https://github.com/ymtdzzz/otel-tui",
+    "lang": "Go"
+  },
+  {
+    "name": "matcha",
+    "description": "email client for your terminal",
+    "tags": ["email", "mail", "client", "tui"],
+    "url": "https://github.com/floatpane/matcha",
+    "lang": "Go"
+  },
+  {
+    "name": "simutil",
+    "description": "launch android emulators and ios simulators",
+    "tags": ["android", "ios", "emulator", "mobile"],
+    "url": "https://github.com/dungngminh/simutil",
+    "lang": "Dart"
+  },
+  {
+    "name": "sen",
+    "description": "terminal ui for containers",
+    "tags": ["container", "docker", "tui"],
+    "url": "https://github.com/TomasTomecek/sen",
+    "lang": "Python"
+  },
+  {
+    "name": "sidecar",
+    "description": "tui dashboard for ai coding agents",
+    "tags": ["ai", "agent", "dashboard", "tui"],
+    "url": "https://github.com/marcus/sidecar",
+    "lang": "Go"
+  },
+  {
+    "name": "clipse",
+    "description": "configurable tui clipboard manager",
+    "tags": ["clipboard", "copy", "paste", "tui"],
+    "url": "https://github.com/savedra1/clipse",
+    "lang": "Go"
+  },
+  {
+    "name": "fend",
+    "description": "arbitrary-precision unit-aware calculator",
+    "tags": ["calculator", "unit", "math"],
+    "url": "https://github.com/printfn/fend",
+    "lang": "Rust"
+  },
+  {
+    "name": "wiremix",
+    "description": "tui audio mixer for pipewire",
+    "tags": ["audio", "pipewire", "mixer", "tui"],
+    "url": "https://github.com/tsowell/wiremix",
+    "lang": "Rust"
+  },
+  {
+    "name": "mq",
+    "description": "jq-like tool for markdown processing",
+    "tags": ["markdown", "query", "jq"],
+    "url": "https://github.com/harehare/mq",
+    "lang": "Rust"
+  },
+  {
+    "name": "wikiman",
+    "description": "offline documentation search for man pages",
+    "tags": ["man", "docs", "search", "offline"],
+    "url": "https://github.com/filiparag/wikiman",
+    "lang": "Shell"
+  },
+  {
+    "name": "rhit",
+    "description": "nginx log explorer",
+    "tags": ["nginx", "log", "analytics", "tui"],
+    "url": "https://github.com/Canop/rhit",
+    "lang": "Rust"
+  },
+  {
+    "name": "haiti",
+    "description": "identify hash types",
+    "tags": ["hash", "identify", "security"],
+    "url": "https://github.com/noraj/haiti",
+    "lang": "Ruby"
   }
 ]
