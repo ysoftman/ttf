@@ -45,7 +45,7 @@ ttf --nocolor
 cargo test
 
 # run without building
-cargo run -- <query>
+cargo clean && cargo run -- <query>
 
 # cargo login
 # create a token at <https://crates.io/me>

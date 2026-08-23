@@ -24,6 +24,19 @@ fn prefix_scores_higher() {
 }
 
 #[test]
+fn substring_scores_higher_than_scattered() {
+    // "fetch" contiguous in xfetch must outrank a scattered f-e-t-c-h match
+    assert!(
+        fuzzy_score("fetch", "xfetch system info display like fastfetch").unwrap()
+            > fuzzy_score(
+                "fetch",
+                "fd fast and simple alternative to find search fast file"
+            )
+            .unwrap()
+    );
+}
+
+#[test]
 fn matches_tags() {
     assert!(fuzzy_score("검색", "grep 검색 패턴 regex 정규식").is_some());
 }

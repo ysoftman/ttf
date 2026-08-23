@@ -177,6 +177,9 @@ fn fuzzy_score(query: &str, target: &str) -> Option<i64> {
             qi += 1;
         }
     }
+    if target.to_lowercase().contains(&query.to_lowercase()) {
+        score += 16;
+    }
     (qi == q.len()).then_some(score)
 }
 
