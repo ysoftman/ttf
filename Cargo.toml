@@ -4,6 +4,7 @@ version = "0.1.10"
 edition = "2024"
 description = "Terminal Tool Finder — fuzzy search terminal commands from tools.json"
 license = "MIT"
+repository = "https://github.com/ysoftman/ttf"
 
 [[bin]]
 name = "ttf"
