@@ -4891,5 +4891,12 @@
     "tags": ["hash", "identify", "security"],
     "url": "https://github.com/noraj/haiti",
     "lang": "Ruby"
+  },
+  {
+    "name": "zoetrope",
+    "description": "watch a Claude Code session as a live flow graph",
+    "tags": ["claude", "llm", "zoetrope"],
+    "url": "https://github.com/furkankly/zoetrope",
+    "lang": "Rust"
   }
 ]
