@@ -758,8 +758,22 @@
   {
     "name": "netwatch",
     "description": "network traffic monitor, iftop/bandwhich alternative",
-    "tags": ["network", "traffic", "monitoring"],
+    "tags": ["network", "traffic", "monitoring", "watch"],
     "url": "https://github.com/matthart1983/netwatch",
+    "lang": "Rust"
+  },
+  {
+    "name": "diskwatch",
+    "description": "single-host, read-only disk diagnostics tui, sibling to netwatch and syswatch",
+    "tags": ["disk", "diagnostics", "monitoring", "tui", "watch"],
+    "url": "https://github.com/matthart1983/diskwatch",
+    "lang": "Rust"
+  },
+  {
+    "name": "syswatch",
+    "description": "single-host system diagnostics tui, sibling to netwatch",
+    "tags": ["system", "diagnostics", "monitoring", "tui", "watch"],
+    "url": "https://github.com/matthart1983/syswatch",
     "lang": "Rust"
   },
   {
