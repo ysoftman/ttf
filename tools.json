@@ -4912,5 +4912,523 @@
     "tags": ["claude", "llm", "zoetrope"],
     "url": "https://github.com/furkankly/zoetrope",
     "lang": "Rust"
+  },
+  {
+    "name": "opencode",
+    "description": "open source ai coding agent",
+    "tags": ["ai", "agent", "coding", "tui"],
+    "url": "https://github.com/anomalyco/opencode",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "codex",
+    "description": "lightweight ai coding agent by openai",
+    "tags": ["ai", "agent", "coding", "tui"],
+    "url": "https://github.com/openai/codex",
+    "lang": "Rust"
+  },
+  {
+    "name": "glances",
+    "description": "cross-platform system monitoring tool",
+    "tags": ["system", "monitoring", "top", "tui"],
+    "url": "https://github.com/nicolargo/glances",
+    "lang": "Python"
+  },
+  {
+    "name": "gum",
+    "description": "glamorous interactive prompts for shell scripts",
+    "tags": ["shell", "script", "prompt", "ui"],
+    "url": "https://github.com/charmbracelet/gum",
+    "lang": "Go"
+  },
+  {
+    "name": "goaccess",
+    "description": "real-time web log analyzer",
+    "tags": ["log", "web", "analytics", "tui"],
+    "url": "https://github.com/allinurl/goaccess",
+    "lang": "C"
+  },
+  {
+    "name": "vlc",
+    "description": "media player, terminal ui via vlc -I ncurses",
+    "tags": ["media", "player", "video", "audio"],
+    "url": "https://github.com/videolan/vlc",
+    "lang": "C"
+  },
+  {
+    "name": "carbonyl",
+    "description": "chromium based browser running in the terminal",
+    "tags": ["browser", "web", "chromium"],
+    "url": "https://github.com/fathyb/carbonyl",
+    "lang": "Rust"
+  },
+  {
+    "name": "browsh",
+    "description": "modern text-based web browser",
+    "tags": ["browser", "web", "firefox"],
+    "url": "https://github.com/browsh-org/browsh",
+    "lang": "JavaScript"
+  },
+  {
+    "name": "wtfutil",
+    "description": "personal information dashboard",
+    "tags": ["dashboard", "productivity", "tui"],
+    "url": "https://github.com/wtfutil/wtf",
+    "lang": "Go"
+  },
+  {
+    "name": "edit",
+    "description": "simple text editor by microsoft",
+    "tags": ["editor", "text", "tui"],
+    "url": "https://github.com/microsoft/edit",
+    "lang": "Rust"
+  },
+  {
+    "name": "gh-dash",
+    "description": "github pr and issue dashboard, gh extension",
+    "tags": ["github", "pr", "issue", "tui"],
+    "url": "https://github.com/dlvhdr/gh-dash",
+    "lang": "Go"
+  },
+  {
+    "name": "nvtop",
+    "description": "gpu process monitor",
+    "tags": ["gpu", "monitoring", "top", "tui"],
+    "url": "https://github.com/Syllo/nvtop",
+    "lang": "C"
+  },
+  {
+    "name": "bpytop",
+    "description": "resource monitor, python predecessor of btop",
+    "tags": ["system", "monitoring", "top", "tui"],
+    "url": "https://github.com/aristocratos/bpytop",
+    "lang": "Python"
+  },
+  {
+    "name": "kilo",
+    "description": "tiny text editor in under 1000 loc",
+    "tags": ["editor", "text", "minimal"],
+    "url": "https://github.com/antirez/kilo",
+    "lang": "C"
+  },
+  {
+    "name": "yewtube",
+    "description": "search and play youtube from the terminal",
+    "tags": ["youtube", "video", "music", "player"],
+    "url": "https://github.com/mps-youtube/yewtube",
+    "lang": "Python"
+  },
+  {
+    "name": "claude-monitor",
+    "description": "real-time claude code token usage monitor",
+    "tags": ["claude", "llm", "usage", "monitoring"],
+    "url": "https://github.com/Maciek-roboblog/Claude-Code-Usage-Monitor",
+    "lang": "Python"
+  },
+  {
+    "name": "wego",
+    "description": "weather forecast in the terminal",
+    "tags": ["weather", "forecast"],
+    "url": "https://github.com/schachmat/wego",
+    "lang": "Go"
+  },
+  {
+    "name": "sysdig",
+    "description": "system call tracing and troubleshooting, csysdig tui",
+    "tags": ["tracing", "syscall", "troubleshooting", "linux"],
+    "url": "https://github.com/draios/sysdig",
+    "lang": "C++"
+  },
+  {
+    "name": "term.everything",
+    "description": "run any gui app in the terminal",
+    "tags": ["gui", "wayland", "linux"],
+    "url": "https://github.com/mmulet/term.everything",
+    "lang": "Go"
+  },
+  {
+    "name": "mcfly",
+    "description": "smart shell history search",
+    "tags": ["history", "shell", "search"],
+    "url": "https://github.com/cantino/mcfly",
+    "lang": "Rust"
+  },
+  {
+    "name": "spotify-player",
+    "description": "spotify player in the terminal",
+    "tags": ["music", "spotify", "tui"],
+    "url": "https://github.com/aome510/spotify-player",
+    "lang": "Rust"
+  },
+  {
+    "name": "soft-serve",
+    "description": "self-hostable git server with ssh tui",
+    "tags": ["git", "server", "ssh", "tui"],
+    "url": "https://github.com/charmbracelet/soft-serve",
+    "lang": "Go"
+  },
+  {
+    "name": "backlog.md",
+    "description": "markdown task board for humans and ai agents",
+    "tags": ["task", "kanban", "markdown", "ai"],
+    "url": "https://github.com/MrLesk/Backlog.md",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "discordo",
+    "description": "discord client",
+    "tags": ["discord", "chat", "tui"],
+    "url": "https://github.com/ayn2op/discordo",
+    "lang": "Go"
+  },
+  {
+    "name": "sc-im",
+    "description": "ncurses spreadsheet with vim-like keys",
+    "tags": ["spreadsheet", "vim", "tui"],
+    "url": "https://github.com/andmarti1424/sc-im",
+    "lang": "C"
+  },
+  {
+    "name": "rtorrent",
+    "description": "ncurses bittorrent client",
+    "tags": ["torrent", "download", "tui"],
+    "url": "https://github.com/rakshasa/rtorrent",
+    "lang": "C++"
+  },
+  {
+    "name": "ytfzf",
+    "description": "find and watch youtube videos with fzf",
+    "tags": ["youtube", "video", "fzf"],
+    "url": "https://github.com/pystardust/ytfzf",
+    "lang": "Shell"
+  },
+  {
+    "name": "dockly",
+    "description": "docker containers and services tui",
+    "tags": ["docker", "container", "tui"],
+    "url": "https://github.com/lirantal/dockly",
+    "lang": "JavaScript"
+  },
+  {
+    "name": "nethack",
+    "description": "classic roguelike dungeon game",
+    "tags": ["game", "roguelike"],
+    "url": "https://github.com/NetHack/NetHack",
+    "lang": "C"
+  },
+  {
+    "name": "psmux",
+    "description": "native tmux for windows",
+    "tags": ["tmux", "multiplexer", "windows"],
+    "url": "https://github.com/psmux/psmux",
+    "lang": "PowerShell"
+  },
+  {
+    "name": "ccb",
+    "description": "multi-agent workspace for codex, claude and gemini cli",
+    "tags": ["ai", "agent", "claude", "multiplexer"],
+    "url": "https://github.com/SeemSeam/claude_codex_bridge",
+    "lang": "Python"
+  },
+  {
+    "name": "toad",
+    "description": "unified terminal ui for ai coding agents",
+    "tags": ["ai", "agent", "tui"],
+    "url": "https://github.com/batrachianai/toad",
+    "lang": "Python"
+  },
+  {
+    "name": "frogmouth",
+    "description": "markdown browser",
+    "tags": ["markdown", "viewer", "tui"],
+    "url": "https://github.com/Textualize/frogmouth",
+    "lang": "Python"
+  },
+  {
+    "name": "tinytetris",
+    "description": "tiny tetris for 80x23 terminal",
+    "tags": ["game", "tetris"],
+    "url": "https://github.com/taylorconor/tinytetris",
+    "lang": "C++"
+  },
+  {
+    "name": "dry",
+    "description": "docker manager",
+    "tags": ["docker", "container", "tui"],
+    "url": "https://github.com/moncho/dry",
+    "lang": "Go"
+  },
+  {
+    "name": "pudb",
+    "description": "full-screen python debugger",
+    "tags": ["debugger", "python", "tui"],
+    "url": "https://github.com/inducer/pudb",
+    "lang": "Python"
+  },
+  {
+    "name": "pokete",
+    "description": "pokemon-like terminal game",
+    "tags": ["game", "pokemon"],
+    "url": "https://github.com/lxgr-linux/pokete",
+    "lang": "Python"
+  },
+  {
+    "name": "timg",
+    "description": "terminal image and video viewer",
+    "tags": ["image", "video", "viewer"],
+    "url": "https://github.com/hzeller/timg",
+    "lang": "C++"
+  },
+  {
+    "name": "gonzo",
+    "description": "real-time log analysis tui",
+    "tags": ["log", "analytics", "tui"],
+    "url": "https://github.com/control-theory/gonzo",
+    "lang": "Go"
+  },
+  {
+    "name": "nomadnet",
+    "description": "off-grid mesh messaging over reticulum",
+    "tags": ["mesh", "chat", "reticulum", "tui"],
+    "url": "https://github.com/markqvist/NomadNet",
+    "lang": "Python"
+  },
+  {
+    "name": "tweakcc",
+    "description": "customize claude code system prompts and themes",
+    "tags": ["claude", "llm", "customize"],
+    "url": "https://github.com/Piebald-AI/tweakcc",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "below",
+    "description": "time traveling resource monitor",
+    "tags": ["monitoring", "system", "linux", "tui"],
+    "url": "https://github.com/facebookincubator/below",
+    "lang": "Rust"
+  },
+  {
+    "name": "elia",
+    "description": "keyboard-centric llm chat tui",
+    "tags": ["ai", "llm", "chat", "tui"],
+    "url": "https://github.com/darrenburns/elia",
+    "lang": "Python"
+  },
+  {
+    "name": "h-m-m",
+    "description": "keyboard-centric mind map",
+    "tags": ["mindmap", "notes", "tui"],
+    "url": "https://github.com/nadrad/h-m-m",
+    "lang": "PHP"
+  },
+  {
+    "name": "corefreq",
+    "description": "cpu monitoring and tuning via kernel module",
+    "tags": ["cpu", "monitoring", "kernel", "linux"],
+    "url": "https://github.com/cyring/CoreFreq",
+    "lang": "C"
+  },
+  {
+    "name": "far2l",
+    "description": "far manager port for linux and macos",
+    "tags": ["file", "manager", "tui"],
+    "url": "https://github.com/elfmz/far2l",
+    "lang": "C++"
+  },
+  {
+    "name": "runme",
+    "description": "run markdown code blocks as devops notebooks",
+    "tags": ["markdown", "notebook", "runner"],
+    "url": "https://github.com/runmedev/runme",
+    "lang": "Go"
+  },
+  {
+    "name": "instagram-cli",
+    "description": "instagram client",
+    "tags": ["instagram", "chat", "social", "tui"],
+    "url": "https://github.com/supreme-gg-gg/instagram-cli",
+    "lang": "TypeScript"
+  },
+  {
+    "name": "tdf",
+    "description": "pdf viewer",
+    "tags": ["pdf", "viewer", "tui"],
+    "url": "https://github.com/itsjunetime/tdf",
+    "lang": "Rust"
+  },
+  {
+    "name": "nchat",
+    "description": "telegram and whatsapp client",
+    "tags": ["telegram", "whatsapp", "chat", "tui"],
+    "url": "https://github.com/d99kris/nchat",
+    "lang": "C++"
+  },
+  {
+    "name": "zee",
+    "description": "modern text editor written in rust",
+    "tags": ["editor", "text", "tui"],
+    "url": "https://github.com/zee-editor/zee",
+    "lang": "Rust"
+  },
+  {
+    "name": "gpg-tui",
+    "description": "manage gnupg keys",
+    "tags": ["gpg", "encryption", "key", "tui"],
+    "url": "https://github.com/orhun/gpg-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "tizonia",
+    "description": "cloud music streaming player",
+    "tags": ["music", "streaming", "player", "linux"],
+    "url": "https://github.com/tizonia/tizonia-openmax-il",
+    "lang": "C"
+  },
+  {
+    "name": "eks-node-viewer",
+    "description": "visualize eks node usage and cost",
+    "tags": ["kubernetes", "aws", "eks", "node"],
+    "url": "https://github.com/awslabs/eks-node-viewer",
+    "lang": "Go"
+  },
+  {
+    "name": "kftui",
+    "description": "kubectl port-forward manager",
+    "tags": ["kubernetes", "port-forward", "tui"],
+    "url": "https://github.com/hcavarsan/kftray",
+    "lang": "Rust"
+  },
+  {
+    "name": "sshm",
+    "description": "ssh host manager",
+    "tags": ["ssh", "connection", "management", "tui"],
+    "url": "https://github.com/Gu1llaum-3/sshm",
+    "lang": "Go"
+  },
+  {
+    "name": "arttime",
+    "description": "clock, timer and alarms with ascii art",
+    "tags": ["clock", "timer", "ascii-art"],
+    "url": "https://github.com/poetaman/arttime",
+    "lang": "Shell"
+  },
+  {
+    "name": "toxic",
+    "description": "tox based messenger with audio and video",
+    "tags": ["tox", "chat", "p2p", "tui"],
+    "url": "https://github.com/JFreegman/toxic",
+    "lang": "C"
+  },
+  {
+    "name": "wavemon",
+    "description": "wireless network monitor",
+    "tags": ["wifi", "network", "monitoring", "linux"],
+    "url": "https://github.com/uoaerg/wavemon",
+    "lang": "C"
+  },
+  {
+    "name": "podman-tui",
+    "description": "podman containers tui",
+    "tags": ["podman", "container", "tui"],
+    "url": "https://github.com/containers/podman-tui",
+    "lang": "Go"
+  },
+  {
+    "name": "desktop-tui",
+    "description": "desktop environment in the terminal",
+    "tags": ["desktop", "window", "tui"],
+    "url": "https://github.com/Julien-cpsn/desktop-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "matterhorn",
+    "description": "mattermost client",
+    "tags": ["mattermost", "chat", "tui"],
+    "url": "https://github.com/matterhorn-chat/matterhorn",
+    "lang": "Haskell"
+  },
+  {
+    "name": "pyradio",
+    "description": "internet radio player",
+    "tags": ["radio", "music", "player"],
+    "url": "https://github.com/coderholic/pyradio",
+    "lang": "Python"
+  },
+  {
+    "name": "w3m",
+    "description": "text-based web browser and pager",
+    "tags": ["browser", "web", "pager"],
+    "url": "https://github.com/tats/w3m",
+    "lang": "C"
+  },
+  {
+    "name": "proxelar",
+    "description": "mitm proxy to inspect and rewrite http traffic",
+    "tags": ["proxy", "http", "mitm", "tui"],
+    "url": "https://github.com/emanuele-em/proxelar",
+    "lang": "Rust"
+  },
+  {
+    "name": "atop",
+    "description": "system and process monitor with history",
+    "tags": ["monitoring", "process", "system", "linux"],
+    "url": "https://github.com/Atoptool/atop",
+    "lang": "C"
+  },
+  {
+    "name": "agent-deck",
+    "description": "session manager for ai coding agents",
+    "tags": ["ai", "agent", "session", "tui"],
+    "url": "https://github.com/asheshgoplani/agent-deck",
+    "lang": "Go"
+  },
+  {
+    "name": "cloudflare-speed-cli",
+    "description": "internet speed test via cloudflare",
+    "tags": ["speedtest", "network", "cloudflare"],
+    "url": "https://github.com/kavehtehrani/cloudflare-speed-cli",
+    "lang": "Rust"
+  },
+  {
+    "name": "steam-tui",
+    "description": "steamcmd client",
+    "tags": ["steam", "game", "tui"],
+    "url": "https://github.com/dmadisetti/steam-tui",
+    "lang": "Rust"
+  },
+  {
+    "name": "eilmeldung",
+    "description": "rss reader",
+    "tags": ["rss", "news", "reader", "tui"],
+    "url": "https://github.com/christo-auer/eilmeldung",
+    "lang": "Rust"
+  },
+  {
+    "name": "tgt",
+    "description": "telegram client",
+    "tags": ["telegram", "chat", "tui"],
+    "url": "https://github.com/FedericoBruzzone/tgt",
+    "lang": "Rust"
+  },
+  {
+    "name": "longbridge-terminal",
+    "description": "trading terminal for longbridge",
+    "tags": ["stock", "trading", "finance"],
+    "url": "https://github.com/longbridge/longbridge-terminal",
+    "lang": "Rust"
+  },
+  {
+    "name": "endcord",
+    "description": "discord client",
+    "tags": ["discord", "chat", "tui"],
+    "url": "https://github.com/sparklost/endcord",
+    "lang": "Python"
+  },
+  {
+    "name": "sysz",
+    "description": "fzf ui for systemctl",
+    "tags": ["systemd", "service", "fzf", "linux"],
+    "url": "https://github.com/joehillen/sysz",
+    "lang": "Shell"
   }
 ]
