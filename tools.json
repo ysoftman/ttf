@@ -682,7 +682,7 @@
     "name": "lsd",
     "description": "ls with icons and colors",
     "tags": ["ls", "alternative", "filelist", "icon"],
-    "url": "https://github.com/Peltoche/lsd",
+    "url": "https://github.com/lsd-rs/lsd",
     "lang": "Rust"
   },
   {
@@ -717,7 +717,7 @@
     "name": "gitui",
     "description": "terminal git UI, tig/lazygit alternative",
     "tags": ["git", "ui", "alternative"],
-    "url": "https://github.com/extrawurst/gitui",
+    "url": "https://github.com/gitui-org/gitui",
     "lang": "Rust"
   },
   {
@@ -913,7 +913,7 @@
     "name": "herdr",
     "description": "agent multiplexer in terminal",
     "tags": ["multiplexer", "agent"],
-    "url": "https://github.com/ogulcancelik/herdr",
+    "url": "https://github.com/herdrdev/herdr",
     "lang": "Rust"
   },
   {
@@ -1165,7 +1165,7 @@
     "name": "bmon",
     "description": "bandwidth monitor",
     "tags": ["network", "bandwidth", "monitoring"],
-    "url": "https://github.com/tgraf/bmon",
+    "url": "https://github.com/Jafaral/bmon",
     "lang": "C"
   },
   {
@@ -1473,8 +1473,8 @@
     "name": "gitlogue",
     "description": "git log viewer",
     "tags": ["git", "log", "logviewer"],
-    "url": "https://github.com/Shylock-HG/gitlogue",
-    "lang": ""
+    "url": "https://github.com/unhappychoice/gitlogue",
+    "lang": "Rust"
   },
   {
     "name": "gitmoji",
@@ -1634,7 +1634,7 @@
     "name": "kubeseal",
     "description": "encrypt kubernetes secrets",
     "tags": ["kubernetes", "secret", "encryption"],
-    "url": "https://github.com/bitnami-labs/sealed-secrets",
+    "url": "https://github.com/bitnami/sealed-secrets",
     "lang": "Go"
   },
   {
@@ -1662,8 +1662,8 @@
     "name": "lazyssh",
     "description": "ssh connection manager",
     "tags": ["ssh", "connection", "management"],
-    "url": "https://github.com/stefanmaric/lazyssh",
-    "lang": ""
+    "url": "https://github.com/Adembc/lazyssh",
+    "lang": "Go"
   },
   {
     "name": "lima",
@@ -1767,7 +1767,7 @@
     "name": "mprocs",
     "description": "run multiple processes in terminal",
     "tags": ["process", "multi", "tmux"],
-    "url": "https://github.com/pvolok/mprocs",
+    "url": "https://github.com/pvolok/dekit",
     "lang": "Rust"
   },
   {
@@ -1879,7 +1879,7 @@
     "name": "podman",
     "description": "daemonless container engine",
     "tags": ["container", "docker", "alternative"],
-    "url": "https://github.com/containers/podman",
+    "url": "https://github.com/podman-container-tools/podman",
     "lang": "Go"
   },
   {
@@ -2005,8 +2005,8 @@
     "name": "taproom",
     "description": "brew tap/keg manager",
     "tags": ["brew", "tap"],
-    "url": "https://github.com/sentrux/taproom",
-    "lang": ""
+    "url": "https://github.com/hzqtc/taproom",
+    "lang": "Go"
   },
   {
     "name": "television",
@@ -2061,7 +2061,7 @@
     "name": "vale",
     "description": "prose linter",
     "tags": ["lint", "document", "prose"],
-    "url": "https://github.com/errata-ai/vale",
+    "url": "https://github.com/vale-cli/vale",
     "lang": "Go"
   },
   {
@@ -2096,7 +2096,7 @@
     "name": "wezterm",
     "description": "terminal emulator with lua config",
     "tags": ["terminal", "emulator"],
-    "url": "https://github.com/wez/wezterm",
+    "url": "https://github.com/wezterm/wezterm",
     "lang": "Rust"
   },
   {
@@ -2166,7 +2166,7 @@
     "name": "countryfetch",
     "description": "country info by name/code",
     "tags": ["country", "info", "lookup"],
-    "url": "https://github.com/CondensedMilk7/countryfetch",
+    "url": "https://github.com/pridont/countryfetch",
     "lang": "Go"
   },
   {
@@ -2327,7 +2327,7 @@
     "name": "revive",
     "description": "go linter",
     "tags": ["go", "lint"],
-    "url": "https://github.com/mgechev/revive",
+    "url": "https://github.com/revive-lint/revive",
     "lang": "Go"
   },
   {
@@ -2565,7 +2565,7 @@
     "name": "rustscan",
     "description": "modern fast port scanner",
     "tags": ["portscan", "network", "security", "scanner"],
-    "url": "https://github.com/RustScan/RustScan",
+    "url": "https://github.com/bee-san/RustScan",
     "lang": "Rust"
   },
   {
@@ -2600,7 +2600,7 @@
     "name": "aider",
     "description": "AI pair programming in your terminal",
     "tags": ["ai", "coding", "assistant", "llm"],
-    "url": "https://github.com/paul-gauthier/aider",
+    "url": "https://github.com/Aider-AI/aider",
     "lang": "Python"
   },
   {
@@ -2705,7 +2705,7 @@
     "name": "crates-tui",
     "description": "a TUI for exploring crates.io",
     "tags": ["rust", "crates", "tui"],
-    "url": "https://github.com/ratatui-org/crates-tui",
+    "url": "https://github.com/ratatui/crates-tui",
     "lang": "Rust"
   },
   {
@@ -2761,7 +2761,7 @@
     "name": "isd",
     "description": "a keyboard-focused systemd units TUI",
     "tags": ["systemd", "service", "tui"],
-    "url": "https://github.com/isd-project/isd",
+    "url": "https://github.com/kainctl/isd",
     "lang": "Python"
   },
   {
@@ -2922,14 +2922,14 @@
     "name": "lue",
     "description": "a TUI ebook reader with text-to-speech",
     "tags": ["ebook", "tts"],
-    "url": "https://github.com/superstarryeyes/lue",
+    "url": "https://github.com/paulilaaso/lue",
     "lang": "Python"
   },
   {
     "name": "msgvault",
     "description": "archive a lifetime of email with analytics, entirely offline",
     "tags": ["email", "archive", "tui"],
-    "url": "https://github.com/wesm/msgvault",
+    "url": "https://github.com/kenn-io/msgvault",
     "lang": "Go"
   },
   {
@@ -3202,7 +3202,7 @@
     "name": "micro",
     "description": "modern terminal text editor",
     "tags": ["editor", "terminal"],
-    "url": "https://github.com/zyedidia/micro",
+    "url": "https://github.com/micro-editor/micro",
     "lang": "Go"
   },
   {
@@ -3699,7 +3699,7 @@
     "name": "zerobrew",
     "description": "faster homebrew alternative",
     "tags": ["package", "homebrew", "macos", "alternative"],
-    "url": "https://github.com/lucasgelfond/zerobrew",
+    "url": "https://github.com/zerobrewhq/zerobrew",
     "lang": "Rust"
   },
   {
@@ -3839,14 +3839,14 @@
     "name": "hledger",
     "description": "plain text accounting cli",
     "tags": ["accounting", "finance", "ledger"],
-    "url": "https://github.com/simonmichael/hledger",
+    "url": "https://github.com/hledgerorg/hledger",
     "lang": "Haskell"
   },
   {
     "name": "hledger-ui",
     "description": "plain text accounting tui",
     "tags": ["accounting", "finance", "tui"],
-    "url": "https://github.com/simonmichael/hledger",
+    "url": "https://github.com/hledgerorg/hledger",
     "lang": "Haskell"
   },
   {
@@ -3874,7 +3874,7 @@
     "name": "hstr",
     "description": "bash and zsh shell history suggestion box",
     "tags": ["history", "shell", "search", "tui"],
-    "url": "https://github.com/dvorka-oss/hstr",
+    "url": "https://github.com/dvorka/hstr",
     "lang": "C"
   },
   {
