@@ -697,7 +697,8 @@
     "description": "cat for markdown",
     "tags": ["cat", "markdown", "viewer"],
     "url": "https://github.com/swsnr/mdcat",
-    "lang": "Rust"
+    "lang": "Rust",
+    "archived": true
   },
   {
     "name": "delta",
@@ -802,7 +803,8 @@
     "description": "top/htop replacement",
     "tags": ["process", "cpu", "alternative"],
     "url": "https://github.com/cjbassi/ytop",
-    "lang": "Rust"
+    "lang": "Rust",
+    "archived": true
   },
   {
     "name": "zenith",
@@ -998,7 +1000,8 @@
     "description": "auto rebuild on source change",
     "tags": ["rust", "build", "watch"],
     "url": "https://github.com/watchexec/cargo-watch",
-    "lang": "Rust"
+    "lang": "Rust",
+    "archived": true
   },
   {
     "name": "mise",
@@ -1516,7 +1519,8 @@
     "description": "jpeg compression tool",
     "tags": ["jpeg", "image", "compress"],
     "url": "https://github.com/google/guetzli",
-    "lang": "C++"
+    "lang": "C++",
+    "archived": true
   },
   {
     "name": "helix",
@@ -1607,14 +1611,16 @@
     "description": "kubernetes resource monitor",
     "tags": ["kubernetes", "monitoring"],
     "url": "https://github.com/ynqa/ktop",
-    "lang": "Go"
+    "lang": "Go",
+    "archived": true
   },
   {
     "name": "kubecolor",
     "description": "kubectl with colors",
     "tags": ["kubernetes", "kubectl", "color"],
     "url": "https://github.com/hidetatz/kubecolor",
-    "lang": "Go"
+    "lang": "Go",
+    "archived": true
   },
   {
     "name": "kubectx",
@@ -1803,7 +1809,8 @@
     "description": "system info with logo",
     "tags": ["system", "info"],
     "url": "https://github.com/dylanaraps/neofetch",
-    "lang": "Shell"
+    "lang": "Shell",
+    "archived": true
   },
   {
     "name": "neovide",
@@ -2391,7 +2398,8 @@
     "description": "go formatter for long lines",
     "tags": ["go", "format", "line"],
     "url": "https://github.com/segmentio/golines",
-    "lang": "Go"
+    "lang": "Go",
+    "archived": true
   },
   {
     "name": "goplay",
@@ -2846,7 +2854,8 @@
     "description": "a fast Wikipedia CLI/TUI client",
     "tags": ["wikipedia", "search", "tui"],
     "url": "https://github.com/Builditluc/wiki-tui",
-    "lang": "Rust"
+    "lang": "Rust",
+    "archived": true
   },
   {
     "name": "jocalsend",
@@ -2985,7 +2994,7 @@
     "name": "pv",
     "description": "monitor progress of data through a pipe",
     "tags": ["pipe", "progress", "speed"],
-    "url": "https://github.com/a-j-wood/pv",
+    "url": "https://codeberg.org/a-j-wood/pv",
     "lang": "C"
   },
   {
@@ -3168,7 +3177,8 @@
     "description": "internet speed test from cli",
     "tags": ["speed", "bandwidth", "network"],
     "url": "https://github.com/sivel/speedtest-cli",
-    "lang": "Python"
+    "lang": "Python",
+    "archived": true
   },
   {
     "name": "mosh",
@@ -3266,7 +3276,8 @@
     "description": "javascript toolchain version manager",
     "tags": ["node", "version-manager", "js"],
     "url": "https://github.com/volta-cli/volta",
-    "lang": "Rust"
+    "lang": "Rust",
+    "deprecated": true
   },
   {
     "name": "pnpm",
@@ -5100,7 +5111,8 @@
     "description": "find and watch youtube videos with fzf",
     "tags": ["youtube", "video", "fzf"],
     "url": "https://github.com/pystardust/ytfzf",
-    "lang": "Shell"
+    "lang": "Shell",
+    "deprecated": true
   },
   {
     "name": "dockly",

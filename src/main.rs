@@ -21,6 +21,8 @@ const C_TAG: &str = "\x1b[36m";
 const C_URL: &str = "\x1b[34m";
 const C_INSTALLED: &str = "\x1b[32m";
 const C_NOT_INSTALLED: &str = "\x1b[31m";
+const C_ARCHIVED: &str = "\x1b[30;43m";
+const C_DEPRECATED: &str = "\x1b[97;41m";
 
 fn lang_ansi(lang: &str) -> String {
     let hex = match lang {
@@ -62,6 +64,10 @@ struct Tool {
     url: String,
     #[serde(default)]
     lang: String,
+    #[serde(default)]
+    archived: bool,
+    #[serde(default)]
+    deprecated: bool,
 }
 
 impl Tool {
@@ -80,6 +86,23 @@ impl Tool {
 
     fn is_builtin(&self) -> bool {
         self.tags.iter().any(|t| t == "built-in")
+    }
+
+    fn badges(&self, color: bool) -> String {
+        [
+            (self.archived, "archived", C_ARCHIVED),
+            (self.deprecated, "deprecated", C_DEPRECATED),
+        ]
+        .iter()
+        .filter(|(on, ..)| *on)
+        .map(|(_, label, c)| {
+            if color {
+                format!("{c} {label} {C_RESET} ")
+            } else {
+                format!("[{label}] ")
+            }
+        })
+        .collect()
     }
 }
 
@@ -242,21 +265,24 @@ fn print_tool(t: &Tool, width: usize, score: Option<i64>, color: bool) {
         let desc_col = if score.is_some() { 8 } else { 3 } + width + 2;
         format!("\n{}{url}", " ".repeat(desc_col))
     };
+    let badges = t.badges(color);
     match score {
         Some(s) => print_line!(
-            "{:>3}  {}  {}  {}{}{}{}",
+            "{:>3}  {}  {}  {}{}{}{}{}",
             s,
             mark,
             name,
+            badges,
             t.description,
             tagline,
             lang_line,
             url_line
         ),
         None => print_line!(
-            "{}  {}  {}{}{}{}",
+            "{}  {}  {}{}{}{}{}",
             mark,
             name,
+            badges,
             t.description,
             tagline,
             lang_line,

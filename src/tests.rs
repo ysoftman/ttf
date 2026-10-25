@@ -236,6 +236,8 @@ fn builtin_tag_marked_installed() {
         tags: vec!["built-in".to_string()],
         url: String::new(),
         lang: String::new(),
+        archived: false,
+        deprecated: false,
     };
     assert!(t.is_builtin());
     let plain = Tool {
@@ -244,6 +246,20 @@ fn builtin_tag_marked_installed() {
         tags: Vec::new(),
         url: String::new(),
         lang: String::new(),
+        archived: false,
+        deprecated: false,
     };
     assert!(!plain.is_builtin());
+}
+
+#[test]
+fn badges_for_archived_and_deprecated() {
+    let tools: Vec<Tool> = serde_json::from_str(
+        r#"[{"name":"a"},{"name":"b","archived":true},{"name":"c","archived":true,"deprecated":true}]"#,
+    )
+    .unwrap();
+    assert_eq!(tools[0].badges(false), "");
+    assert_eq!(tools[1].badges(false), "[archived] ");
+    assert_eq!(tools[2].badges(false), "[archived] [deprecated] ");
+    assert!(tools[1].badges(true).contains(C_ARCHIVED));
 }
