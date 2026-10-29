@@ -167,11 +167,29 @@ fn is_installed(name: &str) -> bool {
     })
 }
 
+fn is_boundary(c: char) -> bool {
+    c.is_whitespace() || matches!(c, '-' | '_' | '.' | '/' | ':' | '(')
+}
+
 fn fuzzy_score(query: &str, target: &str) -> Option<i64> {
     let q: Vec<char> = query.to_lowercase().chars().collect();
     let t: Vec<char> = target.to_lowercase().chars().collect();
     if q.is_empty() {
         return Some(0);
+    }
+    // contiguous matches outrank every scattered match (scattered score < 32 + 24 * q.len())
+    let substring_bonus = t
+        .windows(q.len())
+        .enumerate()
+        .filter(|(_, w)| *w == q.as_slice())
+        .map(|(i, _)| match i {
+            0 => 32,
+            _ if is_boundary(t[i - 1]) => 16,
+            _ => 0,
+        })
+        .max();
+    if let Some(b) = substring_bonus {
+        return Some(32 + 24 * q.len() as i64 + b);
     }
     let mut qi = 0usize;
     let mut score = 0i64;
@@ -187,21 +205,13 @@ fn fuzzy_score(query: &str, target: &str) -> Option<i64> {
             {
                 s += 8;
             }
-            if ti > 0 {
-                let prev_char = t[ti - 1];
-                if prev_char.is_whitespace()
-                    || matches!(prev_char, '-' | '_' | '.' | '/' | ':' | '(')
-                {
-                    s += 16;
-                }
+            if ti > 0 && is_boundary(t[ti - 1]) {
+                s += 16;
             }
             score += s;
             prev = Some(ti);
             qi += 1;
         }
-    }
-    if target.to_lowercase().contains(&query.to_lowercase()) {
-        score += 16;
     }
     (qi == q.len()).then_some(score)
 }

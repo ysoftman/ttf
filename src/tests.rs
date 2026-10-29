@@ -37,6 +37,23 @@ fn substring_scores_higher_than_scattered() {
 }
 
 #[test]
+fn substring_outranks_scattered_with_prefix() {
+    // greedy matching used to pin "c" on "scientific" and rank numbat below ccb
+    assert!(
+        fuzzy_score(
+            "calcul",
+            "numbat scientific calculator with physical units calculator unit math"
+        )
+        .unwrap()
+            > fuzzy_score(
+                "calcul",
+                "ccb multi-agent workspace for codex, claude and gemini cli ai agent claude multiplexer"
+            )
+            .unwrap()
+    );
+}
+
+#[test]
 fn matches_tags() {
     assert!(fuzzy_score("검색", "grep 검색 패턴 regex 정규식").is_some());
 }
