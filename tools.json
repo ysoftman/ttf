@@ -5442,5 +5442,12 @@
     "tags": ["systemd", "service", "fzf", "linux"],
     "url": "https://github.com/joehillen/sysz",
     "lang": "Shell"
+  },
+  {
+    "name": "sqlmux",
+    "description": "tmux-style database client with vim keybindings",
+    "tags": ["sql", "database", "tui", "tmux", "vim", "redis"],
+    "url": "https://github.com/kackerx/sqlmux",
+    "lang": "Go"
   }
 ]
